@@ -1,0 +1,14 @@
+import Landing from './Landing';
+import Members from './Members';
+import Navbar from './Navbar';
+import About  from './About';
+import Beardle from './Beardle';
+import Contact from './Contact';
+
+export { default as Landing } from './Landing';
+export { default as About } from './About';
+export { default as Members } from './Members';
+export { default as Navbar } from './Navbar';
+export { default as Beardle } from './Beardle';
+export { default as Contact } from './Contact';
+
