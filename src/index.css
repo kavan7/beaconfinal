@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .header{
   width: 600px;
-  
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 .header-container{
   display: flex;
@@ -13,9 +17,62 @@
 }
 .line{
   width:100%;
-  padding: 10px;
+  margin-bottom: 10px;
   border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+.links-container{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  
+}
+.link-stuff{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
 }
 .links{
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.page-link {
+  font-size: 24px;
+  display: block;
+  color: rgb(97, 97, 97);
+  text-align: center;
+  padding: 0px 0px;
   text-decoration: none;
+  position: relative; /* Add position relative to the link container */
+  transition: color 0.3s ease-in-out; /* Add transition for text color */
+}
+
+.page-link::after {
+  content: "";
+  display: block;
+  width: 0; /* Set initial width to 0 */
+  height: 2px; /* Set the desired underline thickness */
+  background-color: transparent; /* Initial color is transparent */
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* Start the underline from the center */
+  transform: translateX(-50%); /* Center the underline */
+  transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Add transitions for width and background-color */
+}
+
+.page-link:hover {
+  color: orange; /* Change the text color to orange on hover */
+}
+
+.page-link:hover::after {
+  width: 100%; /* Expand the underline to 100% on hover */
+  background-color: orange; /* Change the underline color to orange on hover */
 }

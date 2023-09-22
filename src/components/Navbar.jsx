@@ -7,34 +7,36 @@ import {Link} from "react-router-dom"
 const Navbar = () => {
   return (
     <>
-      <nav>
-        <div className='header-container'>
-          <img src={header} className='header'/>
-        </div>
+      <nav className='links-container'>
+        <Link to="/">
+          <div className='header-container' to>
+            <img src={header} className='header'/>
+          </div>
+        </Link>
         <div className='line'></div>
-        <ul>
+        <ul className='link-stuff'>
           <li className='links'>
-            <Link to="/members">
+            <Link to="/members" className='page-link'>
             Members
             </Link>
           </li>
           <li className='links'>
-            <Link to="/about">
+            <Link to="/about" className='page-link'>
               About
             </Link>
           </li>
           <li className='links'>
-          <Link to="/Beardle">
+          <Link to="/Beardle" className='page-link'>
             Beardle
             </Link>
           </li>
           <li className='links'>
-          <Link to="/Contact">
+          <Link to="/Contact" className='page-link'>
             Contact
             </Link>
           </li>
         </ul>
-        <div className='line'></div>
+        <div className='line' id='line-two'></div>
       </nav>
     </>
     
