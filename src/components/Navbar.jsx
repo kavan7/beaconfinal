@@ -15,6 +15,11 @@ const Navbar = () => {
         </Link>
         <div className='line'></div>
         <ul className='link-stuff'>
+        <li className='links'>
+            <Link to="/" className='page-link'>
+            Home
+            </Link>
+          </li>
           <li className='links'>
             <Link to="/members" className='page-link'>
             Members
