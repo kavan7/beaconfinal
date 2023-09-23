@@ -4,8 +4,9 @@ import './Beardle.css';
 import mytext from './words.js';
 
 const wordList = mytext;
+let chosenWords = ["math","bear","paws","hall","club","band","book","work","milk","dens","chem","grad","hard","test","quiz","room","tech","news","dope","food","drip","fear","cool","bold","quad","claw","exam","epic","film","grow","rail","step","fail","door","food","beat","tree","note","seat","form","desk","bell","wall","dean","read","team","teen","sing","play"]
 const wordArray = wordList.split('\n');
-const chosen = wordArray[Math.floor(Math.random() * wordArray.length)];
+const chosen = chosenWords[Math.floor(Math.random() * chosenWords.length)];
 import { gsap, Power4 } from 'gsap';
 
 function Beardle() {
@@ -24,7 +25,9 @@ function Beardle() {
     ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'],
     ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L'],
     ['Z', 'X', 'C', 'V', 'B', 'N', 'M'],
+    ['-', '>'], // Add Backspace and Enter keys
   ];
+  
 
   const keyColors = {
     yellow: '#FFD300',
@@ -32,24 +35,15 @@ function Beardle() {
     grey: '#CCCCCC',
   };
 
-  const handleKeyClick = (key) => {
-    if (!guess) {
-      gsap.set(document.getElementsByClassName("error"), { scaleX: 0 });
-
-      if (i < 4 && currentRow < 5) {
-        const updatedSquares = [...squares];
-        updatedSquares[currentRow * 4 + i] = key;
-        setSquares(updatedSquares);
-        setI(i + 1);
-      }
-    }
-  };
+  
 
   const detectKeyDown = (e) => {
     if(!guess){
       gsap.set(document.getElementsByClassName("error"), {scaleX: 0});
       console.log(chosen);
       if (e.key === 'Enter') {
+        Enter();
+        function Enter(){
         const word = squares.slice(currentRow * 4, (currentRow + 1) * 4).join('');
         console.log(word);
 
@@ -109,6 +103,7 @@ function Beardle() {
             return;
           }
         }
+        }
       } else if (e.key.length === 1 && e.key.toUpperCase() !== e.key.toLowerCase()) {
         if (i < 4 && currentRow < 5) {
           const updatedSquares = [...squares];
@@ -128,7 +123,90 @@ function Beardle() {
       }
     }
   };
+  const handleKeyClick = (key) => {
+    if (!guess) {
+      gsap.set(document.getElementsByClassName("error"), { scaleX: 0 });
+      if (key === '-' && i > 0) {
+        const updatedSquares = [...squares];
+        updatedSquares[currentRow * 4 + i - 1] = null;
+        setSquares(updatedSquares);
+        setI(i - 1);
+      }
+      else if (key === '>') {
+        const word = squares.slice(currentRow * 4, (currentRow + 1) * 4).join('');
+        console.log(word);
 
+        if (i !== 4) {
+          console.log('Too short');
+          shakeRow();
+          setMessage("Too Short!");
+          revealError();
+          return;
+        } else if (!wordList.includes(word.toLowerCase())) {
+          console.log('Not a word');
+          shakeRow();
+          setMessage("Not a word!");
+          revealError();
+          return;
+        } else {
+          
+          
+          revealLetters();
+          setI(0);
+          setCurrentRow(currentRow + 1);
+          
+          let temp = chosen;
+          // Set the background color of the previous row to grey
+          const prevRow = currentRow;
+          const prevRowColors = Array(4).fill(''); // Grey color
+          
+          
+          for (let i = 0; i < 4; i++) {
+            if (temp.includes(word[i].toLowerCase()) && word[i].toLowerCase() === temp[i]) {
+              prevRowColors[i] = '#50C878';
+              
+            }
+            
+            else if (temp.includes(word[i].toLowerCase())) {
+              prevRowColors[i] = '#FFD300';
+              
+            }
+            if (!temp.includes(word[i].toLowerCase())) {
+              prevRowColors[i] = '#CCCCCC';
+            }
+            
+          }
+          
+          
+          setColors([...colors.slice(0, prevRow * 4), ...prevRowColors, ...colors.slice(prevRow * 4 + 4)]);
+        }
+          if (word.toLowerCase() === chosen) {
+            console.log('YOU WIN!!!');
+            setMessage("YOU WIN 💸")
+            setGuess(true);
+            revealError();
+          }
+          else if (currentRow === 5) {
+            setMessage("YOU LOSE 😔")
+            revealError();
+            setGuess(true);
+            return;
+          }
+      }
+      else if (i < 4 && currentRow < 5 && key !== '>' && key !== '-') {
+        const updatedSquares = [...squares];
+        updatedSquares[currentRow * 4 + i] = key;
+        setSquares(updatedSquares);
+        setI(i + 1);
+      }
+  
+      // Handle Backspace key
+      
+  
+      // Handle Enter key
+      
+    }
+  };
   const shakeRow = () => {
     const rowSquares = Array.from(currentRowRef.current.children);
 
@@ -200,23 +278,24 @@ function Beardle() {
       {rows}
       <h1 className='error'>{message}</h1>
       <div className='keyboard'>
-        {keyboardLayout.map((row, rowIndex) => (
-          <div key={rowIndex} className='keyboard-row'>
-            {row.map((key, keyIndex) => (
-              <div
-                key={keyIndex}
-                className='keyboard-key'
-                style={{
-                  backgroundColor: colors[currentRow * 5 + i] || keyColors.grey,
-                }}
-                onClick={() => handleKeyClick(key)}
-              >
-                {key}
-              </div>
-            ))}
-          </div>
-        ))}
-      </div>
+  {keyboardLayout.map((row, rowIndex) => (
+    <div key={rowIndex} className='keyboard-row'>
+      {row.map((key, keyIndex) => (
+        <div
+          key={keyIndex}
+          className='keyboard-key'
+          style={{
+            
+          }}
+          onClick={() => handleKeyClick(key)}
+        >
+          {key}
+        </div>
+      ))}
+    </div>
+  ))}
+</div>
+
       
     </>
   );

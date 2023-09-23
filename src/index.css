@@ -132,15 +132,15 @@
 
 /* Style for the container that holds the article card */
 .article-card-container {
-  width: 750px; /* 3/5 of the width */
+  width:  40%; /* 3/5 of the width */
   margin-left: 12px;
   margin-top: 15px; /* Remove any default margin */
   box-shadow: #555;
-  transition: width 0.7s, background-color 0.8s;
+  transition: width 0.7s;
   
   &:hover {
       width: 60%; /* Change the width on hover */
-      background-color: #264026;
+      
     }
 }
 

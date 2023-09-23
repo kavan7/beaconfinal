@@ -1,126 +1,112 @@
+.square {
+  color: rgb(0, 0, 0);
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border: 3px solid rgb(45, 45, 45);
+  display: inline-block;
+  margin-right: 7px;
+  border-radius: 1px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertical centering */
+  align-items: center;
+  font-size: 44px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-.square{
-    color:rgb(0, 0, 0);
-    width: 60px;
-    height: 60px;
-    background-color: white;
-    border: 3px solid rgb(45, 45, 45);
-    display: inline-block;
-    margin-right: 7px;
-    
-    border-radius: 1px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Vertical centering */
-    align-items: center; 
-    font-size: 44px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-@media(max-width: 768px) {
-      .header {
-        width: 250px;
-        height: auto; 
-      }
-    }
+/* Media query for screens with a maximum width of 768px (adjust as needed) */
+
+
+.game {
+  margin-top: -10px;
+}
+
+.row {
+  margin-top: 7px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically center the content */
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+h1 {
+  display: inline-block;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 64px;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+  background-color: rgb(33, 33, 33);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 0 auto; /* Center horizontally using margin */
+  margin-bottom: 10px;
+}
+
+.bear {
+  color: orange;
+  right: 50px;
+}
+
+.keyboard {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+}
+
+.keyboard-key {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #ffffff; /* Default key background color */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .square {
+    width: 40px; /* Adjust the square size for mobile */
+    height: 40px; /* Adjust the square size for mobile */
+    font-size: 24px; /* Adjust the font size for mobile */
+    margin-right: 5px; /* Adjust margin for mobile */
   }
-  @media (max-width: 768px) {
-    .square {
-      width: 40px; /* Adjust the square size for mobile */
-      height: 40px; /* Adjust the square size for mobile */
-      font-size: 24px; /* Adjust the font size for mobile */
-      margin-right: 5px; /* Adjust margin for mobile */
-    }
-  
-    .keyboard {
-      flex-direction: row; /* Change keyboard layout to horizontal for mobile */
-    }
-  
-    .keyboard-key {
-      width: 20px; /* Adjust key size for mobile */
-      height: 30px; /* Adjust key size for mobile */
-      font-size: 12px; /* Adjust font size for mobile */
-      margin: 2px; /* Adjust margin for mobile */
-    }
+  .keyboard-key{
+    width: 35px;
+    height: 35px;
   }
-  .game{
-    margin-top: -10px ;
-  }
-  
-  .row{
-    margin-top: 7px;
-    display: flex;
-    justify-content: center;
-    
-  }
-  
-  .title {
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Vertically center the content */
-    margin-bottom: 10px;
-    margin-top: 20px;
+  .keyboard{
+    margin-left: auto;
   }
 
-  h1 {
-    display: inline-block;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 64px;
-  }
-  .error {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 30px;
-    background-color: rgb(33, 33, 33);
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 10px;
-    margin: 0 auto; /* Center horizontally using margin */
-    margin-bottom: 10px;
-  }
-  
-  .bear {
-    color: orange;
-    right: 50px;
-  }
-  .keyboard {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .keyboard-row {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .keyboard-key {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 40px;
-    height: 40px;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: #ccc; /* Default key background color */
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 3px;
-    cursor: pointer;
-    transition: .3s;
-  }
-  
-  .keyboard-key:hover {
-    background-color: #999; /* Hover color for keys */
-  }
-  
-  .keyboard-key:active {
-    background-color: #666; /* Active (click) color for keys */
-  }
-  
+  /* Add other mobile-specific styles for the .square class if needed */
+}
