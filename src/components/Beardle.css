@@ -17,10 +17,34 @@
     font-size: 44px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
-    
+@media(max-width: 768px) {
+      .header {
+        width: 250px;
+        height: auto; 
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .square {
+      width: 40px; /* Adjust the square size for mobile */
+      height: 40px; /* Adjust the square size for mobile */
+      font-size: 24px; /* Adjust the font size for mobile */
+      margin-right: 5px; /* Adjust margin for mobile */
+    }
+  
+    .keyboard {
+      flex-direction: row; /* Change keyboard layout to horizontal for mobile */
+    }
+  
+    .keyboard-key {
+      width: 20px; /* Adjust key size for mobile */
+      height: 30px; /* Adjust key size for mobile */
+      font-size: 12px; /* Adjust font size for mobile */
+      margin: 2px; /* Adjust margin for mobile */
+    }
   }
   .game{
-    margin-top: -20px ;
+    margin-top: -10px ;
   }
   
   .row{
@@ -34,10 +58,10 @@
     display: flex;
     justify-content: center;
     align-items: center; /* Vertically center the content */
-    margin-bottom: -40px;
+    margin-bottom: 10px;
     
   }
-  
+
   h1 {
     display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

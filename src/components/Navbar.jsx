@@ -7,10 +7,10 @@ import {Link} from "react-router-dom"
 const Navbar = () => {
   return (
     <>
-      <nav className='links-container'>
+      <nav className='w-full flex items-center py-5 fixed top-0 z-20'>
         <Link to="/">
           <div className='header-container' to>
-            <img src={header} className='header'/>
+            <img src={header} className='header '/>
           </div>
         </Link>
         <div className='line'></div>
@@ -31,12 +31,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li className='links'>
-          <Link to="/Beardle" className='page-link'>
+          <Link to="/beardle" className='page-link'>
             Beardle
             </Link>
           </li>
           <li className='links'>
-          <Link to="/Contact" className='page-link'>
+          <Link to="/contact" className='page-link'>
             Contact
             </Link>
           </li>
