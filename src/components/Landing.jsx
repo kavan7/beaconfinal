@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import { textVariant } from "../utils/motion";
 import articles from "../constants/Articles";
 import ReactMarkdown from 'react-markdown';
+import "./Landing.css";
+
 const Landing = () => {
   const [text, setText] = useState("");
   const [fullText, setFullText] = useState("Hi, welcome.");
@@ -29,14 +31,14 @@ const Landing = () => {
       <h1 className=""></h1>
       <h2>Most Recent Article</h2>
       {mostRecentArticle && (
-        <div>
-          <h3>{mostRecentArticle.title}</h3>
-          <p>Author: {mostRecentArticle.author}</p>
-          <div className="article-content">
-            <ReactMarkdown>{mostRecentArticle.content}</ReactMarkdown>
-          </div>
+      <div className="article-container">
+        <h3 className="article-title">{mostRecentArticle.title}</h3>
+        <p className="article-author">Author: {mostRecentArticle.author}</p>
+        <div className="article-content">
+          <ReactMarkdown className="article-description">{mostRecentArticle.content}</ReactMarkdown>
         </div>
-      )}
+      </div>
+)}
 
       
       

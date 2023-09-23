@@ -7,10 +7,10 @@ import mytext from './words.js';
 const wordList = mytext;
 const wordArray = wordList.split('\n');
 const chosen = wordArray[Math.floor(Math.random() * wordArray.length)];
-
+import { gsap, Power4 } from 'gsap';
 
 function Beardle() {
-  
+  gsap.set(document.getElementsByClassName("error"), { scaleX: 0 });
   const squareToAnimateRef = useRef(null);
   const currentRowRef = useRef(null); 
   const [squares, setSquares] = useState(Array(20).fill(null));
@@ -34,7 +34,7 @@ function Beardle() {
 
   const handleKeyClick = (key) => {
     if (!guess) {
-      
+      gsap.set(document.getElementsByClassName("error"), { scaleX: 0 });
 
       if (i < 4 && currentRow < 5) {
         const updatedSquares = [...squares];
@@ -47,7 +47,7 @@ function Beardle() {
 
   const detectKeyDown = (e) => {
     if(!guess){
-      
+      gsap.set(document.getElementsByClassName("error"), {scaleX: 0});
       console.log(chosen);
       if (e.key === 'Enter') {
         const word = squares.slice(currentRow * 4, (currentRow + 1) * 4).join('');
@@ -132,19 +132,33 @@ function Beardle() {
   const shakeRow = () => {
     const rowSquares = Array.from(currentRowRef.current.children);
 
-    
+    rowSquares.forEach((square) => {
+      gsap.set(square, {x:0})
+      gsap.to(square, {
+        x: 10, // Adjust the shaking distance
+        duration: 0.1,
+        ease: Power4.easeInOut,
+        repeat: 1, // Number of shakes
+        yoyo: true, // Back and forth shaking
+      });
+      
+      
+    });
     
   };
   const revealLetters = () =>{
     const rowSquares = Array.from(currentRowRef.current.children);
 
     
-      
+      gsap.set(rowSquares, {scaleY: 0})
+      gsap.to(rowSquares, { scaleY:1, duration: 0.5, stagger: 0.2});
     
   }
   const revealError = () =>{
-    
+    gsap.set(document.getElementsByClassName("error"), {scaleX: 0});
+    gsap.to(document.getElementsByClassName("error"), { scaleX:1, duration: 0.1, stagger: 0.2});
   }
+
 
   useEffect(() => {
     document.addEventListener('keydown', detectKeyDown);
