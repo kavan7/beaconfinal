@@ -46,14 +46,7 @@
   margin-left: 0px;
   
 }
-@media (max-width: 768px){
-.line{
-  width:100%;
-  margin-bottom: 5px;
-  border-bottom: 1.5px solid rgb(27, 26, 26);
-  padding-bottom: 7px;
-  margin-left: 0px;
-}}
+
 .links-container{
   list-style-type: none;
   margin: 0;
@@ -76,15 +69,7 @@
   padding-right: 15px;
   
 }
-@media (max-width: 768px) {
-.links{
-  
-  float: left;
-  padding-left: 7px;
-  padding-right: 7px;
-  
-}
-}
+
 
 
 .page-link {
@@ -133,7 +118,7 @@
 /* Style for the container that holds the article card */
 .article-card-container {
   width:  40%; /* 3/5 of the width */
-  margin-left: 12px;
+  margin-left: 30%;
   margin-top: 15px; /* Remove any default margin */
   box-shadow: #555;
   display: flex; /* Add flex display to center vertically */
@@ -189,8 +174,24 @@
     box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.18);
   }
   .article-title {
-    color: rgb(255, 115, 0);
+    color: rgb(86, 39, 0);
     
   }/* Change the width on hover */
   
+}
+@media (max-width: 768px) {
+  .links{
+    
+    float: left;
+    padding-left: 7px;
+    padding-right: 7px;
+    
+  }
+  .article-card-container{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .article-title{
+    font-size: medium;
+  }
 }
