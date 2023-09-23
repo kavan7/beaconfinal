@@ -136,13 +136,13 @@
   margin-left: 12px;
   margin-top: 15px; /* Remove any default margin */
   box-shadow: #555;
-  transition: width 0.7s;
-  
-  &:hover {
-      width: 60%; /* Change the width on hover */
-      
-    }
+  display: flex; /* Add flex display to center vertically */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center horizontally */
+  transition: 0.3s; /* Add transition for width change */
 }
+
+
 
 /* Style for the article container */
 .article-container {
@@ -152,6 +152,7 @@
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   flex:1;
+  transition: .3s;
   /* Remove 'flex: 1' to prevent it from taking up remaining space */
   /* Add any additional styles you want for the article container */
 }
@@ -161,6 +162,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 10px;
+  transition: .3s;
 }
 
 
@@ -181,4 +183,14 @@
 .article-description {
   font-size: 0.9rem;
   color: #777;
+}
+.article-card-container:hover {
+  .article-container{
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.18);
+  }
+  .article-title {
+    color: rgb(255, 115, 0);
+    
+  }/* Change the width on hover */
+  
 }
