@@ -13,12 +13,13 @@ const Landing = () => {
   const mostRecentArticle = articles[0];
 
   return (
-    
+<>
 <motion.section
   
         variants={staggerContainer()}
         initial="hidden"
         whileInView="show"
+        staggerContainer
         viewport={{once: true, amount: 0.25}}
         className={`${styles.padding} max-w-7xl mx-auto relative article-card-container z-0`}>
 
@@ -102,7 +103,7 @@ const Landing = () => {
     </motion.div>
     </motion.section>
  
-    
+    </>
   )
 }
 
