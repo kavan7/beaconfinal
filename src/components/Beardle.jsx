@@ -3,13 +3,13 @@ import React, { useEffect, useState, useRef } from 'react';
 import './Beardle.css';
 import mytext from './words.js';
 
-
 const wordList = mytext;
 const wordArray = wordList.split('\n');
 const chosen = wordArray[Math.floor(Math.random() * wordArray.length)];
 import { gsap, Power4 } from 'gsap';
 
 function Beardle() {
+  
   gsap.set(document.getElementsByClassName("error"), { scaleX: 0 });
   const squareToAnimateRef = useRef(null);
   const currentRowRef = useRef(null); 
@@ -191,6 +191,7 @@ function Beardle() {
 
   return (
     <>
+    
       <div className='title'>
         <h1 className='bear'>Bear</h1>
         <h1 className='dle'>dle</h1>
