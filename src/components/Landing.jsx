@@ -15,6 +15,7 @@ const Landing = () => {
   return (
     
 <motion.section
+  
         variants={staggerContainer()}
         initial="hidden"
         whileInView="show"
@@ -26,9 +27,7 @@ const Landing = () => {
       {mostRecentArticle && (
         
         <div className="article-container shadow-card">
-          <div>
-          <img src={mostRecentArticle.image} alt="image" className="article-image"/>
-          </div>
+          
           <div>
             <h3 className="article-title">{mostRecentArticle.title}</h3>
             <p className="article-author">{mostRecentArticle.author}</p>
@@ -38,7 +37,9 @@ const Landing = () => {
               
             </div>
           </div>
-
+          <div>
+          <img src={mostRecentArticle.image} alt="image" className="article-image"/>
+          </div>
       </div>
 
 

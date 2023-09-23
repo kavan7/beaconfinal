@@ -130,6 +130,7 @@
 .article-card-container {
   width:  40%; /* 3/5 of the width */
   margin-left: 30%;
+ 
   margin-top: 15px; /* Remove any default margin */
   box-shadow: #555;
   display: flex; /* Add flex display to center vertically */
@@ -144,12 +145,15 @@
 
 /* Style for the article container */
 .article-container {
+  width: 1200px;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 20px;
   box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
-  
+  display: flex;
+  /* Optional: To align items vertically in the center */
+  align-items: center;
   transition: .3s;
   /* Remove 'flex: 1' to prevent it from taking up remaining space */
   /* Add any additional styles you want for the article container */
@@ -162,7 +166,9 @@
   margin-bottom: 10px;
   transition: .3s;
 }
-
+.article-image{
+  width: 700px;
+}
 
 .article-author {
   font-size: 1rem;
@@ -215,7 +221,7 @@
   }
   .article-card-container{
     width: 80%;
-    margin-left: 10%;
+    margin-left: 50%;
   }
   .article-title{
     font-size: medium;
@@ -232,10 +238,13 @@
 .mini-container{
   display: flex;
   justify-content: center;
+  align-items: center;
   list-style-type: none;
   margin: 0;
-  padding: 15px;
+  padding-top: 50px;
   overflow: hidden;
+  width: 100%;
+  
 
 }
 .mini-article-image {
@@ -251,7 +260,7 @@
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 20px;
+  
   margin-left: 15px;
   margin-right: 15px;
   box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
