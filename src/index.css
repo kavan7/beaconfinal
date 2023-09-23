@@ -183,16 +183,28 @@
   color: #5f5f5f;
   
 }
-.article-card-container:hover {
-  .article-container{
-    box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.18);
-  }
-  .article-title {
-    color: rgb(113, 59, 15);
-    
-  }/* Change the width on hover */
-  
+/* Style for the article container with hover effect */
+.article-container:hover {
+  box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.18);
 }
+
+/* Style for the article title with hover effect */
+.article-container:hover .article-title {
+  color: rgb(113, 59, 15);
+}
+
+/* Rest of your CSS remains the same */
+
+/* Apply the same styles to the mini-article containers */
+.mini-article-container:hover {
+  box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.18);
+}
+
+.mini-article-container:hover .article-title {
+  color: rgb(113, 59, 15);
+}
+
+
 @media (max-width: 768px) {
   .links{
     
@@ -216,4 +228,35 @@
   color: #777;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-bottom: 2px;
+}
+.mini-container{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+
+}
+.mini-article-image {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Center horizontally using margin-left */
+  margin-right: auto; /* Center horizontally using margin-right */
+  width: 100%; /* Adjust the width as needed */
+}
+
+.mini-article-container {
+  width: 80%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
+  
+  transition: .3s;
+  /* Remove 'flex: 1' to prevent it from taking up remaining space */
+  /* Add any additional styles you want for the article container */
 }
