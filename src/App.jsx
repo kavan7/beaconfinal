@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { About, Beardle, Contact, Landing, Members, Navbar } from './components'
+import { About, AllArticles, Beardle, Contact, Landing, Members, Navbar } from './components'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />
-      
+        <Route path="/AllArticles" element={<AllArticles />} />
         <Route path="/about" element={<About />} />
         <Route path="/beardle" element={<Beardle />} />
         <Route path="/members" element={<Members />} />

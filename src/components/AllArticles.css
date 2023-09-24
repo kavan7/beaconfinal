@@ -1,0 +1,108 @@
+.article-list-card-container {
+    width: 40%;
+    margin: 0 auto; /* Center horizontally by using auto margins */
+    margin-top: 15px;
+    box-shadow: #555;
+    
+    transition: 0.3s;
+    display: flex; /* Add flex display to center vertically */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center;
+  }
+  
+  
+  
+  /* Style for the article-list container */
+  .article-list-container {
+    
+    width: 780px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    /* Optional: To align items vertically in the center */
+    margin-bottom: 10px;
+    
+    transition: .3s;
+    /* Remove 'flex: 1' to prevent it from taking up remaining space */
+    /* Add any additional styles you want for the article-list container */
+  }
+  
+  /* Style for the article-list title */
+  .article-list-title {
+    
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: .3s;
+  }
+  .article-list-image{
+    width: 200px;
+  }
+  
+  .article-list-author {
+    font-size: 0.8rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  
+  .article-list-content {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  
+  .article-list-description {
+    width: 500px;
+    font-size: 0.8rem;
+    color: #5f5f5f;
+    
+  }
+  /* Style for the article-list container with hover effect */
+  .article-list-container:hover {
+    box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.18);
+  }
+  
+  /* Style for the article-list title with hover effect */
+  .article-list-container:hover .article-list-title {
+    color: rgb(113, 59, 15);
+  }
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .links {
+      float: left;
+      padding-left: 7px;
+      padding-right: 7px;
+    }
+  
+    /* Adjust styles for smaller screens */
+    .article-list-card-container {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto; /* Center horizontally */
+    }
+  
+    .article-list-title {
+      font-size: medium;
+    }
+  }
+  
+  .article-list-date{
+  
+    font-size: 0.8rem;
+    color: #777;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 2px;
+  }
+.all{
+    display: flex; /* Add flex display to center vertically */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center;
+}

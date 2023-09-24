@@ -99,8 +99,8 @@ const Landing = () => {
   </div>
   
     
-  <Link to="/members" className='page-link'>
-            Members
+  <Link to="./AllArticles" className='page-link' id="all-link">
+            AllArticles
             </Link>
 
       
