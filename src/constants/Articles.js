@@ -12,6 +12,7 @@ const articles = [
         my first game, “Phytopia”, and plans for its expansive future.`,
         image: SilverShrimpStudios,
         content: '',
+        
 
 
     },

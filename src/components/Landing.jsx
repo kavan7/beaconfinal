@@ -21,9 +21,9 @@ const Landing = () => {
         whileInView="show"
         staggerContainer
         viewport={{once: true, amount: 0.25}}
-        className={`${styles.padding} max-w-7xl mx-auto relative article-card-container z-0`}>
+        className={`${styles.padding} max-w-7xl mx-auto article-card-container z-0`}>
 
-      <motion.div variants={textVariant()} className={`${styles.paddingX} absolute inset-0 top-[40px] sm:top-[100px] max-w-7xl mx-0 flex flex-row items-start gap-3 sm:gap-10 `}>
+      <motion.div variants={textVariant()} className={`${styles.paddingX} absolute inset-0 top-[40px] sm:top-[100px]  `}>
       
       {mostRecentArticle && (
         
@@ -45,6 +45,7 @@ const Landing = () => {
 
 
 )}
+
 <div className="mini-container">
 
 {articles[1] && (
