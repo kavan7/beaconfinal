@@ -46,6 +46,7 @@ const Landing = () => {
 
 )}
 <div className="mini-container">
+
 {articles[1] && (
         
         <div className="mini-article-container shadow-card ">
@@ -97,7 +98,9 @@ const Landing = () => {
   </div>
   
     
-      
+  <Link to="/members" className='page-link'>
+            Members
+            </Link>
 
       
     </motion.div>
