@@ -50,11 +50,11 @@ const Landing = () => {
         
         <div className="mini-article-container shadow-card ">
           <img src={articles[1].image} alt="image" className="mini-article-image"/>
-          <h3 className="article-title">{articles[1].title}</h3>
-          <p className="article-author">{articles[1].author}</p>
-          <h5 className="article-date">{articles[1].date}</h5>
-          <div className="article-content">
-            <ReactMarkdown className="article-description">{articles[1].preview}</ReactMarkdown>
+          <h3 className="article-title" id="mini">{articles[1].title}</h3>
+          <p className="article-author"id="mini">{articles[1].author}</p>
+          <h5 className="article-date"id="mini">{articles[1].date}</h5>
+          <div className="article-content"id="mini">
+            <ReactMarkdown className="article-description"id="mini">{articles[1].preview}</ReactMarkdown>
             
           </div>
   
@@ -66,11 +66,11 @@ const Landing = () => {
         
         <div className="mini-article-container shadow-card ">
           <img src={articles[2].image} alt="image" className="mini-article-image"/>
-          <h3 className="article-title">{articles[2].title}</h3>
-          <p className="article-author">{articles[2].author}</p>
-          <h5 className="article-date">{articles[2].date}</h5>
-          <div className="article-content">
-            <ReactMarkdown className="article-description">{articles[2].preview}</ReactMarkdown>
+          <h3 className="article-title"id="mini">{articles[2].title}</h3>
+          <p className="article-author"id="mini">{articles[2].author}</p>
+          <h5 className="article-date"id="mini">{articles[2].date}</h5>
+          <div className="article-content"id="mini">
+            <ReactMarkdown className="article-description"id="mini">{articles[2].preview}</ReactMarkdown>
             
           </div>
   
@@ -82,11 +82,11 @@ const Landing = () => {
         
         <div className="mini-article-container shadow-card ">
           <img src={articles[3].image} alt="image" className="mini-article-image"/>
-          <h3 className="article-title">{articles[3].title}</h3>
-          <p className="article-author">{articles[3].author}</p>
-          <h5 className="article-date">{articles[3].date}</h5>
-          <div className="article-content">
-            <ReactMarkdown className="article-description">{articles[3].preview}</ReactMarkdown>
+          <h3 className="article-title"id="mini">{articles[3].title}</h3>
+          <p className="article-author"id="mini">{articles[3].author}</p>
+          <h5 className="article-date"id="mini">{articles[3].date}</h5>
+          <div className="article-content"id="mini">
+            <ReactMarkdown className="article-description"id="mini">{articles[3].preview}</ReactMarkdown>
             
           </div>
   
