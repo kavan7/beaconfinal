@@ -66,8 +66,8 @@
 }
 .links{
   float: left;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 9px;
+  padding-right: 9px;
   font-family: Verdana, Geneva, Tahoma, sans-serif
   
 }
@@ -141,40 +141,89 @@
   
 }
 
+@media (max-width: 768px) {
+  .article-card-container {
+    width: 200px; /* 3/5 of the width */
+   
+   
+    margin-top: 15px; /* Remove any default margin */
+    box-shadow: #555;
+  
+ 
+    transition: 0.3s; /* Add transition for width change */
+  
+    
+  }
+}
 
 
-/* Style for the article container */
+
+
 .article-container {
   width: 1200px;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 20px;
-  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 5px 2px rgba(0, 0, 0, 0.1);
   display: flex;
   /* Optional: To align items vertically in the center */
-  align-items: center;
+  
   transition: .3s;
   /* Remove 'flex: 1' to prevent it from taking up remaining space */
   /* Add any additional styles you want for the article container */
+  margin-top: 20px;
+  
 }
+@media (max-width: 768px) {
+  .article-container {
+    width: 400px;
+    
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    box-shadow: 3px 5px 2px rgba(0, 0, 0, 0.1);
+ 
+    /* Optional: To align items vertically in the center */
+  
+    transition: .3s;
+    /* Remove 'flex: 1' to prevent it from taking up remaining space */
+    /* Add any additional styles you want for the article container */
+    margin: 0;
+  }
+}
+.article-container:hover {
+  background-color: #f0f0f0; /* Change the background color on hover */
+  transform: scale(1.05); /* Add a slight scale effect on hover */
+  box-shadow: 12px 12px 4px rgba(0, 0, 0, 0.2); /* Modify the box shadow on hover */
+}
+
+
 
 /* Style for the article title */
 .article-title {
   
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   transition: .3s;
 }
-.article-image{
-  width: 700px;
-}
 
+.article-image{
+  width: 600px;
+  margin: 10px;
+}
+@media (max-width: 768px){
+.article-image{
+  width: 200px;
+}
+}
 .article-author {
   font-size: 1rem;
   color: #555;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 
@@ -186,25 +235,34 @@
 
 
 .article-description {
+  margin-top: 20px;
   font-size: 0.9rem;
   color: #5f5f5f;
   
 }
+@media (max-width: 768px) {
+  .article-description {
+    font-size: 0.6rem;
+    color: #5f5f5f;
+  }
+}
 /* Style for the article container with hover effect */
 .article-container:hover {
-  box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.18);
+  box-shadow: 10px 10px 12px ergba(0, 0, 0, 0.238);
 }
 
 /* Style for the article title with hover effect */
 .article-container:hover .article-title {
   color: rgb(113, 59, 15);
+  
 }
 
 /* Rest of your CSS remains the same */
 
 /* Apply the same styles to the mini-article containers */
 .mini-article-container:hover {
-  box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.18);
+  box-shadow: 13px 10px 10px rgba(0, 0, 0, 0.18);
+  transform: scale(1.02)
 }
 
 .mini-article-container:hover .article-title {
@@ -229,13 +287,13 @@
   }
 }
 
-.article-date{
-
+.article-date {
   font-size: 0.8rem;
   color: #777;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 2px;
 }
+
 .mini-container{
   display: flex;
   justify-content: center;
@@ -251,6 +309,7 @@
 .mini-article-image {
 
   display: flex;
+  margin-top: 0px;
   align-items: center;
   margin-left: auto; /* Center horizontally using margin-left */
   margin-right: auto; /* Center horizontally using margin-right */
@@ -264,13 +323,15 @@
   border-radius: 5px;
   
   margin-left: 15px;
-  margin-right: 15px;
-  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 25px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.1);
   
   transition: .3s;
   /* Remove 'flex: 1' to prevent it from taking up remaining space */
   /* Add any additional styles you want for the article container */
+  
 }
 #mini{
   margin-left: 15px;
+  margin-top: 7px;
 }

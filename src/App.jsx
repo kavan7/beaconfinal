@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
     <div className="relative z-0  bg-hero-pattern bg-white">
-      <div className="bg-cover bg-center">
+      <div className="bg-cover ">
       <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />
