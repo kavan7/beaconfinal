@@ -199,9 +199,9 @@
 }
 /* Style for the article container with hover effect */
 .article-container:hover {
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.18);
-  scale: 1.03;
-  background-color: #efefee;
+  box-shadow: 30px 30px 20px rgba(0, 0, 0, 0.18);
+  scale: 1.05;
+ 
 
  
 }
@@ -218,8 +218,8 @@
 .mini-article-container:hover {
   box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.18);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.18);
-  scale: 1.03;
-  background-color: #efefee;
+  scale: 1.05;
+  
 }
 
 .mini-article-container:hover .article-title {
@@ -259,11 +259,12 @@
   list-style-type: none;
   margin-left: -14px;
   padding-top: 40px;
-  overflow: hidden;
+  
   width: 1128px;
   border: #555;
   border: 3px;
-  
+  margin-bottom: 30px;
+  height: auto;
   
   
 
@@ -286,6 +287,7 @@
   margin-left: 15px;
   margin-right: 15px;
   box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
+  height: auto;
   
   transition: .3s;
   /* Remove 'flex: 1' to prevent it from taking up remaining space */
@@ -297,4 +299,9 @@
 #all-link{
   font-size: 18px;
   text-align: left;
+}
+
+.allstories{
+
+  margin-top: 30px;
 }
