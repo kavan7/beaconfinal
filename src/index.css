@@ -13,6 +13,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   scroll-behavior: smooth;
   color-scheme: light;
+
 }
 
 
@@ -200,6 +201,9 @@
 .article-container:hover {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.18);
   scale: 1.03;
+  background-color: #efefee;
+
+ 
 }
 
 /* Style for the article title with hover effect */
@@ -215,10 +219,12 @@
   box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.18);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.18);
   scale: 1.03;
+  background-color: #efefee;
 }
 
 .mini-article-container:hover .article-title {
   color: rgb(113, 59, 15);
+  
 }
 
 

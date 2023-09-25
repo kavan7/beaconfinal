@@ -118,6 +118,26 @@ const Landing = () => {
 
       
     </motion.div>
+
+    <Link to={`/articles/${articles[3].date}-${slugify(articles[3].title)}`} className="link">
+  {articles[3] && (
+        <div className="allstories" >
+        <div className="mini-article-container shadow-card ">
+         
+          <h3 className="article-title"id="mini">{articles[3].title}</h3>
+          <p className="article-author"id="mini">{articles[3].author}</p>
+          <h5 className="article-date"id="mini">{articles[3].date}</h5>
+          <div className="article-content"id="mini">
+            <ReactMarkdown className="article-description"id="mini">{articles[3].preview}</ReactMarkdown>
+            
+          </div>
+  
+        </div>
+        </div>
+  
+  
+  )}
+  </Link>
     </motion.section>
  
     </>
