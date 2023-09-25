@@ -5,8 +5,17 @@ import ReactMarkdown from 'react-markdown';
 import { motion } from "framer-motion";
 import { staggerContainer } from "../utils/motion";
 import { styles } from "../styles";
-const AllArticles = () => {
+import { Link } from "react-router-dom";
 
+const AllArticles = () => {
+  function slugify(title) {
+    return title
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
+      .replace(/\s+/g, '-') // Replace spaces with hyphens
+      .replace(/-+/g, '-'); // Remove consecutive hyphens
+  }
+  
     return (
       <motion.div
   
@@ -15,8 +24,10 @@ const AllArticles = () => {
         staggerContainer
         viewport={{once: true, amount: 0.25}}
         className={`${styles.padding} max-w-7xl mx-auto article-card-container z-0`}>
+        
         <div className="all">
           {articles.map((article, index) => (
+            <Link to={`/articles/${article.date}-${slugify(article.title)}`} className="link">
             <div key={index} className="article-list-container shadow-card">
               <div>
                 <h3 className="article-list-title">{article.title}</h3>
@@ -31,8 +42,10 @@ const AllArticles = () => {
                 <img src={article.image} alt="image" className="article-list-image" />
               </div>
             </div>
+            </Link>
           ))}
         </div>
+        
         </motion.div>
       );
     

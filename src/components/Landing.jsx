@@ -9,6 +9,13 @@ import { styles } from "../styles";
 import { staggerContainer } from "../utils/motion";
 
 const Landing = () => {
+  function slugify(title) {
+    return title
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
+      .replace(/\s+/g, '-') // Replace spaces with hyphens
+      .replace(/-+/g, '-'); // Remove consecutive hyphens
+  }
   
   const mostRecentArticle = articles[0];
 
@@ -24,7 +31,7 @@ const Landing = () => {
         className={`${styles.padding} max-w-7xl mx-auto article-card-container z-0`}>
 
       <motion.div variants={textVariant()} className={`${styles.paddingX} absolute inset-0 top-[40px] sm:top-[100px]  `}>
-      
+      <Link to={`/articles/${mostRecentArticle.date}-${slugify(mostRecentArticle.title)}`} className="link">
       {mostRecentArticle && (
         
         <div className="article-container shadow-card">
@@ -42,15 +49,16 @@ const Landing = () => {
           <img src={mostRecentArticle.image} alt="image" className="article-image"/>
           </div>
       </div>
-
+      
 
 )}
+</Link>
 
 <div className="mini-container">
-
+<Link to={`/articles/${articles[1].date}-${slugify(articles[1].title)}`} className="link">
 {articles[1] && (
         
-        <div className="mini-article-container mr-[10px] shadow-card ">
+        <div className="mini-article-container shadow-card ">
           <img src={articles[1].image} alt="image" className="mini-article-image"/>
           <h3 className="article-title" id="mini">{articles[1].title}</h3>
           <p className="article-author"id="mini">{articles[1].author}</p>
@@ -64,6 +72,8 @@ const Landing = () => {
   
   
   )}
+  </Link>
+  <Link to={`/articles/${articles[2].date}-${slugify(articles[2].title)}`} className="link">
   {articles[2] && (
         
         <div className="mini-article-container shadow-card ">
@@ -80,6 +90,8 @@ const Landing = () => {
   
   
   )}
+</Link>
+<Link to={`/articles/${articles[3].date}-${slugify(articles[3].title)}`} className="link">
   {articles[3] && (
         
         <div className="mini-article-container shadow-card ">
@@ -96,11 +108,12 @@ const Landing = () => {
   
   
   )}
+  </Link>
   </div>
   
     
-  <Link to="./articles" className='page-link' id="all-link">
-            See all stories
+  <Link to="./allarticles" className='page-link' id="all-link ">
+            AllArticles
             </Link>
 
       
