@@ -50,7 +50,7 @@ const Landing = () => {
 
 {articles[1] && (
         
-        <div className="mini-article-container shadow-card ">
+        <div className="mini-article-container mr-[10px] shadow-card ">
           <img src={articles[1].image} alt="image" className="mini-article-image"/>
           <h3 className="article-title" id="mini">{articles[1].title}</h3>
           <p className="article-author"id="mini">{articles[1].author}</p>
@@ -99,8 +99,8 @@ const Landing = () => {
   </div>
   
     
-  <Link to="./allarticles" className='page-link' id="all-link">
-            AllArticles
+  <Link to="./articles" className='page-link' id="all-link">
+            See all stories
             </Link>
 
       
