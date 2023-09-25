@@ -112,7 +112,7 @@ const Landing = () => {
   </div>
   
     
-  <Link to="./allarticles" className='page-link' id="all-link ">
+  <Link to="./articles" className='page-link' id="all-link ">
             AllArticles
             </Link>
 
@@ -123,5 +123,4 @@ const Landing = () => {
     </>
   )
 }
-
 export default Landing;
