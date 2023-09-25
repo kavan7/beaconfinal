@@ -65,6 +65,8 @@
   /* Style for the article-list container with hover effect */
   .article-list-container:hover {
     box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.18);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.18);
+    scale: 1.03;
   }
   
   /* Style for the article-list title with hover effect */

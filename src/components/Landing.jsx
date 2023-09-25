@@ -99,7 +99,7 @@ const Landing = () => {
   </div>
   
     
-  <Link to="./AllArticles" className='page-link' id="all-link">
+  <Link to="./allarticles" className='page-link' id="all-link">
             AllArticles
             </Link>
 
