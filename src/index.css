@@ -302,6 +302,26 @@
 }
 
 .allstories{
-
+  
+  text-align: center;
   margin-top: 30px;
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #7d5235; /* Change the background color to your preferred color */
+  color: #fff; /* Text color */
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Hover effect for the button */
+.allstories:hover {
+  background-color: #593f2d;
+  
+  
+
 }
