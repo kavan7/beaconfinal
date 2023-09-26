@@ -280,6 +280,7 @@ function Beardle() {
   whileInView="show"
   staggerContainer
   viewport={{once: true, amount: 0.25}}
+  className="px-[100px]"
  >
 
 <motion.div variants={textVariant()}>
@@ -293,7 +294,7 @@ function Beardle() {
       <h1 className='error'>{message}</h1>
       <div className='keyboard'>
   {keyboardLayout.map((row, rowIndex) => (
-    <div key={rowIndex} className='keyboard-row'>
+    <div key={rowIndex} className='keyboard-row '>
       {row.map((key, keyIndex) => (
         <div
           key={keyIndex}

@@ -135,7 +135,7 @@ const Landing = () => {
           More stories
           
         </h5>
-        <Link to="./articles" className='allstories' id="all-link ">
+        <Link to="./articles" className='allstories rounded-2xl' id="all-link ">
             View all 
             </Link>
       </div>

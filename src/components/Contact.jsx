@@ -60,7 +60,7 @@ const Contact = () => {
     })
   }
   return (
-    <div className='xl:mt-8 xl:flex-row
+    <div className='xl:mt-8 ml-[10px] xl:flex-row
     flex-col-reverse flex  overlow-hidden'>
       <motion.div
       
