@@ -3,8 +3,8 @@ import {motion} from 'framer-motion';
 import emailjs from '@emailjs/browser'
 import {styles} from '../styles';
 import { slideIn } from '../utils/motion';
-
-
+import { staggerContainer } from '../utils/motion';
+import { textVariant } from '../utils/motion';
 const Contact = () => {
   const formRef = useRef();
     const [form, setForm] = useState({
@@ -60,13 +60,20 @@ const Contact = () => {
     })
   }
   return (
+    <motion.section
+  
+    variants={staggerContainer()}
+    initial="hidden"
+    whileInView="show"
+    staggerContainer
+    viewport={{once: true, amount: 0.25}}
+    className="px-[100px]"
+   >
     <div className='xl:mt-8 ml-[10px] xl:flex-row
     flex-col-reverse flex  overlow-hidden'>
-      <motion.div
-      
-      variants={slideIn('left', "tween", 0.2, 1)}
-      className='ml-[5%] flex-[0.45] contact-card-container p-8'>
-         
+     
+        <motion.div variants={textVariant()}
+         className='ml-[5%] flex-[0.45] contact-card-container p-8'>         
           <h5 className=' text-gray-500'>Send a message to the editors!</h5>
           <h3 className={styles.sectionHeadText} >Contact.</h3>
 
@@ -129,8 +136,9 @@ const Contact = () => {
 
           </form>
       </motion.div>
+      </div>
+</motion.section>
   
-    </div>
   )
 }
 
