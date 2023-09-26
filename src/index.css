@@ -128,7 +128,7 @@
   height: 100%;
   background-repeat: repeat;
   background-color: #fcfcfc;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5' height='5' viewBox='0 0 4 4'%3E%3Cpath fill='%23cfcfcf' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4.5' height='4.5' viewBox='0 0 4 4'%3E%3Cpath fill='%23cfcfcf' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 /* Style for the container that holds the article card */
 .article-card-container {
@@ -144,16 +144,28 @@
 
   
 }
+.flex-row{
+  display: flex;
+  justify-content: space-between;
+}
 
-
-
+.table-container {
+  flex: 1; /* Allow the table container to grow and take available space */
+  margin-left: 20px; /* Add some spacing between the article and table */
+}
+.mini-article-row {
+  display: flex; /* Display mini articles in a row */
+  justify-content: space-between; /* Distribute space between mini articles */
+  margin-bottom: 20px; /* Add some margin between rows */
+}
 /* Style for the article container */
 .article-container {
+  flex: 1;
   width: 1100px;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 30px;
+  padding: 25px;
   box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   /* Optional: To align items vertically in the center */
@@ -173,10 +185,10 @@
   transition: .3s;
 }
 .article-image{
-  width: 2200px;
+  width: 2400px;
   margin-left: 10px;
-  height: auto;
-  border: 3px, #593f2d;
+
+
 
 }
 

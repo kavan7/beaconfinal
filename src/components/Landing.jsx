@@ -8,6 +8,7 @@ import ReactMarkdown from 'react-markdown';
 import { styles } from "../styles";
 import { staggerContainer } from "../utils/motion";
 import { Card } from "flowbite-react";
+import { Table } from 'flowbite-react';
 const Landing = () => {
   function slugify(title) {
     return title
@@ -49,10 +50,13 @@ const Landing = () => {
           <div>
           <img src={mostRecentArticle.image} alt="image" className="article-image"/>
           </div>
+          
+          
       </div>
       
 
 )}
+
 </Link>
 
 <div className="mini-container">
@@ -136,7 +140,7 @@ const Landing = () => {
             </Link>
       </div>
      
-      <div className="flow-root w-[1030px] ml-[30px]">
+      <div className="flow-root divide-y  w-[1030px] ml-[30px]">
 
         <ul className="divide-y divide-gray-700 dark:divide-gray-700">
                 <li>
@@ -144,7 +148,8 @@ const Landing = () => {
 
                   </div>
                 </li>
-              {articles[4] && (
+                <div className="line" />
+                {articles[4] && (
                 <Link to={`/articles/${articles[4].date}-${slugify(articles[4].title)}`} className="link">
                 <li className="py-3 sm:py-4">
                   
@@ -161,6 +166,7 @@ const Landing = () => {
                     <h3 className=" font-medium"id="mini">{articles[4].title}</h3>
                     
                     </div>
+                    
                     <p className="truncate text-sm text-gray-500 dark:text-gray-400">
                         {articles[4].date} 
                       </p>
@@ -169,6 +175,7 @@ const Landing = () => {
                     </div>
                   </div>
                 </li>
+                <div className="line" />
                 </Link>
             )}
                     {articles[5] && (
@@ -196,6 +203,7 @@ const Landing = () => {
                     </div>
                   </div>
                 </li>
+                <div className="line" />
                 </Link>
             )}
                           {articles[6] && (
@@ -223,6 +231,7 @@ const Landing = () => {
                     </div>
                   </div>
                 </li>
+                <div className="line" />
                 </Link>
             )}
                                       {articles[7] && (
@@ -250,6 +259,7 @@ const Landing = () => {
                     </div>
                   </div>
                 </li>
+                <div className="line" />
                 </Link>
             )}
 
