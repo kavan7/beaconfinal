@@ -285,7 +285,7 @@ function Beardle() {
 
 <motion.div variants={textVariant()}>
     
-      <div className='title'>
+      <div className='bear-title'>
         <h1 className='bear'>Bear</h1>
         <h1 className='dle'>dle</h1>
       </div>

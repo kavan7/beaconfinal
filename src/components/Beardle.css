@@ -30,7 +30,7 @@
   justify-content: center;
 }
 
-.title {
+.bear-title {
   display: flex;
   justify-content: center;
   align-items: center; /* Vertically center the content */
