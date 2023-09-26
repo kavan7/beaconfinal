@@ -127,7 +127,7 @@ const Landing = () => {
 
 
   <motion.div>
-  <Card className="more-stories">
+  <Card className="more-stories mr-[6px]">
   
       <div className="mb-4 flex items-center justify-between">
         <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
@@ -140,7 +140,7 @@ const Landing = () => {
             </Link>
       </div>
      
-      <div className="flow-root divide-y  w-[1030px] ml-[30px]">
+      <div className="flow-root divide-y  w-[1022px] ml-[30px]">
 
         <ul className="divide-y divide-gray-700 dark:divide-gray-700">
                 <li>
