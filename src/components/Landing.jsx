@@ -127,7 +127,7 @@ const Landing = () => {
 
 
   <motion.div>
-  <Card>
+  <Card className="more-stories">
   
       <div className="mb-4 flex items-center justify-between">
         <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
