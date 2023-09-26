@@ -8,8 +8,8 @@ import { styles } from '../styles'
 const Navbar = () => {
   return (
     <>
-      <nav className='w-full flex items-center py-5 fixed top-0 z-20'>
-      <motion.div variants={textVariant()} className={`${styles.paddingX} absolute inset-0 top-[40px] sm:top-[100px] max-w-7xl mx-0 flex flex-row items-start gap-3 sm:gap-10 `}>
+      <nav className=''>
+      
         <Link to="/">
           <div className='header-container' to>
             <img src={header} className='header '/>
@@ -43,7 +43,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        </motion.div>
+        
         <div className='line' id='line-two'></div>
       </nav>
     </>

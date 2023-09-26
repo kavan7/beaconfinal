@@ -8,6 +8,10 @@ let chosenWords = ["math","bear","paws","hall","club","band","book","work","milk
 const wordArray = wordList.split('\n');
 const chosen = chosenWords[Math.floor(Math.random() * chosenWords.length)];
 import { gsap, Power4 } from 'gsap';
+import { motion } from 'framer-motion';
+import { staggerContainer } from '../utils/motion';
+import { textVariant } from '../utils/motion';
+import { styles } from '../styles';
 
 function Beardle() {
   
@@ -30,7 +34,7 @@ function Beardle() {
   
 
   const keyColors = {
-    yellow: '#FFD300',
+    yellow: '#713b0f',
     green: '#50C878',
     grey: '#CCCCCC',
   };
@@ -269,6 +273,16 @@ function Beardle() {
 
   return (
     <>
+    <motion.section
+  
+  variants={staggerContainer()}
+  initial="hidden"
+  whileInView="show"
+  staggerContainer
+  viewport={{once: true, amount: 0.25}}
+ >
+
+<motion.div variants={textVariant()}>
     
       <div className='title'>
         <h1 className='bear'>Bear</h1>
@@ -283,7 +297,7 @@ function Beardle() {
       {row.map((key, keyIndex) => (
         <div
           key={keyIndex}
-          className='keyboard-key'
+          className='keyboard-key rounded-2xl'
           style={{
             
           }}
@@ -296,7 +310,8 @@ function Beardle() {
   ))}
 </div>
 
-      
+      </motion.div>
+      </motion.section>
     </>
   );
 }

@@ -59,8 +59,14 @@ h1 {
 }
 
 .bear {
-  color: orange;
+  color: #b2570d;
   right: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.dle {
+  color: black;
+  right: 50px;
+  font-family: "Poppins", sans-serif;
 }
 
 .keyboard {

@@ -28,9 +28,10 @@ const Landing = () => {
         whileInView="show"
         staggerContainer
         viewport={{once: true, amount: 0.25}}
-        className={`${styles.padding} max-w-7xl mx-auto article-card-container z-0`}>
+        className={`${styles.padding} article-card-container`}>
 
-      <motion.div variants={textVariant()} className={`${styles.paddingX} absolute inset-0 top-[40px] sm:top-[100px]  `}>
+      <motion.div variants={textVariant()}>
+       
       <Link to={`/articles/${mostRecentArticle.date}-${slugify(mostRecentArticle.title)}`} className="link">
       {mostRecentArticle && (
         
@@ -111,10 +112,11 @@ const Landing = () => {
   </Link>
   </div>
   
-    
+    <div className="">
   <Link to="./articles" className='allstories' id="all-link ">
-            AllArticles
+            View all stories
             </Link>
+            </div>
 
       
     </motion.div>
