@@ -10,7 +10,7 @@ const styles = {
     "text-gray font-medium lg:text-[33px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
 
   sectionHeadText:
-    "text-gray font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
+    "text-gray font-extrabold md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:
     "sm:text-[28px] text-[18px] text-secondary uppercase tracking-wider",
 };

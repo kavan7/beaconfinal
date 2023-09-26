@@ -65,14 +65,16 @@ const Contact = () => {
       <motion.div
       
       variants={slideIn('left', "tween", 0.2, 1)}
-      className='flex-[0.75] w-[30%] contact-card-container p-8 rounded-2xl'>
-          <p className='text-gray-500'>Send a message to the editors!</p>
+      className='ml-[5%] flex-[0.45] contact-card-container p-8'>
+         
+          <h5 className=' text-gray-500'>Send a message to the editors!</h5>
           <h3 className={styles.sectionHeadText} >Contact.</h3>
 
           <form
           ref={formRef}
           onSubmit={handleSubmit}
           className='mt-0 flex flex-col gap-8'>
+            
             <label className='flex flex-col'>
               <span className='text-gray-900 ml-[10px] mb-[10px] font-semibold underline-offset-1'>
                 Your Name

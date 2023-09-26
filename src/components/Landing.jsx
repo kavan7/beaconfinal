@@ -8,7 +8,7 @@ import ReactMarkdown from 'react-markdown';
 import { styles } from "../styles";
 import { staggerContainer } from "../utils/motion";
 import { Card } from "flowbite-react";
-import { Table } from 'flowbite-react';
+
 const Landing = () => {
   function slugify(title) {
     return title
@@ -40,7 +40,7 @@ const Landing = () => {
           
           <div>
             <h3 className="article-title">{mostRecentArticle.title}</h3>
-            <p className="article-author">{mostRecentArticle.author}</p>
+            <h5 className="article-author">{mostRecentArticle.author}</h5>
             <h5 className="article-date">{mostRecentArticle.date}</h5>
             <div className="article-content">
               <ReactMarkdown className="article-description">{mostRecentArticle.preview}</ReactMarkdown>
@@ -66,7 +66,7 @@ const Landing = () => {
         <div className="mini-article-container shadow-card ">
           <img src={articles[1].image} alt="image" className="mini-article-image"/>
           <h3 className="article-title" id="mini">{articles[1].title}</h3>
-          <p className="article-author"id="mini">{articles[1].author}</p>
+          <h5 className="article-author"id="mini">{articles[1].author}</h5>
           <h5 className="article-date"id="mini">{articles[1].date}</h5>
           <div className="article-content"id="mini">
             <ReactMarkdown className="article-description"id="mini">{articles[1].preview}</ReactMarkdown>
@@ -84,7 +84,7 @@ const Landing = () => {
         <div className="mini-article-container shadow-card ">
           <img src={articles[2].image} alt="image" className="mini-article-image"/>
           <h3 className="article-title"id="mini">{articles[2].title}</h3>
-          <p className="article-author"id="mini">{articles[2].author}</p>
+          <h5 className="article-author"id="mini">{articles[2].author}</h5>
           <h5 className="article-date"id="mini">{articles[2].date}</h5>
           <div className="article-content"id="mini">
             <ReactMarkdown className="article-description"id="mini">{articles[2].preview}</ReactMarkdown>
@@ -102,7 +102,7 @@ const Landing = () => {
         <div className="mini-article-container shadow-card ">
           <img src={articles[3].image} alt="image" className="mini-article-image"/>
           <h3 className="article-title"id="mini">{articles[3].title}</h3>
-          <p className="article-author"id="mini">{articles[3].author}</p>
+          <h5 className="article-author"id="mini">{articles[3].author}</h5>
           <h5 className="article-date"id="mini">{articles[3].date}</h5>
           <div className="article-content"id="mini">
             <ReactMarkdown className="article-description"id="mini">{articles[3].preview}</ReactMarkdown>
@@ -155,9 +155,9 @@ const Landing = () => {
                   
                   <div className="flex items-center space-x-4">
                     <div className="shrink-0">
-                    <p className="truncate text-sm font-normal text-gray-900 dark:text-white">
+                    <h5 className="truncate text-sm font-normal text-gray-900 dark:text-white">
                         {articles[4].author}  | 
-                      </p>
+                      </h5>
                     
                       
                   
@@ -167,9 +167,9 @@ const Landing = () => {
                     
                     </div>
                     
-                    <p className="truncate text-sm text-gray-500 dark:text-gray-400">
+                    <h5 className="truncate text-sm text-gray-500 dark:text-gray-400">
                         {articles[4].date} 
-                      </p>
+                      </h5>
                     <div className="inline-flex items-center text-base w-[50px] text-gray-900 dark:text-white">
                     🔗
                     </div>
@@ -184,9 +184,9 @@ const Landing = () => {
                   
                   <div className="flex items-center space-x-4">
                     <div className="shrink-0">
-                    <p className="truncate text-sm font-normal text-gray-900 dark:text-white">
+                    <h5 className="truncate text-sm font-normal text-gray-900 dark:text-white">
                         {articles[5].author}  | 
-                      </p>
+                      </h5>
                     
                       
                   
@@ -195,9 +195,9 @@ const Landing = () => {
                     <h3 className=" font-medium"id="mini">{articles[5].title}</h3>
                     
                     </div>
-                    <p className="truncate text-sm text-gray-500 dark:text-gray-400">
+                    <h5 className="truncate text-sm text-gray-500 dark:text-gray-400">
                         {articles[5].date} 
-                      </p>
+                      </h5>
                     <div className="inline-flex items-center text-base w-[50px] text-gray-900 dark:text-white">
                     🔗
                     </div>
@@ -212,9 +212,9 @@ const Landing = () => {
                   
                   <div className="flex items-center space-x-4">
                     <div className="shrink-0">
-                    <p className="truncate text-sm font-normal text-gray-900 dark:text-white">
+                    <h5 className="truncate text-sm font-normal text-gray-900 dark:text-white">
                         {articles[6].author}  | 
-                      </p>
+                      </h5>
                     
                       
                   
@@ -223,9 +223,9 @@ const Landing = () => {
                     <h3 className=" font-medium"id="mini">{articles[5].title}</h3>
                     
                     </div>
-                    <p className="truncate text-sm text-gray-500 dark:text-gray-400">
+                    <h5 className="truncate text-sm text-gray-500 dark:text-gray-400">
                         {articles[6].date} 
-                      </p>
+                      </h5>
                     <div className="inline-flex items-center text-base w-[50px] text-gray-900 dark:text-white">
                     🔗
                     </div>
@@ -240,9 +240,9 @@ const Landing = () => {
                   
                   <div className="flex items-center space-x-4">
                     <div className="shrink-0">
-                    <p className="truncate text-sm font-normal text-gray-900 dark:text-white">
+                    <h5 className="truncate text-sm font-normal text-gray-900 dark:text-white">
                         {articles[7].author}  | 
-                      </p>
+                      </h5>
                     
                       
                   
@@ -251,9 +251,9 @@ const Landing = () => {
                     <h3 className=" font-medium"id="mini">{articles[5].title}</h3>
                     
                     </div>
-                    <p className="truncate text-sm text-gray-500 dark:text-gray-400">
+                    <h5 className="truncate text-sm text-gray-500 dark:text-gray-400">
                         {articles[7].date} 
-                      </p>
+                      </h5>
                     <div className="inline-flex items-center text-base w-[50px] text-gray-900 dark:text-white">
                     🔗
                     </div>
@@ -269,9 +269,9 @@ const Landing = () => {
                   
                   <div className="flex items-center space-x-4">
                     <div className="shrink-0">
-                    <p className="truncate text-sm font-normal text-gray-900 dark:text-white">
+                    <h5 className="truncate text-sm font-normal text-gray-900 dark:text-white">
                         {articles[8].author}  | 
-                      </p>
+                      </h5>
                     
                       
                   
@@ -280,9 +280,9 @@ const Landing = () => {
                     <h3 className=" font-medium"id="mini">{articles[5].title}</h3>
                     
                     </div>
-                    <p className="truncate text-sm text-gray-500 dark:text-gray-400">
+                    <h5 className="truncate text-sm text-gray-500 dark:text-gray-400">
                         {articles[8].date} 
-                      </p>
+                      </h5>
                     <div className="inline-flex items-center text-base w-[50px] text-gray-900 dark:text-white">
                     🔗
                     </div>

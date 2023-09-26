@@ -63,7 +63,7 @@ const AllArticles = () => {
             <div key={index} className="article-list-container shadow-card">
               <div>
                 <h3 className="article-list-title">{article.title}</h3>
-                <p className="article-list-author">{article.author}</p>
+                <h5 className="article-list-author">{article.author}</h5>
                 <h5 className="article-list-date">{article.date}</h5>
                 <div className="article-list-content">
                   {/* Assuming articles[i].preview is Markdown content */}
