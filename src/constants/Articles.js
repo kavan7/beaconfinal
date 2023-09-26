@@ -64,6 +64,83 @@ const articles = [
 
         
     },
+    {
+        author: 'Aiden Schreder',
+        authortag: 'aschreder',
+        date: '2023-04-10',
+        title: 'Silver Shrimp Studios: Building My Business',
+        preview: `Hello Martingrove readers and future Silver Shrimp gamers. Silver Shrimp
+        Studios is my emerging video game design studio...`,
+        image: SilverShrimpStudios,
+        content: '',
+
+    },
+    {
+        author: 'Aiden Schreder',
+        authortag: 'aschreder',
+        date: '2023-04-10',
+        title: 'Silver Shrimp Studios: Building My Business',
+        preview: `Hello Martingrove readers and future Silver Shrimp gamers. Silver Shrimp
+        Studios is my emerging video game design studio...`,
+        image: SilverShrimpStudios,
+        content: '',
+
+    },
+    {
+        author: 'Aiden Schreder',
+        authortag: 'aschreder',
+        date: '2023-04-10',
+        title: 'Silver Shrimp Studios: Building My Business',
+        preview: `Hello Martingrove readers and future Silver Shrimp gamers. Silver Shrimp
+        Studios is my emerging video game design studio...`,
+        image: SilverShrimpStudios,
+        content: '',
+
+    },
+    {
+        author: 'Aiden Schreder',
+        authortag: 'aschreder',
+        date: '2023-04-10',
+        title: 'Silver Shrimp Studios: Building My Business',
+        preview: `Hello Martingrove readers and future Silver Shrimp gamers. Silver Shrimp
+        Studios is my emerging video game design studio...`,
+        image: SilverShrimpStudios,
+        content: '',
+
+    },
+    {
+        author: 'Aiden Schreder',
+        authortag: 'aschreder',
+        date: '2023-04-10',
+        title: 'Silver Shrimp Studios: Building My Business',
+        preview: `Hello Martingrove readers and future Silver Shrimp gamers. Silver Shrimp
+        Studios is my emerging video game design studio...`,
+        image: SilverShrimpStudios,
+        content: '',
+
+    },
+    {
+        author: 'Aiden Schreder',
+        authortag: 'aschreder',
+        date: '2023-04-10',
+        title: 'Silver Shrimp Studios: Building My Business',
+        preview: `Hello Martingrove readers and future Silver Shrimp gamers. Silver Shrimp
+        Studios is my emerging video game design studio...`,
+        image: SilverShrimpStudios,
+        content: '',
+
+    },
+    {
+        author: 'Aiden Schreder',
+        authortag: 'aschreder',
+        date: '2023-04-10',
+        title: 'Silver Shrimp Studios: Building My Business',
+        preview: `Hello Martingrove readers and future Silver Shrimp gamers. Silver Shrimp
+        Studios is my emerging video game design studio...`,
+        image: SilverShrimpStudios,
+        content: '',
+
+    },
 
 
     

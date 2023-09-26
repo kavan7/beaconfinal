@@ -11,10 +11,32 @@ const AllArticles = () => {
   function slugify(title) {
     return title
       .toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
-      .replace(/\s+/g, '-') // Replace spaces with hyphens
-      .replace(/-+/g, '-'); // Remove consecutive hyphens
+      .replace(/[^a-z0-9\s-]/g, '') 
+      .replace(/\s+/g, '-') 
+      .replace(/-+/g, '-'); 
   }
+  
+  const [searchKeyword, setSearchKeyword] = useState("");
+  const [filteredArticles, setFilteredArticles] = useState(articles);
+
+  useEffect(() => {
+    
+    const filterArticles = () => {
+      const filtered = articles.filter(article =>
+        article.title.toLowerCase().includes(searchKeyword.toLowerCase())
+      );
+      setFilteredArticles(filtered);
+    };
+
+    filterArticles();
+  }, [searchKeyword]);
+
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevent the default form submission behavior
+    // Call the filtering function here
+    filterArticles();
+  };
+
   
     return (
       <motion.div
@@ -24,7 +46,17 @@ const AllArticles = () => {
         staggerContainer
         viewport={{once: true, amount: 0.25}}
         className={`${styles.padding} max-w-7xl mx-auto article-card-container z-0`}>
-        
+              <div>
+                      <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            placeholder="Search articles..."
+            value={searchKeyword}
+            onChange={(e) => setSearchKeyword(e.target.value)}
+          />
+          <button type="submit">Search</button>
+        </form>
+      </div>
         <div className="all">
           {articles.map((article, index) => (
             <Link to={`/articles/${article.date}-${slugify(article.title)}`} className="link">

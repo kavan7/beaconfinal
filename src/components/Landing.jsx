@@ -7,7 +7,7 @@ import articles from "../constants/Articles";
 import ReactMarkdown from 'react-markdown';
 import { styles } from "../styles";
 import { staggerContainer } from "../utils/motion";
-
+import { Card } from "flowbite-react";
 const Landing = () => {
   function slugify(title) {
     return title
@@ -113,33 +113,183 @@ const Landing = () => {
   </div>
   
     <div className="">
-  <Link to="./articles" className='allstories' id="all-link ">
-            View all stories
-            </Link>
+
             </div>
 
       
     </motion.div>
 
-    <Link to={`/articles/${articles[3].date}-${slugify(articles[3].title)}`} className="link">
-  {articles[3] && (
-        <div className="allstories" >
-        <div className="mini-article-container shadow-card ">
-         
-          <h3 className="article-title"id="mini">{articles[3].title}</h3>
-          <p className="article-author"id="mini">{articles[3].author}</p>
-          <h5 className="article-date"id="mini">{articles[3].date}</h5>
-          <div className="article-content"id="mini">
-            <ReactMarkdown className="article-description"id="mini">{articles[3].preview}</ReactMarkdown>
+    
+
+
+  <motion.div>
+  <Card>
+  
+      <div className="mb-4 flex items-center justify-between">
+        <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
+          
+          More stories
+          
+        </h5>
+        <Link to="./articles" className='allstories' id="all-link ">
+            View all 
+            </Link>
+      </div>
+     
+      <div className="flow-root w-[1030px] ml-[30px]">
+
+        <ul className="divide-y divide-gray-700 dark:divide-gray-700">
+                <li>
+                  <div>
+
+                  </div>
+                </li>
+              {articles[4] && (
+                <Link to={`/articles/${articles[4].date}-${slugify(articles[4].title)}`} className="link">
+                <li className="py-3 sm:py-4">
+                  
+                  <div className="flex items-center space-x-4">
+                    <div className="shrink-0">
+                    <p className="truncate text-sm font-normal text-gray-900 dark:text-white">
+                        {articles[4].author}  | 
+                      </p>
+                    
+                      
+                  
+                    </div>
+                    <div className="min-w-0 flex-1">
+                    <h3 className=" font-medium"id="mini">{articles[4].title}</h3>
+                    
+                    </div>
+                    <p className="truncate text-sm text-gray-500 dark:text-gray-400">
+                        {articles[4].date} 
+                      </p>
+                    <div className="inline-flex items-center text-base w-[50px] text-gray-900 dark:text-white">
+                    🔗
+                    </div>
+                  </div>
+                </li>
+                </Link>
+            )}
+                    {articles[5] && (
+                <Link to={`/articles/${articles[5].date}-${slugify(articles[5].title)}`} className="link">
+                <li className="py-3 sm:py-4">
+                  
+                  <div className="flex items-center space-x-4">
+                    <div className="shrink-0">
+                    <p className="truncate text-sm font-normal text-gray-900 dark:text-white">
+                        {articles[5].author}  | 
+                      </p>
+                    
+                      
+                  
+                    </div>
+                    <div className="min-w-0 flex-1">
+                    <h3 className=" font-medium"id="mini">{articles[5].title}</h3>
+                    
+                    </div>
+                    <p className="truncate text-sm text-gray-500 dark:text-gray-400">
+                        {articles[5].date} 
+                      </p>
+                    <div className="inline-flex items-center text-base w-[50px] text-gray-900 dark:text-white">
+                    🔗
+                    </div>
+                  </div>
+                </li>
+                </Link>
+            )}
+                          {articles[6] && (
+                <Link to={`/articles/${articles[6].date}-${slugify(articles[6].title)}`} className="link">
+                <li className="py-3 sm:py-4">
+                  
+                  <div className="flex items-center space-x-4">
+                    <div className="shrink-0">
+                    <p className="truncate text-sm font-normal text-gray-900 dark:text-white">
+                        {articles[6].author}  | 
+                      </p>
+                    
+                      
+                  
+                    </div>
+                    <div className="min-w-0 flex-1">
+                    <h3 className=" font-medium"id="mini">{articles[5].title}</h3>
+                    
+                    </div>
+                    <p className="truncate text-sm text-gray-500 dark:text-gray-400">
+                        {articles[6].date} 
+                      </p>
+                    <div className="inline-flex items-center text-base w-[50px] text-gray-900 dark:text-white">
+                    🔗
+                    </div>
+                  </div>
+                </li>
+                </Link>
+            )}
+                                      {articles[7] && (
+                <Link to={`/articles/${articles[7].date}-${slugify(articles[7].title)}`} className="link">
+                <li className="py-3 sm:py-4">
+                  
+                  <div className="flex items-center space-x-4">
+                    <div className="shrink-0">
+                    <p className="truncate text-sm font-normal text-gray-900 dark:text-white">
+                        {articles[7].author}  | 
+                      </p>
+                    
+                      
+                  
+                    </div>
+                    <div className="min-w-0 flex-1">
+                    <h3 className=" font-medium"id="mini">{articles[5].title}</h3>
+                    
+                    </div>
+                    <p className="truncate text-sm text-gray-500 dark:text-gray-400">
+                        {articles[7].date} 
+                      </p>
+                    <div className="inline-flex items-center text-base w-[50px] text-gray-900 dark:text-white">
+                    🔗
+                    </div>
+                  </div>
+                </li>
+                </Link>
+            )}
+
+                              {articles[8] && (
+                <Link to={`/articles/${articles[8].date}-${slugify(articles[8].title)}`} className="link">
+                <li className="py-3 sm:py-4">
+                  
+                  <div className="flex items-center space-x-4">
+                    <div className="shrink-0">
+                    <p className="truncate text-sm font-normal text-gray-900 dark:text-white">
+                        {articles[8].author}  | 
+                      </p>
+                    
+                      
+                  
+                    </div>
+                    <div className="min-w-0 flex-1">
+                    <h3 className=" font-medium"id="mini">{articles[5].title}</h3>
+                    
+                    </div>
+                    <p className="truncate text-sm text-gray-500 dark:text-gray-400">
+                        {articles[8].date} 
+                      </p>
+                    <div className="inline-flex items-center text-base w-[50px] text-gray-900 dark:text-white">
+                    🔗
+                    </div>
+                  </div>
+                </li>
+                </Link>
+            )}
+
             
-          </div>
-  
-        </div>
-        </div>
-  
-  
-  )}
-  </Link>
+
+              
+                
+      </ul>
+      </div>
+      
+    </Card>
+  </motion.div>
     </motion.section>
  
     </>
