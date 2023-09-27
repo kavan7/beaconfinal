@@ -12,9 +12,28 @@ import {
   columnist,
 } from "../constants/Members";
 import './Members.css'; // Import the CSS file
+import { motion } from 'framer-motion';
+import { staggerContainer } from '../utils/motion';
+import { textVariant } from '../utils/motion';
+import { styles } from '../styles';
+import { fadeIn } from '../utils/motion';
+
 
 const Members = () => {
   return (
+    <motion.section
+  
+    variants={staggerContainer()}
+    initial="hidden"
+    whileInView="show"
+    staggerContainer
+    viewport={{once: true, amount: 0.25}}
+    className="px-[100px]"
+   >
+       <motion.div
+      variants={fadeIn("right", "spring", 0.5, 0.75)}
+      className=''
+    >
     <div className="members-container">
       <Category title="Editors-in-Chief" members={editorsInChief} />
       <Category title="Managing Editor" members={managingEditor} />
@@ -27,7 +46,11 @@ const Members = () => {
       <Category title="Publicity Head" members={publicityHead} />
       <Category title="Columnist" members={columnist} />
       {/* Add more categories here */}
+      {/* 01001110 01100001 01101101 01100101 
+      78 97 109 101 */}
     </div>
+    </motion.div>
+    </motion.section>
   );
 }
 
@@ -53,6 +76,7 @@ const Category = ({ title, members }) => (
       ))}
     </ul>
   </div>
+ 
 );
 
 export default Members;
