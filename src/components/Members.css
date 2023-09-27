@@ -1,0 +1,80 @@
+/* Members.css */
+
+.members-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .category-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: calc(33.33% - 20px); /* Three columns with 20px gap */
+  }
+  
+  .category-title {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .member-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .member-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .member-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .member-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .member-name {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .member-link {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .member-link:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styles for each category */
+  .category-container.editors-in-chief {
+    background-color: #ffcc00; /* Change background color for Editors-in-Chief */
+  }
+  
+  .category-container.managing-editor {
+    background-color: #ff9900; /* Change background color for Managing Editor */
+  }
+  
+  /* Add similar styles for other categories */
+  
