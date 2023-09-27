@@ -16,8 +16,8 @@ function slugify(title) {
 function App() {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-hero-pattern bg-white">
-        <div className="bg-cover">
+      <div className="relative z-0 bg-hero-pattern bg-primary">
+        <div className="bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Routes>
             <Route path="/" element={<Landing />} />

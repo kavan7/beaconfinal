@@ -21,7 +21,7 @@
 
 .game {
   margin-top: -10px;
-  
+
 }
 
 .row {
@@ -84,11 +84,11 @@ h1 {
 
 .keyboard-key {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  width: 40px;
+  width: 50px;
   height: 40px;
-  border: 2px solid black;
+  border: 2.5px solid rgba(0, 0, 0, 0.355);
   border-radius: 5px;
-  background-color: #ffffff; /* Default key background color */
+  background-color: #ffffff51; /* Default key background color */
 
   display: flex;
   align-items: center;
