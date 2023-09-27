@@ -14,7 +14,8 @@
   
   /* Style for the article-list container */
   .article-list-container {
-    
+    max-height: 600px; /* Adjust the height as needed */
+  overflow-y: auto; 
     width: 780px;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -116,4 +117,20 @@
 }
 .link{
     text-decoration: none;
+}
+.filter-box{  
+  margin-bottom: 10px;
+  margin-left: 300px;
+}
+.text-input {
+  display: flex;
+  /* Optional: To align children vertically in the center */
+  align-items: center;
+  /* Optional: To add space between children */
+  justify-content: space-between;
+}
+.article-header{
+  font-size: 56px;
+  text-align: center;
+  justify-content: center;
 }
