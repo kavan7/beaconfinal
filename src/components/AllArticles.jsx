@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import "./AllArticles.css";
 import articles from "../constants/Articles";
 import ReactMarkdown from 'react-markdown';
-import { motion, AnimatePresence } from "framer-motion"; // Import AnimatePresence
-import { staggerContainer } from "../utils/motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
 import { textVariant } from "../utils/motion";
+import debounce from "lodash.debounce";
 
 const AllArticles = () => {
   function slugify(title) {
@@ -20,23 +20,24 @@ const AllArticles = () => {
   const [searchKeyword, setSearchKeyword] = useState("");
   const [filteredArticles, setFilteredArticles] = useState(articles);
 
-  useEffect(() => {
-    const filterArticles = () => {
-      const filtered = articles.filter((article) =>
-        article.title.toLowerCase().includes(searchKeyword.toLowerCase())
-      );
-      setFilteredArticles(filtered);
-    };
+  const filterArticles = () => {
+    const filtered = articles.filter((article) =>
+      article.title.toLowerCase().includes(searchKeyword.toLowerCase())
+    );
+    setFilteredArticles(filtered);
+  };
 
-    filterArticles();
-  }, [searchKeyword]);
+  // Debounce the filterArticles function
+  const debouncedFilterArticles = debounce(filterArticles, 300);
+
+  useEffect(() => {
+    debouncedFilterArticles();
+  }, [searchKeyword, debouncedFilterArticles]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Call filterArticles to update the filteredArticles state
-    filterArticles();
+    filterArticles(); // Call filterArticles directly in handleSubmit
   };
-
   return (
     <motion.div
       variants={textVariant()}
