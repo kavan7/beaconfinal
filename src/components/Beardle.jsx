@@ -290,7 +290,9 @@ className='' >
         <h1 className='bear'>Bear</h1>
         <h1 className='dle'>dle</h1>
       </div>
-      
+</motion.div>
+
+   <motion.div variants={textVariant()}> 
       {rows}
       <h1 className='error'>{message}</h1>
       <div className='keyboard'>
@@ -310,6 +312,20 @@ className='' >
       ))}
     </div>
   ))}
+</div>
+<div>
+  <h2>
+  &nbsp;
+  </h2>
+  <h2>
+  &nbsp;
+  </h2>
+  <h2>
+  &nbsp;
+  </h2>
+  <h2>
+  &nbsp;
+  </h2>
 </div>
 
       </motion.div>

@@ -4,11 +4,14 @@
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
   }
   
+
   .category-container {
-    background-color: #f0f0f077;
+    background-color: #f0f0f000;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -19,22 +22,25 @@
     font-size: 20px;
     margin: 0;
     padding-bottom: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #cccccc14;
   }
   
   .member-list {
     list-style: none;
     padding: 0;
   }
+
   
   .member-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #cccccc;
     padding-bottom: 10px;
+    
   }
+
   
   .member-info {
     display: flex;
@@ -51,6 +57,14 @@
   .member-name {
     font-size: 16px;
     margin: 0;
+  }
+  .member-role{
+    margin-top: 2px;
+    font-size:calc(40% + 7.5px); ;
+  }
+.member-card {
+    width: calc(40% - 100px); /* Two cards in a row with a 20px gap */
+    margin-bottom: 20px; /* Add some vertical spacing between rows */
   }
   
   .member-link {

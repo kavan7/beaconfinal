@@ -44,151 +44,159 @@ import {aidanSchreder,
 
 
 
-  export const editorsInChief = [
-    {
-      name: "Skyler Xiang",
-      badgebg: '#ff5733',
-      pfp: skylerXiang,
-      iglink: 'https://www.instagram.com/skchuylear/'
-    },
-    {
-      name: "Rababb Pannu",
-      badgebg: '#ff5733',
-      pfp: rababbPannu,
-      iglink: 'https://www.instagram.com/rababb_p/'
-    }
-    // Add more Editors-in-Chief as needed
-  ];
-  
-  export const managingEditor = [
-    {
-      name: "Madeline Li",
-      badgebg: '#ff5733',
-      pfp: defaultImage,
-      iglink: 'https://www.instagram.com/madelineli/'
-    }
-    // Add more Managing Editors as needed
-  ];
-  
-  export const copyEditors = [
-    {
-      name: "Amisha Ramiah",
-      badgebg: '#ff5733',
-      pfp: defaultImage,
-      iglink: 'https://www.instagram.com/amisharamiah/'
-    },
-    {
-      name: "Ryan Gordon",
-      badgebg: '#ff5733',
-      pfp: ryanGordon,
-      iglink: 'https://www.instagram.com/ryangordon/'
-    },
-    {
-      name: "Julia Beaman",
-      badgebg: '#ff5733',
-      pfp: juliaBeaman,
-      iglink: 'https://www.instagram.com/juliabeaman/'
-    }
-    // Add more Copy Editors as needed
-  ];
-  
-  export const layoutHead = [
-    {
-      name: "Eric Wu",
-      badgebg: '#ff5733',
-      pfp: defaultImage,
-      iglink: 'https://www.instagram.com/ericwu/'
-    }
-    // Add more Layout Heads as needed
-  ];
-  
-  export const comicsIllustrationsHead = [
-    {
-      name: "Ruchi Tilva",
-      badgebg: '#ff5733',
-      pfp: defaultImage,
-      iglink: 'https://www.instagram.com/ruchitilva/'
-    }
-    // Add more Comics/Illustrations Heads as needed
-  ];
-  
-  export const photographyHead = [
-    {
-      name: "Christine Lee",
-      badgebg: '#ff5733',
-      pfp: christineLee,
-      iglink: 'https://www.instagram.com/christinelee/'
-    }
-    // Add more Photography Heads as needed
-  ];
-  
-  export const webTeamHead = [
-    {
-      name: "Aidan Schreder",
-      badgebg: '#ff5733',
-      pfp: aidanSchreder,
-      iglink: 'https://www.instagram.com/aidanschreder/'
-    },
-    {
-      name: "Nathan Perlman",
-      badgebg: '#ff5733',
-      pfp: nathanPerlman,
-      iglink: 'https://www.instagram.com/nathanperlman/'
-    }
-    // Add more Web Team Heads as needed
-  ];
-  
-  export const secretary = [
-    {
-      name: "Kavya Vinod",
-      badgebg: '#ff5733',
-      pfp: defaultImage,
-      iglink: 'https://www.instagram.com/kavyavinod/'
-    },
-    {
-      name: "Nathan Perlman",
-      badgebg: '#ff5733',
-      pfp: nathanPerlman,
-      iglink: 'https://www.instagram.com/nathanperlman/'
-    }
-    // Add more Secretaries as needed
-  ];
-  
-  export  const publicityHead = [
-    {
-      name: "Ellie Jiang",
-      badgebg: '#ff5733',
-      pfp: ellieJiang,
-      iglink: 'https://www.instagram.com/elliejiang/'
-    }
-    // Add more Publicity Heads as needed
-  ];
-  
- export const columnist = [
-    {
-      name: "Nathan Tsui",
-      badgebg: '#ff5733',
-      pfp: defaultImage,
-      iglink: 'https://www.instagram.com/nathantsui/'
-    },
-    {
-      name: "Lukas Cousins",
-      badgebg: '#ff5733',
-      pfp: lukasCousins,
-      iglink: 'https://www.instagram.com/lukascousins/'
-    },
-    {
-      name: "Max Hutton",
-      badgebg: '#ff5733',
-      pfp: maxHutton,
-      iglink: 'https://www.instagram.com/maxhutton/'
-    },
-    {
-      name: "Aleksa Misic",
-      badgebg: '#ff5733',
-      pfp: defaultImage,
-      iglink: 'https://www.instagram.com/aleksamisic/'
-    }
-    // Add more Columnists as needed
-  ];
-  
+export const members = [
+  // Editors-in-Chief
+  {
+    role: "Editors-in-Chief",
+    name: "Skyler Xiang",
+    pfp: skylerXiang,
+    iglink: 'https://www.instagram.com/skchuylear/',
+    
+  },
+  {
+    role: "Editors-in-Chief",
+    name: "Rababb Pannu",
+    pfp: rababbPannu,
+    iglink: 'https://www.instagram.com/rababb_p/',
+    
+  },
+  // Add more Editors-in-Chief as needed
+
+  // Managing Editor
+  {
+    role: "Managing Editor",
+    name: "Madeline Li",
+    pfp: defaultImage,
+    iglink: 'https://www.instagram.com/madelineli/',
+    
+  },
+  // Add more Managing Editors as needed
+
+  // Copy Editors
+  {
+    role: "Copy Editor",
+    name: "Amisha Ramiah",
+    pfp: defaultImage,
+    iglink: 'https://www.instagram.com/amisharamiah/',
+    
+  },
+  {
+    role: "Copy Editor",
+    name: "Ryan Gordon",
+    pfp: ryanGordon,
+    iglink: 'https://www.instagram.com/ryangordon/',
+    
+  },
+  {
+    role: "Copy Editor",
+    name: "Julia Beaman",
+    pfp: juliaBeaman,
+    iglink: 'https://www.instagram.com/juliabeaman/',
+    
+  },
+  {
+    role: "Copy Editor",
+    name: "Eric Wu",
+    pfp: defaultImage,
+    iglink: 'https://www.instagram.com/ericwu/',
+    
+  },
+  // Add more Layout Heads as needed
+
+  // Comics/Illustrations Head
+  {
+    role: "Comics/Illustrations Head",
+    name: "Ruchi Tilva",
+    pfp: defaultImage,
+    iglink: 'https://www.instagram.com/ruchitilva/',
+    
+  },
+  // Add more Comics/Illustrations Heads as needed
+
+  // Photography Head
+  {
+    role: "Photography Head",
+    name: "Christine Lee",
+    pfp: christineLee,
+    iglink: 'https://www.instagram.com/christinelee/',
+    
+  },
+  // Add more Photography Heads as needed
+
+  // Web Team Head
+  {
+    role: "Web Team Head",
+    name: "Aidan Schreder",
+    pfp: aidanSchreder,
+    iglink: 'https://www.instagram.com/aidanschreder/',
+    
+  },
+  {
+    role: "Web Team Head",
+    name: "Nathan Perlman",
+    pfp: nathanPerlman,
+    iglink: 'https://www.instagram.com/nathanperlman/',
+    
+  },
+  // Add more Web Team Heads as needed
+
+  // Secretary
+  {
+    role: "Secretary",
+    name: "Kavya Vinod",
+    pfp: defaultImage,
+    iglink: 'https://www.instagram.com/kavyavinod/',
+    
+  },
+  {
+    role: "Secretary",
+    name: "Nathan Perlman",
+    pfp: nathanPerlman,
+    iglink: 'https://www.instagram.com/nathanperlman/',
+    
+  },
+  // Add more Secretaries as needed
+
+  // Publicity Head
+  {
+    role: "Publicity Head",
+    name: "Ellie Jiang",
+    pfp: ellieJiang,
+    iglink: 'https://www.instagram.com/elliejiang/',
+    
+  },
+  // Add more Publicity Heads as needed
+
+  // Columnist
+  {
+    role: "Columnist",
+    name: "Nathan Tsui",
+    pfp: defaultImage,
+    iglink: 'https://www.instagram.com/nathantsui/',
+    
+  },
+  {
+    role: "Columnist",
+    name: "Lukas Cousins",
+    pfp: lukasCousins,
+    iglink: 'https://www.instagram.com/lukascousins/',
+    
+  },
+  {
+    role: "Columnist",
+    name: "Max Hutton",
+    pfp: maxHutton,
+    iglink: 'https://www.instagram.com/maxhutton/',
+    
+  },
+  {
+    role: "Columnist",
+    name: "Aleksa Misic",
+    pfp: defaultImage,
+    iglink: 'https://www.instagram.com/aleksamisic/',
+    
+  },
+  // Add more Columnists as needed
+
+  // Continue adding members for other roles
+];

@@ -60,6 +60,7 @@ const Landing = () => {
 </Link>
 
 <div className="mini-container">
+<motion.div variants={textVariant()}>
 <Link to={`/articles/${articles[1].date}-${slugify(articles[1].title)}`} className="link">
 {articles[1] && (
         
@@ -78,6 +79,8 @@ const Landing = () => {
   
   )}
   </Link>
+  </motion.div>
+  <motion.div variants={textVariant()}>
   <Link to={`/articles/${articles[2].date}-${slugify(articles[2].title)}`} className="link">
   {articles[2] && (
         
@@ -95,7 +98,10 @@ const Landing = () => {
   
   
   )}
+ 
 </Link>
+</motion.div>
+<motion.div variants={textVariant()}>
 <Link to={`/articles/${articles[3].date}-${slugify(articles[3].title)}`} className="link">
   {articles[3] && (
         
@@ -114,6 +120,7 @@ const Landing = () => {
   
   )}
   </Link>
+  </motion.div>
   </div>
   
     <div className="">

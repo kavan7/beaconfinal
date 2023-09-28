@@ -75,7 +75,10 @@ const Contact = () => {
         <motion.div variants={textVariant()}
          className='ml-[5%] flex-[0.45] contact-card-container p-8'>         
           <h5 className=' text-gray-500'>Send a message to the editors!</h5>
+          <motion.div variants={textVariant()}
+         className=''>  
           <h3 className={styles.sectionHeadText} >Contact.</h3>
+          </motion.div>
 
           <form
           ref={formRef}
