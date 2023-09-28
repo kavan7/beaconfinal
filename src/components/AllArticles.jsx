@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion"; // Import AnimatePresen
 import { staggerContainer } from "../utils/motion";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
+import { textVariant } from "../utils/motion";
 
 const AllArticles = () => {
   function slugify(title) {
@@ -38,13 +39,15 @@ const AllArticles = () => {
 
   return (
     <motion.div
-      variants={staggerContainer()}
+      variants={textVariant()}
       staggerContainer
       viewport={{ once: true, amount: 0.25 }}
       className={`${styles.padding} max-w-7xl mx-auto article-card-container z-0`}
     >
       <div className="text-input">
-        <h1 className="article-header">Articles</h1>
+     
+          <h3 className={`${styles.sectionHeadText} mr-[-150px] ml-[-30px]`} >Articles.</h3>
+         
         <form onSubmit={handleSubmit}>
           <input className="filter-box"
             type="text"
