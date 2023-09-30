@@ -1,33 +1,42 @@
 import React, { useState, useEffect } from "react";
 import "./AllArticles.css";
 import articles from "../constants/Articles";
-import ReactMarkdown from 'react-markdown';
+import ReactMarkdown from "react-markdown";
 import { motion, AnimatePresence } from "framer-motion";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
-import { textVariant } from "../utils/motion";
 import debounce from "lodash.debounce";
+import { filter } from "../assets/images/special/index";
+import members from "../constants/Members";
 
 const AllArticles = () => {
   function slugify(title) {
     return title
       .toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/-+/g, '-');
+      .replace(/[^a-z0-9\s-]/g, "")
+      .replace(/\s+/g, "-")
+      .replace(/-+/g, "-");
   }
 
   const [searchKeyword, setSearchKeyword] = useState("");
+  const [selectedMember, setSelectedMember] = useState(""); // State for selected member
+  const [isFilterPopupOpen, setIsFilterPopupOpen] = useState(true); // State for filter popup
   const [filteredArticles, setFilteredArticles] = useState(articles);
 
   const filterArticles = () => {
-    const filtered = articles.filter((article) =>
+    let filtered = articles.filter((article) =>
       article.title.toLowerCase().includes(searchKeyword.toLowerCase())
     );
+
+    if (selectedMember) {
+      filtered = filtered.filter((article) => article.author === selectedMember);
+    }
+
+    // You can add more filters for article date here if needed
+
     setFilteredArticles(filtered);
   };
 
-  // Debounce the filterArticles function
   const debouncedFilterArticles = debounce(filterArticles, 300);
 
   useEffect(() => {
@@ -36,47 +45,83 @@ const AllArticles = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    filterArticles(); // Call filterArticles directly in handleSubmit
+    filterArticles();
   };
+
+
+
+  const handleMemberChange = (e) => {
+    setSelectedMember(e.target.value);
+  };
+
   return (
     <motion.div
-      variants={textVariant()}
-      staggerContainer
-      viewport={{ once: true, amount: 0.25 }}
       className={`${styles.padding} max-w-7xl mx-auto article-card-container z-0`}
     >
-      <div className="text-input">
-     
-          <h3 className={`${styles.sectionHeadText} mr-[-150px] ml-[-30px]`} >Articles.</h3>
-         
+      <h3 className={`${styles.sectionHeadText} mr-[-150px] ml-[-30px]`}>Articles.</h3>
+      
+
+      {isFilterPopupOpen && (
+        <div className="filter-popup">
+          <h4>Filter by:</h4>
+          <div className="text-input">
+          
         <form onSubmit={handleSubmit}>
-          <input className="filter-box"
+          <input
+            className="filter-box"
             type="text"
             placeholder="Search articles..."
             value={searchKeyword}
             onChange={(e) => setSearchKeyword(e.target.value)}
           />
         </form>
+        
       </div>
+          
+          <select
+  name="memberFilter"
+  id="memberFilter"
+  value={selectedMember}
+  onChange={handleMemberChange}
+>
+  <option value="">All Members</option>
+  {members.map((member, index) => (
+    <option value={member.name} key={index}>
+      {member.name}
+    </option>
+  ))}
+  
+</select>
+
+
+          {/* You can add more filter options for article date here */}
+        </div>
+      )}
+
       <div className="all">
         <AnimatePresence>
           {filteredArticles.map((article, index) => (
-            <Link to={`/articles/${article.date}-${slugify(article.title)}`} className="link" key={index}>
+            <Link
+              to={`/articles/${article.date}-${slugify(article.title)}`}
+              className="link"
+              key={index}
+            >
               <motion.div
                 className="article-list-container shadow-card"
                 id={article.title}
-                initial={{ opacity: 0, y: 20 }} // Initial state (hidden and slightly below)
-                animate={{ opacity: 1, y: 0 }} // Animation when entering
-                exit={{ opacity: 0, y: -20 }} // Animation when exiting
-                transition={{ duration: 0.3 }} // Animation duration
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.3 }}
               >
                 <div>
                   <h3 className="article-list-title">{article.title}</h3>
                   <h5 className="article-list-author">{article.author}</h5>
                   <h5 className="article-list-date">{article.date}</h5>
                   <div className="article-list-content">
-                    {/* Assuming articles[i].preview is Markdown content */}
-                    <ReactMarkdown className="article-list-description">{article.preview}</ReactMarkdown>
+                    <ReactMarkdown className="article-list-description">
+                      {article.preview}
+                    </ReactMarkdown>
                   </div>
                 </div>
                 <div>

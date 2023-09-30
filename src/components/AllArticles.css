@@ -128,9 +128,60 @@
   align-items: center;
   /* Optional: To add space between children */
   justify-content: space-between;
+  margin-left: -300px;
+  
 }
 .article-header{
   font-size: 56px;
   text-align: center;
   justify-content: center;
+  margin-top: -20px;
 }
+.filter-icon{
+  margin-left: 30px;
+  width: 30px;
+  filter: opacity(50%); 
+  transition: .3s;
+  cursor: pointer;
+}
+.filter-icon:hover{
+  filter: opacity(75%); 
+  scale: 1.04;
+}
+/* Style for the filter popup container */
+.filter-popup {
+  background-color: #fff; /* Background color */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation */
+  padding: 20px; /* Spacing inside the container */
+  position: absolute;
+  top: 290px; /* Adjust as needed to align vertically with the icon */
+  left: 65%; /* Position the menu to the right of the icon */
+  z-index: 1; /* Ensure it's above other elements */
+}
+
+/* Style for the filter label */
+.filter-popup h4 {
+  font-size: 16px;
+  margin-bottom: 10px; /* Spacing below the label */
+}
+
+/* Style for the select dropdown */
+.filter-popup select {
+  width: 100%; /* Full width of the container */
+  padding: 10px; /* Spacing inside the select box */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #fff; /* Background color */
+  font-size: 14px;
+  color: #333; /* Text color */
+}
+
+/* Style for the options within the select dropdown */
+.filter-popup select option {
+  font-size: 14px;
+}
+
+/* Style for the Apply button or additional filter options if added */
+/* You can add more CSS rules here based on your specific design */

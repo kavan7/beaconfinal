@@ -1,7 +1,7 @@
 import SilverShrimpStudios from '../assets/images/2023-04-10-Silver-Shrimp-Studios-Building-My-Business.jpg'
 const articles = [
     {
-        author: 'Aiden Schreder',
+        author: 'Aidan Schreder',
         authortag: 'aschreder',
         date: '2023-04-10',
         title: 'Silver Shrimp Studios: Building My Business',
@@ -18,7 +18,7 @@ const articles = [
 
     },
     {
-        author: 'Aiden Schreder',
+        author: 'Aidan Schreder',
         authortag: 'aschreder',
         date: '2023-04-10',
         title: 'Silver Shrimp Studios: Building My Business',
@@ -29,7 +29,7 @@ const articles = [
 
     },
     {
-        author: 'Aiden Schreder',
+        author: 'Aidan Schreder',
         authortag: 'aschreder',
         date: '2023-04-10',
         title: 'Silver Shrimp Studios: Building My Business',
@@ -40,7 +40,7 @@ const articles = [
 
     },
     {
-        author: 'Aiden Schreder',
+        author: 'Aidan Schreder',
         authortag: 'aschreder',
         date: '2023-04-10',
         title: 'Silver Shrimp Studios: Building My Business',
@@ -65,7 +65,7 @@ const articles = [
         
     },
     {
-        author: 'Aiden Schreder',
+        author: 'Aidan Schreder',
         authortag: 'aschreder',
         date: '2023-04-10',
         title: 'Silver Shrimp Studios: Building My Business',
@@ -76,7 +76,7 @@ const articles = [
 
     },
     {
-        author: 'Aiden Schreder',
+        author: 'Aidan Schreder',
         authortag: 'aschreder',
         date: '2023-04-10',
         title: 'Silver Shrimp Studios: Building My Business',
@@ -87,7 +87,7 @@ const articles = [
 
     },
     {
-        author: 'Aiden Schreder',
+        author: 'Aidan Schreder',
         authortag: 'aschreder',
         date: '2023-04-10',
         title: 'Silver Shrimp Studios: Building My Business',
@@ -98,7 +98,7 @@ const articles = [
 
     },
     {
-        author: 'Aiden Schreder',
+        author: 'Aidan Schreder',
         authortag: 'aschreder',
         date: '2023-04-10',
         title: 'Silver Shrimp Studios: Building My Business',
@@ -109,7 +109,7 @@ const articles = [
 
     },
     {
-        author: 'Aiden Schreder',
+        author: 'Aidan Schreder',
         authortag: 'aschreder',
         date: '2023-04-10',
         title: 'Silver Shrimp Studios: Building My Business',
@@ -120,7 +120,7 @@ const articles = [
 
     },
     {
-        author: 'Aiden Schreder',
+        author: 'Aidan Schreder',
         authortag: 'aschreder',
         date: '2023-04-10',
         title: 'Silver Shrimp Studios: Building My Business',
@@ -131,7 +131,7 @@ const articles = [
 
     },
     {
-        author: 'Aiden Schreder',
+        author: 'Aidan Schreder',
         authortag: 'aschreder',
         date: '2023-04-10',
         title: 'Silver Shrimp Studios: Building My Business',

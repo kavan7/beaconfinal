@@ -196,7 +196,6 @@ export const members = [
     iglink: 'https://www.instagram.com/aleksamisic/',
     
   },
-  // Add more Columnists as needed
-
-  // Continue adding members for other roles
+  
 ];
+export default members;
