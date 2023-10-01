@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   margin: 0;
   padding: 0;
@@ -12,82 +11,66 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: light;
-
- 
-
 }
 
-
-.header{
-  
+.header {
   height: 86.89px;
   padding-bottom: 10px;
   padding-top: 10px;
-  
 }
 
 @media (max-width: 768px) {
   .header {
     width: 250px;
-    height: auto; 
+    height: auto;
   }
 }
 
-.header-container{
+.header-container {
   display: flex;
   justify-content: center;
-  
 }
 
-.line{
-  width:100%;
+.line {
+  width: 100%;
   margin-bottom: 5px;
-  
   border-bottom: 1.7px solid rgba(27, 26, 26, 0.157);
   padding-bottom: 7px;
-
   margin-left: 0px;
-  
 }
 
-.links-container{
+.links-container {
   list-style-type: none;
   margin: 0;
   padding: 0;
-
-  
 }
-.link-stuff{
+
+.link-stuff {
   display: flex;
   justify-content: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-
 }
-.links{
+
+.links {
   float: left;
   padding-left: 15px;
   padding-right: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
-  
-  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media (max-width: 768px) {
-.links{
-  
-  float: left;
-  padding-left: 7px;
-  padding-right: 7px;
-  font-family: 'Georgia', sans-serif;
+  .links {
+    float: left;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-family: 'Georgia', sans-serif;
+  }
 }
-}
-
 
 .page-link {
- 
   font-weight: 300;
   font-size: 15px;
   display: block;
@@ -95,33 +78,31 @@
   text-align: center;
   padding: 0px 0px;
   text-decoration: none;
-  position: relative; /* Add position relative to the link container */
-  transition: color 0.3s ease-in-out; /* Add transition for text color */
-
+  position: relative;
+  transition: color 0.3s ease-in-out;
 
 }
 
 .page-link::after {
   content: "";
   display: block;
-  width: 0; /* Set initial width to 0 */
-  height: 2px; /* Set the desired underline thickness */
-  background-color: transparent; /* Initial color is transparent */
+  width: 0;
+  height: 2px;
+  background-color: transparent;
   position: absolute;
   bottom: 0;
-  left: 50%; /* Start the underline from the center */
-  transform: translateX(-50%); /* Center the underline */
-  
-  transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Add transitions for width and background-color */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .page-link:hover {
-  color: rgb(255, 64, 0); /* Change the text color to orange on hover */
+  color: rgb(255, 64, 0);
 }
 
 .page-link:hover::after {
-  width: 100%; /* Expand the underline to 100% on hover */
-  background-color: rgb(248, 190, 139); /* Change the underline color to orange on hover */
+  width: 100%;
+  background-color: rgb(248, 190, 139);
 }
 
 @keyframes slideInFromLeft {
@@ -133,56 +114,52 @@
   }
 }
 
-.bg-hero-pattern{
- 
-  
+.bg-hero-pattern {
   background-color: #fcfcfc;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4.5' height='4.5' viewBox='0 0 4 4'%3E%3Cpath fill='%23cfcfcf' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
+
 /* Style for the container that holds the article card */
 .article-card-container {
-  width:  30%; /* 3/5 of the width */
+  width: 30%;
   margin-left: 23%;
- 
-  margin-top: 0px; /* Remove any default margin */
+  margin-top: 0px;
   box-shadow: #555;
-  display: flex; /* Add flex display to center vertically */
-  flex-direction: column; /* Stack child elements vertically */
-  align-items: center; /* Center horizontally */
-  transition: 0.3s; /* Add transition for width change */
-
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s;
 }
-.flex-row{
+
+.flex-row {
   display: flex;
   justify-content: space-between;
 }
 
 .table-container {
-  flex: 1; /* Allow the table container to grow and take available space */
-  margin-left: 20px; /* Add some spacing between the article and table */
+  flex: 1;
+  margin-left: 20px;
 }
+
 .mini-article-row {
-  display: flex; /* Display mini articles in a row */
-  justify-content: space-between; /* Distribute space between mini articles */
-  margin-bottom: 20px; /* Add some margin between rows */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
+
 /* Style for the article container */
 .article-container {
   flex: 1;
-  width: 1100px;
+  width: 950px;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 25px;
   box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
   display: flex;
-  /* Optional: To align items vertically in the center */
-  margin-left: 100px;
+  margin-left: -55px;
   align-items: center;
   transition: .3s;
-  /* Remove 'flex: 1' to prevent it from taking up remaining space */
-  /* Add any additional styles you want for the article container */
 }
 
 /* Style for the article title */
@@ -194,12 +171,10 @@
   margin-bottom: 10px;
   transition: .3s;
 }
-.article-image{
+
+.article-image {
   width: 2400px;
   margin-left: 10px;
-
-
-
 }
 
 .article-author {
@@ -209,7 +184,6 @@
   margin-bottom: 10px;
 }
 
-
 .article-content {
   font-size: 1.1rem;
   line-height: 1.5;
@@ -217,30 +191,22 @@
   text-decoration: none;
 }
 
-
 .article-description {
   text-decoration: none;
   font-size: 0.9rem;
   color: #5f5f5f;
   margin-top: 6px;
-  
 }
+
 /* Style for the article container with hover effect */
-.article-container{
-  animation: 0.5s ease-out 0s 1 slideInFromLeft;
-}
 .article-container:hover {
   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.18);
   scale: 1.05;
- 
-
- 
 }
 
 /* Style for the article title with hover effect */
 .article-container:hover .article-title {
   color: rgb(113, 59, 15);
-  
 }
 
 /* Rest of your CSS remains the same */
@@ -250,63 +216,54 @@
   box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.18);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.18);
   scale: 1.05;
-  
 }
 
 .mini-article-container:hover .article-title {
   color: rgb(113, 59, 15);
-  
 }
 
-
 @media (max-width: 768px) {
-  .links{
-    
+  .links {
     float: left;
     padding-left: 7px;
     padding-right: 7px;
-    
   }
-  .article-card-container{
+  .article-card-container {
     width: 80%;
-    
   }
-  .article-title{
+  .article-title {
     font-size: medium;
   }
 }
 
-.article-date{
+.article-date {
   text-decoration: none;
   font-size: 0.8rem;
   color: #777;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-bottom: 2px;
 }
-.mini-container{
+
+.mini-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   list-style-type: none;
-  margin-left: 86px;
+  margin-left: -70px;
   padding-top: 40px;
-  
-  width: 1128px;
+  width: 973px;
   border: #555;
   border: 3px;
   margin-bottom: 30px;
   height: auto;
-  
-  
-
 }
-.mini-article-image {
 
+.mini-article-image {
   display: flex;
   align-items: center;
-  margin-left: auto; /* Center horizontally using margin-left */
-  margin-right: auto; /* Center horizontally using margin-right */
-  width: 100%; /* Adjust the width as needed */
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .mini-article-container {
@@ -314,71 +271,86 @@
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
-  
   margin-left: 15px;
   margin-right: 15px;
   box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
   height: auto;
-  
   transition: .3s;
-  /* Remove 'flex: 1' to prevent it from taking up remaining space */
-  /* Add any additional styles you want for the article container */
 }
-#mini{
+
+#mini {
   margin-left: 15px;
 }
-#all-link{
+
+#all-link {
   font-size: 18px;
   text-align: left;
 }
 
-.buttoncontainer{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-  
+.buttoncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
-.allstories{
-  
+
+.allstories {
   text-align: center;
   margin-top: 0;
-  
   display: inline-block;
   padding-left: 9px;
   padding-right: 9px;
   padding-top: 7px;
   padding-bottom: 7px;
   margin-left: 10px;
-  background-color: #7d5235; /* Change the background color to your preferred color */
-  color: #fff; /* Text color */
+  background-color: #7d5235;
+  color: #fff;
   font-size: 16px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  transition: 0.4s ;
-  align-items: center;
-  
 }
 
-/* Hover effect for the button */
 .allstories:hover {
   background-color: #593f2d;
   scale: 1.1;
-  
-  
-
 }
-.more-stories{
+
+.more-stories {
   margin-left: 100px;
 }
-.font-medium{
+
+.font-medium {
   transition: .3s;
 }
-.font-medium:hover{
+
+.font-medium:hover {
   color: rgb(255, 115, 0);
   scale: 1.02;
+}
+
+/* Style for the Google Calendar container */
+.calendar-embed {
+  width: 450px;
+  height: 600px;
+  
+}
+.google-calendar-container{
+  width: 450px;
+  margin-left: 1370px;
+  margin-top: -830px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar {
+  display: inline-block;
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+.title-header{
+  margin-bottom: 100px;
 }
