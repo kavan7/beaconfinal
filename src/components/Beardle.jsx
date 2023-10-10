@@ -100,8 +100,8 @@ function Beardle() {
             setGuess(true);
             revealError();
           }
-          else if (currentRow === 5) {
-            setMessage("YOU LOSE 😔")
+          else if (currentRow === 4) {
+            setMessage("YOU LOSE 😔, Word was: " + chosen)
             revealError();
             setGuess(true);
             return;

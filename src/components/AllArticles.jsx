@@ -63,7 +63,7 @@ const AllArticles = () => {
 
       {isFilterPopupOpen && (
         <div className="filter-popup">
-          <h4>Filter by:</h4>
+          <h4>Filter by:</h4> 
           <div className="text-input">
           
         <form onSubmit={handleSubmit}>
