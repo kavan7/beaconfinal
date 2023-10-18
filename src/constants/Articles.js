@@ -12,10 +12,6 @@ const articles = [
         my first game, “Phytopia”, and plans for its expansive future.`,
         image: SilverShrimpStudios,
         content: '',
-        
-        
-
-
     },
     {
         author: 'Aidan Schreder',
@@ -141,6 +137,16 @@ const articles = [
         content: '',
 
     },
+    {
+        author: 'Rababb Pannu',
+        authortag: 'rpannu',
+        date: '2023-04-11',
+        title: 'Scammers And Frauds-The Joke Known as The SAC',
+        preview: `Hello Martingrove readers and future Silver Shrimp gamers. Silver Shrimp
+        Studios is my emerging video game design studio...`,
+        image: SilverShrimpStudios,
+        content: '',
+    }
 
 
     

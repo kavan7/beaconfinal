@@ -20,7 +20,7 @@ const Members = () => {
     >
       <motion.div variants={textVariant()}
 className='' >
-      <div className="members-container ">
+      <div className="eic-container ">
         {members.map((member, index) => (
           <div className="member-card" key={index}>
             <div className="bg-gray-100 py-4 px-6 placeholder:text-gray-500 focus:outline-none text-gray-900 rounded-lg outlined-none border-none font-medium">

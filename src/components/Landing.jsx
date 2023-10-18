@@ -97,10 +97,7 @@ const Landing = () => {
           </div>
         </motion.div>
 
-        <div className="google-calendar-container">
-          <h1 className='title-header'>MCI Beacon</h1>
-          <GoogleCalendarEmbed />
-        </div>
+       
 
         <motion.div>
           <Card className="more-stories mr-[6px]">
