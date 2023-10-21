@@ -28,9 +28,9 @@ const Landing = () => {
         whileInView="show"
         staggerContainer
         viewport={{ once: true, amount: 0.25 }}
-        className={`${styles.padding} article-card-container`}
+        className={`${styles.padding} article-card-container relative w-full h-[480px] sm:h-[650px] bg-hero-pattern`}
       >
-        <motion.div variants={textVariant()}>
+        <motion.div variants={textVariant() }>
           <Link to={`/articles/${mostRecentArticle.date}-${slugify(mostRecentArticle.title)}`} className="link">
             {mostRecentArticle && (
               <div className="article-container shadow-card">
@@ -49,7 +49,7 @@ const Landing = () => {
             )}
           </Link>
           <div className="mini-container">
-            <motion.div variants={textVariant()}>
+            <motion.div variants={textVariant()} >
               <Link to={`/articles/${articles[1].date}-${slugify(articles[1].title)}`} className="link">
                 {articles[1] && (
                   <div className="mini-article-container shadow-card ">
@@ -99,7 +99,7 @@ const Landing = () => {
 
        
 
-        <motion.div>
+        <motion.div className=''>
           <Card className="more-stories mr-[6px]">
             <div className="mb-4 flex items-center justify-between">
               <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">More stories</h5>

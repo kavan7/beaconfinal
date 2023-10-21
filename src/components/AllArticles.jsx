@@ -56,7 +56,7 @@ const AllArticles = () => {
 
   return (
     <motion.div
-      className={`${styles.padding} max-w-7xl mx-auto article-card-container z-0`}
+      className={`${styles.padding} max-w-7xl bg-all-hero-pattern mx-auto article-card-container z-0 height-700vh`}
     >
       <h3 className={`${styles.sectionHeadText} mr-[-150px] ml-[-30px]`}>Articles.</h3>
       

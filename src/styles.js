@@ -12,7 +12,7 @@ const styles = {
   sectionHeadText:
     "text-gray font-extrabold md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:
-    "sm:text-[28px] text-[18px] text-secondary uppercase tracking-wider",
+    "sm:text-[28px] text-[18px]   underline uppercase tracking-wider",
 };
 
 export { styles };
