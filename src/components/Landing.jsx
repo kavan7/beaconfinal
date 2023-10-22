@@ -8,6 +8,7 @@ import { styles } from "../styles";
 import { staggerContainer } from "../utils/motion";
 import { Card } from "flowbite-react";
 import GoogleCalendarEmbed from "./GoogleCalendarEmbed";
+import featured from '../constants/featured';
 
 const Landing = () => {
   function slugify(title) {
@@ -100,12 +101,12 @@ const Landing = () => {
        
 
         <motion.div>
-          <Card className="more-stories mr-[6px]">
+          <Card className="more-stories mr-[12px]">
             <div className="mb-4 flex items-center justify-between">
               <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">More stories</h5>
               <Link to="./articles" className='allstories rounded-2xl' id="all-link ">View all</Link>
             </div>
-            <div className="flow-root divide-y w-[1022px] ml-[30px]">
+            <div className="flow-root divide-y w-[1000px] ml-[0px]">
               <ul className="divide-y divide-gray-700 dark:divide-gray-700">
                 <li>
                   <div></div>
@@ -227,9 +228,36 @@ const Landing = () => {
                 )}
               </ul>
             </div>
+            
           </Card>
+          
         </motion.div>
       </motion.section>
+      
+      <Card className='features'>
+        <h1 className='fhead'>Featured</h1>
+          {featured.map((featured, index) => (
+              <div>
+                <Link to={`/articles/${featured.date}-${slugify(featured.title)}`} className="link">
+                <ul className="divide-y divide-gray-700 dark:divide-gray-700">
+                <li className="py-3 sm:py-4">
+                      <div className="flex items-center space-x-4">
+                        <div className="shrink-0">
+                          <h5 className="truncate text-sm font-normal text-gray-900 dark:text-white">
+                            {featured.author} |
+                          </h5>
+                        </div>
+                        <div className="min-w-0 flex-1">
+                          <h3 className=" font-medium" id="mini">{featured.title}</h3>
+                        </div>
+                        
+                      </div>
+                    </li>
+                    </ul>
+                </Link>
+              </div>
+            ))}
+            </Card>
     </>
   );
 }

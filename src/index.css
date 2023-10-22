@@ -123,7 +123,7 @@
 /* Style for the container that holds the article card */
 .article-card-container {
   width: 30%;
-  margin-left: 23%;
+  margin-left: 21%;
   margin-top: 0px;
   box-shadow: #555;
   display: flex;
@@ -146,21 +146,23 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  
 }
 
 /* Style for the article container */
 .article-container {
   flex: 1;
-  width: 950px;
+  width: 1050px;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 25px;
   box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
   display: flex;
-  margin-left: -55px;
+  margin-left: 35px;
   align-items: center;
   transition: .3s;
+
 }
 
 /* Style for the article title */
@@ -201,13 +203,13 @@
 
 /* Style for the article container with hover effect */
 .article-container:hover {
-  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.18);
-  scale: 1.05;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.18);
+  scale: 1.03;
 }
 
 /* Style for the article title with hover effect */
 .article-container:hover .article-title {
-  color: rgb(113, 59, 15);
+  color: rgb(197, 101, 23);
 }
 
 /* Rest of your CSS remains the same */
@@ -215,12 +217,12 @@
 /* Apply the same styles to the mini-article containers */
 .mini-article-container:hover {
   box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.18);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.18);
-  scale: 1.05;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.18);
+  scale: 1.03;
 }
 
 .mini-article-container:hover .article-title {
-  color: rgb(113, 59, 15);
+  color: rgb(197, 101, 23);
 }
 
 @media (max-width: 768px) {
@@ -250,9 +252,9 @@
   justify-content: flex-start;
   align-items: center;
   list-style-type: none;
-  margin-left: -70px;
+  margin-left: 23px;
   padding-top: 40px;
-  width: 973px;
+  width: 1060px;
   border: #555;
   border: 3px;
   margin-bottom: 30px;
@@ -268,12 +270,12 @@
 }
 
 .mini-article-container {
-  width: 93%;
+  width: 97%;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 12px;
+  margin-right: 0px;
   box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
   height: auto;
   transition: .3s;
@@ -320,7 +322,8 @@
 }
 
 .more-stories {
-  margin-left: 100px;
+  margin-left: 50px;
+  width: 1050px;
 }
 
 .font-medium {
@@ -354,4 +357,18 @@
 }
 .title-header{
   margin-bottom: 100px;
+}
+.features{
+  margin-left: 74%;
+  width: 24%;
+}
+.fhead{
+  font-weight: bold;
+  font-size: 32px;
+  
+  text-align: center;
+}
+.features{
+  margin-top: -1335px;
+  position:sticky;
 }
