@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import articles from './constants/Articles';
 import Article from './components/Article';
+import './index.css'
 import { About, AllArticles, Beardle, Contact, Landing, Members, Navbar } from './components';
 
 function slugify(title) {
@@ -17,7 +18,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-hero-pattern bg-primary">
-        <div className=" bg-center">
+        <div className="">
           <Navbar />
           <Routes>
             <Route path="/" element={<Landing />} />
