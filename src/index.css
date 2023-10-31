@@ -361,14 +361,13 @@
 .features{
   margin-left: 74%;
   width: 24%;
+  margin-top: -1337px;
+  position:fixed;
+
 }
 .fhead{
   font-weight: bold;
   font-size: 32px;
   
   text-align: center;
-}
-.features{
-  margin-top: -1335px;
-  position:sticky;
 }
