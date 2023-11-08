@@ -235,9 +235,10 @@ const Landing = () => {
       </motion.section>
       
       <Card className='features'>
-        <h1 className='fhead'>Featured</h1>
+        <h1 className='fhead sticky-top'>Featured</h1>
           {featured.map((featured, index) => (
-              <div>
+          
+              <div key={index}>
                 <Link to={`/articles/${featured.date}-${slugify(featured.title)}`} className="link">
                 <ul className="divide-y divide-gray-700 dark:divide-gray-700">
                 <li className="py-3 sm:py-4">

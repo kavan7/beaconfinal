@@ -1,5 +1,22 @@
 import SilverShrimpStudios from '../assets/images/2023-04-10-Silver-Shrimp-Studios-Building-My-Business.jpg'
+import ReactMarkdown from 'react-markdown'
+
+
+
 const articles = [
+    
+    {
+        author: 'Rababb Pannu',
+        authortag: 'rpannu',
+        date: '2023-04-11',
+        title: 'Scammers And Frauds-The Joke Known as The SAC',
+        preview: `Hello Martingrove readers and future Silver Shrimp gamers. Silver Shrimp
+        Studios is my emerging video game design studio...`,
+        image: SilverShrimpStudios,
+        content: 'Rababb.md',
+        
+
+    },
     {
         author: 'Aidan Schreder',
         authortag: 'aschreder',
@@ -11,7 +28,7 @@ const articles = [
         Read on to learn strategies I used to start the venture, insights into
         my first game, “Phytopia”, and plans for its expansive future.`,
         image: SilverShrimpStudios,
-        content: '',
+        content: 'Rababb.md',
     },
     {
         author: 'Aidan Schreder',
@@ -104,49 +121,9 @@ const articles = [
         content: '',
 
     },
-    {
-        author: 'Aidan Schreder',
-        authortag: 'aschreder',
-        date: '2023-04-10',
-        title: 'Silver Shrimp Studios: Building My Business',
-        preview: `Hello Martingrove readers and future Silver Shrimp gamers. Silver Shrimp
-        Studios is my emerging video game design studio...`,
-        image: SilverShrimpStudios,
-        content: '',
 
-    },
-    {
-        author: 'Aidan Schreder',
-        authortag: 'aschreder',
-        date: '2023-04-10',
-        title: 'Silver Shrimp Studios: Building My Business',
-        preview: `Hello Martingrove readers and future Silver Shrimp gamers. Silver Shrimp
-        Studios is my emerging video game design studio...`,
-        image: SilverShrimpStudios,
-        content: '',
+  
 
-    },
-    {
-        author: 'Aidan Schreder',
-        authortag: 'aschreder',
-        date: '2023-04-10',
-        title: 'Silver Shrimp Studios: Building My Business',
-        preview: `Hello Martingrove readers and future Silver Shrimp gamers. Silver Shrimp
-        Studios is my emerging video game design studio...`,
-        image: SilverShrimpStudios,
-        content: '',
-
-    },
-    {
-        author: 'Rababb Pannu',
-        authortag: 'rpannu',
-        date: '2023-04-11',
-        title: 'Scammers And Frauds-The Joke Known as The SAC',
-        preview: `Hello Martingrove readers and future Silver Shrimp gamers. Silver Shrimp
-        Studios is my emerging video game design studio...`,
-        image: SilverShrimpStudios,
-        content: '',
-    }
 
 
     
