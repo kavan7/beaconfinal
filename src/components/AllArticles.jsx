@@ -119,9 +119,10 @@ const AllArticles = () => {
                   <h5 className="article-list-author">{article.author}</h5>
                   <h5 className="article-list-date">{article.date}</h5>
                   <div className="article-list-content">
-                    <ReactMarkdown className="article-list-description">
-                      {article.preview}
-                    </ReactMarkdown>
+                  {(Array.isArray(articles[index].content)
+    ? articles[index].content.join(' ') // Convert array to string
+    : articles[index].content).slice(0,300)
+  }
                   </div>
                 </div>
                 <div>
