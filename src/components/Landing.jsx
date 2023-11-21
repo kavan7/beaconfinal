@@ -1,3 +1,5 @@
+// Landing.js
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from "react-router-dom";
@@ -40,7 +42,10 @@ const Landing = () => {
                   <h5 className="article-author">{mostRecentArticle.author}</h5>
                   <h5 className="article-date">{mostRecentArticle.date}</h5>
                   <div className="article-content">
-                    <ReactMarkdown className="article-description">{mostRecentArticle.preview}</ReactMarkdown>
+                  {(Array.isArray(mostRecentArticle.content)
+    ? mostRecentArticle.content.join(' ') // Convert array to string
+    : mostRecentArticle.content).slice(0,100)
+  }
                   </div>
                 </div>
                 <div>
@@ -50,56 +55,39 @@ const Landing = () => {
             )}
           </Link>
           <div className="mini-container">
-            <motion.div variants={textVariant()}>
-              <Link to={`/articles/${articles[1].date}-${slugify(articles[1].title)}`} className="link">
-                {articles[1] && (
-                  <div className="mini-article-container shadow-card ">
-                    <img src={articles[1].image} alt="image" className="mini-article-image" />
-                    <h3 className="article-title" id="mini">{articles[1].title}</h3>
-                    <h5 className="article-author" id="mini">{articles[1].author}</h5>
-                    <h5 className="article-date" id="mini">{articles[1].date}</h5>
-                    <div className="article-content" id="mini">
-                      <ReactMarkdown className="article-description" id="mini">{articles[1].preview}</ReactMarkdown>
+            {/* Mini Articles */}
+            {[1, 2, 3].map((index) => (
+              <motion.div key={index} variants={textVariant()}>
+                <Link to={`/articles/${articles[index].date}-${slugify(articles[index].title)}`} className="link">
+                  {articles[index] && (
+                    <div className="mini-article-container shadow-card ">
+                      <div className='cropped-image'>
+
+                      <img src={articles[index].image} alt="image" className="mini-article-image" />
+                      </div>
+                      
+                      <h3 className="article-title" id="mini">{articles[index].title}</h3>
+                      <h5 className="article-author" id="mini">{articles[index].author}</h5>
+                      <h5 className="article-date" id="mini">{articles[index].date}</h5>
+                      <div className="article-content" id="mini">
+                      <ReactMarkdown className="article-description" id="mini">
+  {(Array.isArray(articles[index].content)
+    ? articles[index].content.join(' ') // Convert array to string
+    : articles[index].content).slice(0,100)
+  }
+</ReactMarkdown>
+
+
+                      </div>
                     </div>
-                  </div>
-                )}
-              </Link>
-            </motion.div>
-            <motion.div variants={textVariant()}>
-              <Link to={`/articles/${articles[2].date}-${slugify(articles[2].title)}`} className="link">
-                {articles[2] && (
-                  <div className="mini-article-container shadow-card ">
-                    <img src={articles[2].image} alt="image" className="mini-article-image" />
-                    <h3 className="article-title" id="mini">{articles[2].title}</h3>
-                    <h5 className="article-author" id="mini">{articles[2].author}</h5>
-                    <h5 className="article-date" id="mini">{articles[2].date}</h5>
-                    <div className="article-content" id="mini">
-                      <ReactMarkdown className="article-description" id="mini">{articles[2].preview}</ReactMarkdown>
-                    </div>
-                  </div>
-                )}
-              </Link>
-            </motion.div>
-            <motion.div variants={textVariant()}>
-              <Link to={`/articles/${articles[3].date}-${slugify(articles[3].title)}`} className="link">
-                {articles[3] && (
-                  <div className="mini-article-container shadow-card ">
-                    <img src={articles[3].image} alt="image" className="mini-article-image" />
-                    <h3 className="article-title" id="mini">{articles[3].title}</h3>
-                    <h5 className="article-author" id="mini">{articles[3].author}</h5>
-                    <h5 className="article-date" id="mini">{articles[3].date}</h5>
-                    <div className="article-content" id="mini">
-                      <ReactMarkdown className="article-description" id="mini">{articles[3].preview}</ReactMarkdown>
-                    </div>
-                  </div>
-                )}
-              </Link>
-            </motion.div>
+                  )}
+                </Link>
+              </motion.div>
+            ))}
           </div>
         </motion.div>
 
-       
-
+        {/* More Stories Section */}
         <motion.div>
           <Card className="more-stories mr-[12px]">
             <div className="mb-4 flex items-center justify-between">
@@ -112,20 +100,20 @@ const Landing = () => {
                   <div></div>
                 </li>
                 <div className="line" />
-                {articles[4] && (
-                  <Link to={`/articles/${articles[4].date}-${slugify(articles[4].title)}`} className="link">
+                {articles.slice(4, 9).map((article, index) => (
+                  <Link key={index} to={`/articles/${article.date}-${slugify(article.title)}`} className="link">
                     <li className="py-3 sm:py-4">
                       <div className="flex items-center space-x-4">
                         <div className="shrink-0">
                           <h5 className="truncate text-sm font-normal text-gray-900 dark:text-white">
-                            {articles[4].author} |
+                            {article.author} |
                           </h5>
                         </div>
                         <div className="min-w-0 flex-1">
-                          <h3 className=" font-medium" id="mini">{articles[4].title}</h3>
+                          <h3 className=" font-medium" id="mini">{article.title}</h3>
                         </div>
                         <h5 className="truncate text-sm text-gray-500 dark:text-gray-400">
-                          {articles[4].date}
+                          {article.date}
                         </h5>
                         <div className="inline-flex items-center text-base w-[50px] text-gray-900 dark:text-white">
                           🔗
@@ -134,133 +122,40 @@ const Landing = () => {
                     </li>
                     <div className="line" />
                   </Link>
-                )}
-                {articles[5] && (
-                  <Link to={`/articles/${articles[5].date}-${slugify(articles[5].title)}`} className="link">
-                    <li className="py-3 sm:py-4">
-                      <div className="flex items-center space-x-4">
-                        <div className="shrink-0">
-                          <h5 className="truncate text-sm font-normal text-gray-900 dark:text-white">
-                            {articles[5].author} |
-                          </h5>
-                        </div>
-                        <div className="min-w-0 flex-1">
-                          <h3 className=" font-medium" id="mini">{articles[5].title}</h3>
-                        </div>
-                        <h5 className="truncate text-sm text-gray-500 dark:text-gray-400">
-                          {articles[5].date}
-                        </h5>
-                        <div className="inline-flex items-center text-base w-[50px] text-gray-900 dark:text-white">
-                          🔗
-                        </div>
-                      </div>
-                    </li>
-                    <div className="line" />
-                  </Link>
-                )}
-                {articles[6] && (
-                  <Link to={`/articles/${articles[6].date}-${slugify(articles[6].title)}`} className="link">
-                    <li className="py-3 sm:py-4">
-                      <div className="flex items-center space-x-4">
-                        <div className="shrink-0">
-                          <h5 className="truncate text-sm font-normal text-gray-900 dark:text-white">
-                            {articles[6].author} |
-                          </h5>
-                        </div>
-                        <div className="min-w-0 flex-1">
-                          <h3 className=" font-medium" id="mini">{articles[6].title}</h3>
-                        </div>
-                        <h5 className="truncate text-sm text-gray-500 dark:text-gray-400">
-                          {articles[6].date}
-                        </h5>
-                        <div className="inline-flex items-center text-base w-[50px] text-gray-900 dark:text-white">
-                          🔗
-                        </div>
-                      </div>
-                    </li>
-                    <div className="line" />
-                  </Link>
-                )}
-                {articles[7] && (
-                  <Link to={`/articles/${articles[7].date}-${slugify(articles[7].title)}`} className="link">
-                    <li className="py-3 sm:py-4">
-                      <div className="flex items-center space-x-4">
-                        <div className="shrink-0">
-                          <h5 className="truncate text-sm font-normal text-gray-900 dark:text-white">
-                            {articles[7].author} |
-                          </h5>
-                        </div>
-                        <div className="min-w-0 flex-1">
-                          <h3 className=" font-medium" id="mini">{articles[7].title}</h3>
-                        </div>
-                        <h5 className="truncate text-sm text-gray-500 dark:text-gray-400">
-                          {articles[7].date}
-                        </h5>
-                        <div className="inline-flex items-center text-base w-[50px] text-gray-900 dark:text-white">
-                          🔗
-                        </div>
-                      </div>
-                    </li>
-                    <div className="line" />
-                  </Link>
-                )}
-                {articles[8] && (
-                  <Link to={`/articles/${articles[8].date}-${slugify(articles[8].title)}`} className="link">
-                    <li className="py-3 sm:py-4">
-                      <div className="flex items-center space-x-4">
-                        <div className="shrink-0">
-                          <h5 className="truncate text-sm font-normal text-gray-900 dark:text-white">
-                            {articles[8].author} |
-                          </h5>
-                        </div>
-                        <div className="min-w-0 flex-1">
-                          <h3 className=" font-medium" id="mini">{articles[8].title}</h3>
-                        </div>
-                        <h5 className="truncate text-sm text-gray-500 dark:text-gray-400">
-                          {articles[8].date}
-                        </h5>
-                        <div className="inline-flex items-center text-base w-[50px] text-gray-900 dark:text-white">
-                          🔗
-                        </div>
-                      </div>
-                    </li>
-                  </Link>
-                )}
+                ))}
               </ul>
             </div>
-            
           </Card>
-          
         </motion.div>
       </motion.section>
-      
+
+      {/* Featured Section */}
       <Card className='features'>
         <h1 className='fhead sticky-top'>Featured</h1>
-          {featured.map((featured, index) => (
-          
-              <div key={index}>
-                <Link to={`/articles/${featured.date}-${slugify(featured.title)}`} className="link">
-                <ul className="divide-y divide-gray-700 dark:divide-gray-700">
+        {featured.map((featuredArticle, index) => (
+          <div key={index}>
+            <Link to={`/articles/${featuredArticle.date}-${slugify(featuredArticle.title)}`} className="link">
+              <ul className="divide-y divide-gray-700 dark:divide-gray-700">
                 <li className="py-3 sm:py-4">
-                      <div className="flex items-center space-x-4">
-                        <div className="shrink-0">
-                          <h5 className="truncate text-sm font-normal text-gray-900 dark:text-white">
-                            {featured.author} |
-                          </h5>
-                        </div>
-                        <div className="min-w-0 flex-1">
-                          <h3 className=" font-medium" id="mini">{featured.title}</h3>
-                        </div>
-                        
-                      </div>
-                    </li>
-                    </ul>
-                </Link>
-              </div>
-            ))}
-            </Card>
+                  <div className="flex items-center space-x-4">
+                    <div className="shrink-0">
+                      <h5 className="truncate text-sm font-normal text-gray-900 dark:text-white">
+                        {featuredArticle.author} |
+                      </h5>
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <h3 className=" font-medium" id="mini">{featuredArticle.title}</h3>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </Link>
+          </div>
+        ))}
+      </Card>
     </>
   );
 }
 
 export default Landing;
+

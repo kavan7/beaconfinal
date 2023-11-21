@@ -130,7 +130,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: 0.3s;
+  overflow: wrap;
+  transition: 0.3s
 }
 
 .flex-row {
@@ -271,15 +272,16 @@
 }
 
 .mini-article-container {
-  width: 97%;
+  width: 342px;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-left: 12px;
   margin-right: 0px;
   box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
-  height: auto;
+  height: 400px;
   transition: .3s;
+  padding: 10px;
 }
 
 #mini {
@@ -371,4 +373,9 @@
   font-size: 32px;
   
   text-align: center;
+}
+.cropped-image{
+  width: 300px;
+  height: 120px;
+  overflow: hidden;
 }
