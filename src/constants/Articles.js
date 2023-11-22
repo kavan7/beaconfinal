@@ -127,7 +127,7 @@ const articles = [
         Read on to learn strategies I used to start the venture, insights into
         my first game, “Phytopia”, and plans for its expansive future.`,
         image: SilverShrimpStudios,
-        content: '',
+        content: ``
     
     },
     {

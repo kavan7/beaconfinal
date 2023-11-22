@@ -2,24 +2,37 @@
     font-size: 48px;
     width: 900px;
     display: flex;
-    margin-left: auto;
+    margin-left: -100;
     margin-right: auto;
-    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .article-image-page{
-    display: flex;
-    margin-left: auto;
+    margin-top: 30px;
+    
+    margin-left: 50px;
     margin-right: auto;
-    width: 60%;   
+    width: 60%;
+    border: 10px;  
+    border-color: green;
+    
 }
 .date{
-    margin-left: 540px;
-    margin-bottom: 30px;
-    font-style: bold;
+    color: rgb(92, 92, 92);
+ 
+    margin-right: 375px;
+  
+    margin-top: 20px;
+   
 }
 .author{
-    font-style: bolder;
-    font-size: 18px;
+    color: rgb(92, 92, 92);
+    
+   
+
+
+    font: bolder;
+    margin-top: 20px;
+   
 }
 p{
     display: flex;
