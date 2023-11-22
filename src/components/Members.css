@@ -1,102 +1,111 @@
 /* Members.css */
 
-.members-container {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-  
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(30% - 20px), 1fr));
+  gap: 20px;
+}
 
+.category-container {
+  background-color: rgb(228, 205, 172);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
 
-  .category-container {
-    background-color: #f0f0f000;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    width: calc(33.33% - 20px); /* Three columns with 20px gap */
-  }
-  
-  .category-title {
-    
-    
-      font-size: 16px;
-      margin: 0;
-    
-    
-  }
-  
-  .member-list {
-    list-style: none;
-    padding: 0;
-  }
+.category-title {
+  font-size: 18px;
+  margin: 0 0 10px;
+  color: #333;
+}
 
-  
-  .member-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 0;
-    border-bottom: 1px solid #cccccc;
-    padding-bottom: 10px;
-    
-  }
+.member-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
-  
-  .member-info {
-    display: flex;
-    align-items: center;
-  }
-  
-  .member-image {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .member-name {
-    font-size: 16px;
-    margin: 0;
-  }
-  .member-role{
-    margin-top: 2px;
-    font-size:calc(40% + 7.5px); ;
-  }
 .member-card {
-    width: calc(40% - 100px); /* Two cards in a row with a 20px gap */
-    margin-bottom: 20px; /* Add some vertical spacing between rows */
-  }
-  
-  .member-link {
-    text-decoration: none;
-    padding: 5px 10px;
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 5px;
-    font-size: 14px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .bg-hero-pattern {
-    background-color: #fcfcfc;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4.5' height='4.5' viewBox='0 0 4 4'%3E%3Cpath fill='%23cfcfcf' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
-    height: 300vh;
-  }
-  .member-link:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Additional styles for each category */
-  .category-container.editors-in-chief {
-    background-color: #ffcc00; /* Change background color for Editors-in-Chief */
-  }
-  
-  .category-container.managing-editor {
-    background-color: #ff9900; /* Change background color for Managing Editor */
-  }
-  
-  /* Add similar styles for other categories */
-  
+  width: 100%; /* Adjust width based on your preference */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.member-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.member-item:hover {
+  transform: translateY(-5px);
+}
+
+.member-info {
+  display: flex;
+  align-items: center;
+}
+
+.member-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.member-details {
+  flex-grow: 1;
+}
+
+.member-name {
+  font-size: 16px;
+  margin: 0;
+  color: #333;
+}
+
+.member-role {
+  margin-top: 2px;
+  font-size: 14px;
+  color: #666;
+}
+
+.member-link {
+  text-decoration: none;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.member-link:hover {
+  background-color: #0056b3;
+}
+
+.bg-hero-pattern {
+  background-color: #f9f9f9;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4.5' height='4.5' viewBox='0 0 4 4'%3E%3Cpath fill='%23cfcfcf' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  height: 300vh;
+}
+
+/* Additional styles for each category */
+
+.members-container{
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+.members-container:hover{
+  color: black;
+}

@@ -117,7 +117,7 @@ const AllArticles = () => {
                 <div>
                   <h3 className="article-list-title">{article.title}</h3>
                   <h5 className="article-list-author">{article.author}</h5>
-                  <h5 className="article-list-date">{article.date}</h5>
+                  <h5 className="arti cle-list-date">{article.date}</h5>
                   <div className="article-list-content">
                   {(Array.isArray(articles[index].content)
     ? articles[index].content.join(' ') // Convert array to string
