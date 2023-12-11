@@ -7,7 +7,7 @@
 }
 
 .category-container {
-  background-color: rgb(228, 205, 172);
+  background-color: rgb(215, 215, 215);
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -105,7 +105,8 @@
 .members-container{
   color: rgb(0, 0, 0);
   margin-bottom: 10px;
+  font-style: bold;
 }
 .members-container:hover{
-  color: black;
+  color: rgb(255, 68, 0);
 }

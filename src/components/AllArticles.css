@@ -19,22 +19,26 @@
   
   /* Style for the article-list container */
   .article-list-container {
-    max-height: 600px; /* Adjust the height as needed */
-  overflow-y: auto; 
+    display: flex;
+    justify-content: space-between; /* Make child elements spread out horizontally */
+    align-items: center;
+    max-height: 600px;
+    overflow-y: auto;
     width: 780px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    /* Optional: To align items vertically in the center */
     margin-bottom: 10px;
-    
-    transition: .3s;
-    /* Remove 'flex: 1' to prevent it from taking up remaining space */
-    /* Add any additional styles you want for the article-list container */
+    transition: 0.3s;
   }
+  
+  .article-list-image {
+    width: 200px;
+    order: 1; /* Set the order property to 1 to place it on the right */
+  }
+  
   
   /* Style for the article-list title */
   .article-list-title {
@@ -45,9 +49,7 @@
     color: black;
     transition: .3s;
   }
-  .article-list-image{
-    width: 200px;
-  }
+
   
   .article-list-author {
     text-decoration: none;
@@ -123,9 +125,12 @@
 .link{
     text-decoration: none;
 }
-.filter-box{  
+.filter-box {
+  position: sticky;
+  top: 10px; /* Adjust the top offset as needed */
   margin-bottom: 10px;
   margin-left: 300px;
+  z-index: 1; /* Ensure it's above other elements */
 }
 .text-input {
   display: flex;
