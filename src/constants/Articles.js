@@ -114,7 +114,7 @@ import NovemberTimeToBeEmpowered from '../assets/images/2019-11-12-November__A_T
 import HowIndependentAreYouQuiz from '../assets/images/2019-11-10-Independent_photo.jpg'
 import LestWeForget2019 from '../assets/images/2019-11-10-April_Naing_-_Remembrance_Day-2_photo.jpg'
 import AdviceOnMornings from '../assets/images/2019-11-10-Advice_on_Mornings_by_April_Naing_1_photo.jpg'
-
+import MeirStraus from '../assets/images/2023-05-06-An_Interview_with_Meir_Staus.jpg'
 const articles = [
     {
         author: 'Aidan Schreder',
@@ -138,7 +138,7 @@ const articles = [
         preview: `On Thursday, April 27th, I interviewed Meir Straus, Toronto’s youngest
         candidate in the 2023 mayoral by-election. Straus is a grade twelve
         student from North York, and though his camp...`,
-        image: 'blank',
+        image: MeirStraus,
         content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. N',
 
     },

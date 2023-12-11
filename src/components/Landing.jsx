@@ -42,10 +42,7 @@ const Landing = () => {
                   <h5 className="article-author">{mostRecentArticle.author}</h5>
                   <h5 className="article-date">{mostRecentArticle.date}</h5>
                   <div className="article-content">
-                  {(Array.isArray(mostRecentArticle.content)
-    ? mostRecentArticle.content.join(' ') // Convert array to string
-    : mostRecentArticle.content).slice(0,100)
-  }
+                  <h5 className="article-date">{mostRecentArticle.preview}</h5>
                   </div>
                 </div>
                 <div>
@@ -70,22 +67,51 @@ const Landing = () => {
                       <h5 className="article-author" id="mini">{articles[index].author}</h5>
                       <h5 className="article-date" id="mini">{articles[index].date}</h5>
                       <div className="article-content" id="mini">
-                      <ReactMarkdown className="article-description" id="mini">
-  {(Array.isArray(articles[index].content)
-    ? articles[index].content.join(' ') // Convert array to string
-    : articles[index].content).slice(0,100)
-  }
-</ReactMarkdown>
+
+                 
+
 
 
                       </div>
                     </div>
+                    
                   )}
                 </Link>
               </motion.div>
             ))}
           </div>
         </motion.div>
+
+        <div className="mini-containertwo">
+            {/* Mini Articles */}
+            {[4, 5, 6].map((index) => (
+              <motion.div key={index} variants={textVariant()}>
+                <Link to={`/articles/${articles[index].date}-${slugify(articles[index].title)}`} className="link">
+                  {articles[index] && (
+                    <div className="mini-article-container shadow-card ">
+                      <div className='cropped-image'>
+
+                      <img src={articles[index].image} alt="image" className="mini-article-image " />
+                      </div>
+                      
+                      <h3 className="article-title" id="mini">{articles[index].title}</h3>
+                      <h5 className="article-author" id="mini">{articles[index].author}</h5>
+                      <h5 className="article-date" id="mini">{articles[index].date}</h5>
+                      <div className="article-content" id="mini">
+
+                 
+
+
+
+                      </div>
+                    </div>
+                    
+                  )}
+                </Link>
+              </motion.div>
+            ))}
+          </div>
+   
 
         {/* More Stories Section */}
         <motion.div>
@@ -100,7 +126,7 @@ const Landing = () => {
                   <div></div>
                 </li>
                 <div className="line" />
-                {articles.slice(4, 9).map((article, index) => (
+                {articles.slice(7, 18).map((article, index) => (
                   <Link key={index} to={`/articles/${article.date}-${slugify(article.title)}`} className="link">
                     <li className="py-3 sm:py-4">
                       <div className="flex items-center space-x-4">
@@ -129,30 +155,7 @@ const Landing = () => {
         </motion.div>
       </motion.section>
 
-      {/* Featured Section */}
-      <Card className='features'>
-        <h1 className='fhead sticky-top'>Featured</h1>
-        {featured.map((featuredArticle, index) => (
-          <div key={index}>
-            <Link to={`/articles/${featuredArticle.date}-${slugify(featuredArticle.title)}`} className="link">
-              <ul className="divide-y divide-gray-700 dark:divide-gray-700">
-                <li className="py-3 sm:py-4">
-                  <div className="flex items-center space-x-4">
-                    <div className="shrink-0">
-                      <h5 className="truncate text-sm font-normal text-gray-900 dark:text-white">
-                        {featuredArticle.author} |
-                      </h5>
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <h3 className=" font-medium" id="mini">{featuredArticle.title}</h3>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </Link>
-          </div>
-        ))}
-      </Card>
+
     </>
   );
 }
