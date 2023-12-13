@@ -16,9 +16,9 @@ const Landing = () => {
   function slugify(title) {
     return title
       .toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
-      .replace(/\s+/g, '-') // Replace spaces with hyphens
-      .replace(/-+/g, '-'); // Remove consecutive hyphens
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '');
   }
 
   const mostRecentArticle = articles[0];
@@ -52,12 +52,11 @@ const Landing = () => {
             )}
           </Link>
           <div className="mini-container">
-            {/* Mini Articles */}
             {[1, 2, 3].map((index) => (
               <motion.div key={index} variants={textVariant()}>
                 <Link to={`/articles/${articles[index].date}-${slugify(articles[index].title)}`} className="link">
                   {articles[index] && (
-                    <div className="mini-article-container shadow-card ">
+                    <div className="mini-article-container shadow-card min-h-[325px]">
                       <div className='cropped-image'>
                         <img src={articles[index].image} alt="image" className="mini-article-image" />
                       </div>
@@ -78,12 +77,11 @@ const Landing = () => {
         </motion.div>
 
         <div className="mini-containertwo">
-          {/* Mini Articles */}
           {[4, 5, 6].map((index) => (
             <motion.div key={index} variants={textVariant()}>
               <Link to={`/articles/${articles[index].date}-${slugify(articles[index].title)}`} className="link">
                 {articles[index] && (
-                  <div className="mini-article-container shadow-card ">
+                  <div className="mini-article-container shadow-card min-h-[325px]">
                     <div className='cropped-image'>
                       <img src={articles[index].image} alt="image" className="mini-article-image" />
                     </div>
@@ -102,7 +100,6 @@ const Landing = () => {
           ))}
         </div>
 
-        {/* More Stories Section */}
         <motion.div>
           <Card className="more-stories mr-[12px]">
             <div className="mb-4 flex items-center justify-between">

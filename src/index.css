@@ -304,11 +304,13 @@
   margin-left: 12px;
   margin-right: 0px;
   box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
-  height: 325px;
+  height: auto; /* Set height to auto to allow flexibility based on content */
+  min-height: 325px; /* Set a minimum height */
   transition: .3s;
   padding: 10px;
-  opacity: 70%
+  opacity: 70%;
 }
+
 
 #mini {
   margin-left: 15px;
@@ -399,4 +401,7 @@
   font-size: 32px;
   
   text-align: center;
+}
+.cropped-image{
+  height: 160px;
 }
