@@ -7,6 +7,7 @@ const Article = ({ article }) => {
   const [markdownContent, setMarkdownContent] = useState('');
 
   useEffect(() => {
+    window.scrollTo(0, 0)
     // Fetch your Markdown content from a file using the article.content property
     fetch(`/src/components/${article.content}`) // Assuming article.content holds the file name
       .then((response) => response.text())
