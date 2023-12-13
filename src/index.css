@@ -17,6 +17,7 @@
   height: 86.89px;
   padding-bottom: 10px;
   padding-top: 10px;
+  
 }
 
 @media (max-width: 768px) {
@@ -220,9 +221,6 @@
   color: rgb(197, 101, 23);
 }
 
-/* Rest of your CSS remains the same */
-
-/* Apply the same styles to the mini-article containers */
 .mini-article-container:hover {
   box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.18);
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.18);
@@ -252,21 +250,19 @@
   text-decoration: none;
   font-size: 0.8rem;
   color: #777;
-
-
 }
+
 .article-preview {
   text-decoration: none;
   font-size: 0.6rem;
   color: #777;
   margin-left: -10px;
-
-
 }
 
-.mini-container {
+.mini-container,
+.mini-containertwo {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   list-style-type: none;
   margin-left: 23px;
@@ -277,29 +273,28 @@
   margin-bottom: 30px;
   height: auto;
 }
-.mini-containertwo {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  list-style-type: none;
-  margin-left: 23px;
-  
-  width: 1060px;
-  border: #555;
-  border: 3px;
-  margin-bottom: 30px;
-  height: auto;
-}
-
 
 .mini-article-image {
+  
   display: flex;
   align-items: center;
-  margin-left: 15px;
+  
   width: fit-content;
   height: 100%;
-  
+  width: 320px;
+  max-height: 160px;
+  overflow: hidden;
+  object-fit: cover;
 }
+
+.mini-article-image img {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+
 
 .mini-article-container {
   width: 342px;
@@ -404,9 +399,4 @@
   font-size: 32px;
   
   text-align: center;
-}
-.cropped-image{
-  width: 300px;
-  height: 120px;
-  overflow: hidden;
 }

@@ -7,11 +7,12 @@
 }
 
 .category-container {
-  background-color: rgb(215, 215, 215);
+  background-color: rgb(252, 252, 252);
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .category-title {
@@ -101,7 +102,7 @@
 }
 
 /* Additional styles for each category */
-
+ 
 .members-container{
   color: rgb(0, 0, 0);
   margin-bottom: 10px;

@@ -42,7 +42,7 @@ const Landing = () => {
                   <h5 className="article-author">{mostRecentArticle.author}</h5>
                   <h5 className="article-date">{mostRecentArticle.date}</h5>
                   <div className="article-content">
-                  <h5 className="article-date">{mostRecentArticle.preview}</h5>
+                    <h5 className="article-date">{mostRecentArticle.preview}</h5>
                   </div>
                 </div>
                 <div>
@@ -59,22 +59,17 @@ const Landing = () => {
                   {articles[index] && (
                     <div className="mini-article-container shadow-card ">
                       <div className='cropped-image'>
-
-                      <img src={articles[index].image} alt="image" className="mini-article-image" />
+                        <img src={articles[index].image} alt="image" className="mini-article-image" />
                       </div>
-                      
-                      <h3 className="article-title" id="mini">{articles[index].title}</h3>
+                      <h3 className="article-title" id="mini">
+                        {articles[index].title.length > 39
+                          ? articles[index].title.slice(0, 36) + "..."
+                          : articles[index].title}
+                      </h3>
                       <h5 className="article-author" id="mini">{articles[index].author}</h5>
                       <h5 className="article-date" id="mini">{articles[index].date}</h5>
-                      <div className="article-content" id="mini">
-
-                 
-
-
-
-                      </div>
+                      <div className="article-content" id="mini"></div>
                     </div>
-                    
                   )}
                 </Link>
               </motion.div>
@@ -83,35 +78,29 @@ const Landing = () => {
         </motion.div>
 
         <div className="mini-containertwo">
-            {/* Mini Articles */}
-            {[4, 5, 6].map((index) => (
-              <motion.div key={index} variants={textVariant()}>
-                <Link to={`/articles/${articles[index].date}-${slugify(articles[index].title)}`} className="link">
-                  {articles[index] && (
-                    <div className="mini-article-container shadow-card ">
-                      <div className='cropped-image'>
-
-                      <img src={articles[index].image} alt="image" className="mini-article-image " />
-                      </div>
-                      
-                      <h3 className="article-title" id="mini">{articles[index].title}</h3>
-                      <h5 className="article-author" id="mini">{articles[index].author}</h5>
-                      <h5 className="article-date" id="mini">{articles[index].date}</h5>
-                      <div className="article-content" id="mini">
-
-                 
-
-
-
-                      </div>
+          {/* Mini Articles */}
+          {[4, 5, 6].map((index) => (
+            <motion.div key={index} variants={textVariant()}>
+              <Link to={`/articles/${articles[index].date}-${slugify(articles[index].title)}`} className="link">
+                {articles[index] && (
+                  <div className="mini-article-container shadow-card ">
+                    <div className='cropped-image'>
+                      <img src={articles[index].image} alt="image" className="mini-article-image" />
                     </div>
-                    
-                  )}
-                </Link>
-              </motion.div>
-            ))}
-          </div>
-   
+                    <h3 className="article-title" id="mini">
+                      {articles[index].title.length > 39
+                        ? articles[index].title.slice(0, 36) + "..."
+                        : articles[index].title}
+                    </h3>
+                    <h5 className="article-author" id="mini">{articles[index].author}</h5>
+                    <h5 className="article-date" id="mini">{articles[index].date}</h5>
+                    <div className="article-content" id="mini"></div>
+                  </div>
+                )}
+              </Link>
+            </motion.div>
+          ))}
+        </div>
 
         {/* More Stories Section */}
         <motion.div>
@@ -136,7 +125,9 @@ const Landing = () => {
                           </h5>
                         </div>
                         <div className="min-w-0 flex-1">
-                          <h3 className=" font-medium" id="mini">{article.title}</h3>
+                          <h3 className=" font-medium" id="mini">
+                            {article.title}
+                          </h3>
                         </div>
                         <h5 className="truncate text-sm text-gray-500 dark:text-gray-400">
                           {article.date}
@@ -154,11 +145,8 @@ const Landing = () => {
           </Card>
         </motion.div>
       </motion.section>
-
-
     </>
   );
 }
 
 export default Landing;
-
