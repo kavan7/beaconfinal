@@ -9,17 +9,11 @@ const Navbar = () => {
   return (
     <>
       <nav className=''>
-      
-        <Link to="/">
-          <div className='header-container' to>
-            <img src={header} className='header '/>
-          </div>
-        </Link>
-        <div className='line'></div>
-        <ul className='link-stuff'>
-        <li className='links'>
-            <Link to="/" className='page-link'>
-            Home
+      <div className='header-container' to>
+      <ul className='link-stuff'>
+      <li className='links'>
+            <Link to="/about" className='page-link'>
+            About
             </Link>
           </li>
           <li className='links'>
@@ -27,9 +21,14 @@ const Navbar = () => {
             Members
             </Link>
           </li>
-          <li className='links'>
-            <Link to="/about" className='page-link'>
-              About
+        <Link to="/">
+         
+            <img src={header} className='header mt-[0px] border-t-4 border-black'/>
+        
+        </Link>
+        <li className='links'>
+            <Link to="/contact" className='page-link'>
+              Contact
             </Link>
           </li>
           <li className='links'>
@@ -37,14 +36,13 @@ const Navbar = () => {
             Beardle
             </Link>
           </li>
-          <li className='links'>
-          <Link to="/contact" className='page-link'>
-            Contact
-            </Link>
-          </li>
         </ul>
+        </div>
+        <div className='line'/>
+      
+      
         
-        <div className='line' id='line-two'></div>
+   
       </nav>
     </>
     
