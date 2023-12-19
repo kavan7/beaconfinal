@@ -123,20 +123,17 @@
  
 }
 
-/* Style for the container that holds the article card */
 .article-card-container {
-  width: 30%;
-  margin-left: 21%;
-  margin-top: 0px;
+  width: 80%;
+  margin-left: 8%;
+  margin-top: 10px; /* Adjusted margin to 10px */
   box-shadow: #555;
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow: wrap;
   transition: 0.3s;
-  color : 	#E0E0E0;
-  
-  
+  color: #E0E0E0;
 }
 
 .flex-row {
@@ -159,14 +156,14 @@
 /* Style for the article container */
 .article-container {
   flex: 1;
-  width: 1050px;
+  width: 1250px;
   background-color: #F8F8F8;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 25px;
   box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
   display: flex;
-  margin-left: 35px;
+  margin-left: -70px;
   align-items: center;
   transition: .3s;
   opacity: 85%
@@ -178,7 +175,7 @@
 .article-title {
   color: black;
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 10px;
   transition: .3s;
@@ -282,7 +279,7 @@
   
   width: fit-content;
   height: 100%;
-  width: 320px;
+  width: 500px;
   max-height: 160px;
   overflow: hidden;
   object-fit: cover;
@@ -298,15 +295,15 @@
 
 
 .mini-article-container {
-  width: 342px;
+  width: 400px;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-left: 12px;
-  margin-right: 0px;
+  margin-right: 12px;
   box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
   height: auto; /* Set height to auto to allow flexibility based on content */
-  min-height: 325px; /* Set a minimum height */
+  min-height: 350px; /* Set a minimum height */
   transition: .3s;
   padding: 10px;
   opacity: 70%;
@@ -354,8 +351,8 @@
 }
 
 .more-stories {
-  margin-left: 50px;
-  width: 1050px;
+  margin-left: -75px;
+  width: 1250px;
 }
 
 .font-medium {
@@ -367,42 +364,14 @@
   scale: 1.02;
 }
 
-/* Style for the Google Calendar container */
-.calendar-embed {
-  width: 450px;
-  height: 600px;
-  
-}
-.google-calendar-container{
-  width: 450px;
-  margin-left: 1370px;
-  margin-top: -830px;
-  margin-bottom: 30px;
-  justify-content: center;
-  align-items: center;
-}
-
-.calendar {
-  display: inline-block;
-  margin-left: 10px;
-  flex-shrink: 0;
-}
 .title-header{
   margin-bottom: 100px;
 }
-.features{
-  margin-left: 74%;
-  width: 24%;
-  margin-top: -1337px;
-  position:fixed;
 
-}
-.fhead{
-  font-weight: bold;
-  font-size: 32px;
-  
-  text-align: center;
-}
+
 .cropped-image{
   height: 160px;
+}
+.stuff{
+  margin-left: 130px;
 }

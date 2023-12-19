@@ -1,6 +1,7 @@
 /* Members.css */
 
 .members-grid {
+  margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(calc(30% - 20px), 1fr));
   gap: 20px;

@@ -32,8 +32,9 @@ const Landing = () => {
         staggerContainer
         viewport={{ once: true, amount: 0.25 }}
         className={`${styles.padding} article-card-container`}
-      >
+      ><div className='stuff'>
         <motion.div variants={textVariant()}>
+          
           <Link to={`/articles/${mostRecentArticle.date}-${slugify(mostRecentArticle.title)}`} className="link">
             {mostRecentArticle && (
               <div className="article-container shadow-card">
@@ -109,7 +110,7 @@ const Landing = () => {
               <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">More stories</h5>
               <Link to="./articles" className='allstories rounded-2xl' id="all-link ">View all</Link>
             </div>
-            <div className="flow-root divide-y w-[1000px] ml-[0px]">
+            <div className="flow-root divide-y w-[1200px] ml-[0px]">
               <ul className="divide-y divide-gray-700 dark:divide-gray-700">
                 <li>
                   <div></div>
@@ -143,8 +144,11 @@ const Landing = () => {
               </ul>
             </div>
           </Card>
+          
         </motion.div>
+        </div>
       </motion.section>
+      
     </>
   );
 }
