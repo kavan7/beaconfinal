@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState, useRef } from 'react';
 import './Beardle.css';
 import mytext from './words.js';
@@ -7,11 +6,12 @@ const wordList = mytext;
 let chosenWords = ["math","bear","paws","hall","club","band","book","work","milk","dens","chem","grad","hard","test","quiz","room","tech","news","dope","food","drip","fear","cool","bold","quad","claw","exam","epic","film","grow","rail","step","fail","door","food","beat","tree","note","seat","form","desk","bell","wall","dean","read","team","teen","sing","play"]
 const wordArray = wordList.split('\n');
 const chosen = chosenWords[Math.floor(Math.random() * chosenWords.length)];
-import { gsap, Power4 } from 'gsap';
+import gsap, { Power4 } from 'gsap';
 import { motion } from 'framer-motion';
 import { staggerContainer } from '../utils/motion';
 import { textVariant } from '../utils/motion';
 import { styles } from '../styles';
+
 
 function Beardle() {
   
@@ -31,8 +31,19 @@ function Beardle() {
     ['Del','Z', 'X', 'C', 'V', 'B', 'N', 'M', '>'],
     
   ];
-  
-
+  const handleBearClick = () => {
+    const squaresToAnimate = Array.from(document.querySelectorAll('.square'));
+    gsap.to(squaresToAnimate, {
+      x: () => (Math.random() - 0.5) * 1000,
+      y: () => (Math.random() - 0.5) * 600,
+      opacity: 1,
+      duration: 1,
+      ease: 'power2.out',
+      onComplete: () => {
+        gsap.to(squaresToAnimate, { x: 0, y: 0, opacity: 1 });
+      },
+    });
+  }
   const keyColors = {
     yellow: '#713b0f',
     green: '#50C878',
@@ -273,62 +284,52 @@ function Beardle() {
 
   return (
     <>
-    <motion.section
-  
-  variants={staggerContainer()}
-  initial="hidden"
-  whileInView="show"
-  staggerContainer
-  viewport={{once: true, amount: 0.25}}
-  className="px-[100px]"
- >
+      <motion.section
+        variants={staggerContainer()}
+        initial="hidden"
+        whileInView="show"
+        staggerContainer
+        viewport={{ once: true, amount: 0.25 }}
+        className="px-[100px]"
+      >
 
-<motion.div variants={textVariant()}
-className='' >
-    
-      <div className='bear-title'>
-        <h1 className='bear'>Bear</h1>
-        <h1 className='dle'>dle</h1>
-      </div>
-</motion.div>
-
-   <motion.div variants={textVariant()}> 
-      {rows}
-      <h1 className='error'>{message}</h1>
-      <div className='keyboard'>
-  {keyboardLayout.map((row, rowIndex) => (
-    <div key={rowIndex} className='keyboard-row '>
-      {row.map((key, keyIndex) => (
-        <div
-          key={keyIndex}
-          className='keyboard-key rounded-2xl'
-          style={{
-            
-          }}
-          onClick={() => handleKeyClick(key)}
+<motion.div
+          variants={textVariant()}
+          className=''
+          onClick={handleBearClick}
         >
-          {key}
-        </div>
-      ))}
-    </div>
-  ))}
-</div>
-<div>
-  <h2>
-  &nbsp;
-  </h2>
-  <h2>
-  &nbsp;
-  </h2>
-  <h2>
-  &nbsp;
-  </h2>
-  <h2>
-  &nbsp;
-  </h2>
-</div>
+          <div className='bear-title'>
+            <h1 className='bear'>Bear</h1>
+            <h1 className='dle'>dle</h1>
+          </div>
+        </motion.div>
 
-      </motion.div>
+        <motion.div variants={textVariant()}>
+          {rows}
+          <h1 className='error'>{message}</h1>
+          <div className='keyboard'>
+            {keyboardLayout.map((row, rowIndex) => (
+              <div key={rowIndex} className='keyboard-row '>
+                {row.map((key, keyIndex) => (
+                  <div
+                    key={keyIndex}
+                    className='keyboard-key rounded-2xl'
+                    style={{}}
+                    onClick={() => handleKeyClick(key)}
+                  >
+                    {key}
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+          <div>
+            <h2>&nbsp;</h2>
+            <h2>&nbsp;</h2>
+            <h2>&nbsp;</h2>
+            <h2>&nbsp;</h2>
+          </div>
+        </motion.div>
       </motion.section>
     </>
   );
