@@ -33,11 +33,11 @@ const Members = () => {
       <div className="members-grid">
         {categories.map((category, index) => (
           <motion.div key={index} variants={textVariant()} className="category-container">
-            <h1 className={`members-container ${styles.heroSubText} uppercase underline`}>{category.title}</h1>
+            <h1 className={`members-container ${styles.heroSubText} uppercase`}>{category.title}</h1>
             <div className="member-list">
               {category.members.map((member, memberIndex) => (
                 <div className="member-card" key={memberIndex}>
-                  <div className="bg-gray-100 py-4 px-6 placeholder:text-gray-500 focus:outline-none text-gray-900 rounded-lg outlined-none border-none font-medium">
+                  <div className="bg-blue-100 py-4 px-6 placeholder:text-gray-500 focus:outline-none text-gray-900 rounded-lg outlined-none border-none font-medium">
                     <div className="mt-0 flex flex-col gap-8">
                       <li className="member-item">
                         <div className="member-info">

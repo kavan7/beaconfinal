@@ -166,8 +166,8 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation */
   padding: 20px; /* Spacing inside the container */
   position: absolute;
-  top: 290px; /* Adjust as needed to align vertically with the icon */
-  left: 65%; /* Position the menu to the right of the icon */
+  top: 252px; /* Adjust as needed to align vertically with the icon */
+  left: 75%; /* Position the menu to the right of the icon */
   z-index: 1; /* Ensure it's above other elements */
 }
 
