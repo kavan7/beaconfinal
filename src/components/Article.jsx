@@ -2,17 +2,21 @@ import React, { useEffect, useState } from 'react';
 import articles from '../constants/Articles';
 import "./article.css";
 import ReactMarkdown from 'react-markdown';
-
+import MarkDown from 'markdown-to-jsx';
 const Article = ({ article }) => {
-  const [markdownContent, setMarkdownContent] = useState('');
+  const [post, setPost] = useState('');
+
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-    // Fetch your Markdown content from a file using the article.content property
-    fetch(`/src/components/${article.content}`) // Assuming article.content holds the file name
-      .then((response) => response.text())
-      .then((data) => setMarkdownContent(data));
-  }, [article.content]);
+        import(`../assets/articles/_posts${article.name}`)
+            .then(res => {
+                fetch(res.default)
+                    .then(res=>res.text())
+                    .then(res => setPost(res));
+            })
+
+            .catch(err => console.log(err));
+  });
 
   return (
   
@@ -84,7 +88,9 @@ const Article = ({ article }) => {
     
       
       <div className='w-4/5'>
-        {article.content}
+        <MarkDown>
+            {post}
+        </MarkDown>
       </div>
     </div>
   );

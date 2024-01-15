@@ -8,7 +8,7 @@ import { styles } from '../styles'
 const Navbar = () => {
   return (
     <>
-      <nav className=''>
+      <nav className=' '>
       <div className='header-container' to>
       <ul className='link-stuff'>
       <li className='links'>
@@ -23,7 +23,7 @@ const Navbar = () => {
           </li>
         <Link to="/">
          
-            <img src={header} className='header mt-[0px] border-t-4 border-black'/>
+            <img src={header} className='header mt-[0px] border-b-2 border-grey'/>
         
         </Link>
         <li className='links'>

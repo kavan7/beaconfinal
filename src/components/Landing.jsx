@@ -126,7 +126,7 @@ const Landing = () => {
                           </h5>
                         </div>
                         <div className="min-w-0 flex-1">
-                          <h3 className=" font-medium" id="mini">
+                          <h3 className=" font-medium text-tertiary" id="mini">
                             {article.title}
                           </h3>
                         </div>
