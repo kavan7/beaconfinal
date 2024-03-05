@@ -2,26 +2,24 @@ import React, { useEffect, useState } from 'react';
 import articles from '../constants/Articles';
 import "./article.css";
 import ReactMarkdown from 'react-markdown';
-import MarkDown from 'markdown-to-jsx';
-const Article = ({ article }) => {
-  const [post, setPost] = useState('');
+import Markdown from 'markdown-to-jsx';
+
+const Article = ({ article, allPostsData  }) => {
 
 
+  const [content, setContent] = useState("");
+    console.log(article.name)
   useEffect(() => {
-        import(`../assets/articles/_posts${article.name}`)
-            .then(res => {
-                fetch(res.default)
-                    .then(res=>res.text())
-                    .then(res => setPost(res));
-            })
-
-            .catch(err => console.log(err));
-  });
+    fetch(`${article.name}.md`)
+      .then((res) => res.text())
+      .then((text) => setContent(text));
+  }, []);
 
   return (
   
 
       <div className='ml-[225px] '>
+        
       <h2 className='title'>{article.title}</h2>
       <div className='flex-row'>
       <p className='author'>Author: {article.author}</p>
@@ -83,17 +81,14 @@ const Article = ({ article }) => {
 <img src={article.image} className='flex-row relative article-image-page ' alt="Article Image" />
       </div>
       
+      <div className="post">
+      <ReactMarkdown>{content}</ReactMarkdown>
+    </div>
+
       
-      
-    
-      
-      <div className='w-4/5'>
-        <MarkDown>
-            {post}
-        </MarkDown>
-      </div>
     </div>
   );
 };
+
 
 export default Article;
