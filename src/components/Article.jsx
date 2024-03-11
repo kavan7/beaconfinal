@@ -9,11 +9,16 @@ const Article = ({ article, allPostsData  }) => {
 
   const [content, setContent] = useState("");
     console.log(article.name)
-  useEffect(() => {
-    fetch(`${article.name}.md`)
-      .then((res) => res.text())
-      .then((text) => setContent(text));
-  }, []);
+    useEffect(() => {
+        import(`../_posts/${article.name}.md`)
+        .then(res => {
+            fetch(res.default)
+                .then(res => res.text())
+                .then(res => setContent(res))
+                .catch(err => console.log(err));
+        })
+        .catch(err => console.log(err));
+      }, []);
 
   return (
   
@@ -82,7 +87,7 @@ const Article = ({ article, allPostsData  }) => {
       </div>
       
       <div className="post">
-      <ReactMarkdown>{content}</ReactMarkdown>
+      <Markdown>{content}</Markdown>
     </div>
 
       

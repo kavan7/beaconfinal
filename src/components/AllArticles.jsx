@@ -119,11 +119,9 @@ const AllArticles = () => {
                   <h5 className="article-list-author">{article.author}</h5>
                   <h5 className="arti cle-list-date">{article.date}</h5>
                   <div className="article-list-content">
-                  {(Array.isArray(articles[index].content)
-    ? articles[index].content.join(' ') // Convert array to string
-    : articles[index].content).slice(0,300)
-  }
-                  </div>
+  {Array.isArray(article.content) ? article.content.slice(0, 300).join(' ') : (article.content || '').slice(0, 300)}
+</div>
+
                 </div>
                 <div>
                   <img src={article.image} alt="image" className="article-list-image" />
