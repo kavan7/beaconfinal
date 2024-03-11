@@ -5,12 +5,18 @@ import ReactMarkdown from 'react-markdown';
 import Markdown from 'markdown-to-jsx';
 
 const Article = ({ article, allPostsData  }) => {
-
+    function slugify(title) {
+        return title
+          .toLowerCase()
+          .replace(/[^a-z0-9\s-]/g, "")
+          .replace(/\s+/g, "-")
+          .replace(/-+/g, "-");
+      }
 
   const [content, setContent] = useState("");
     console.log(article.name)
     useEffect(() => {
-        import(`../_posts/${article.name}.md`)
+        import(`../_posts/${article.date}-${slugify(article.title)}.md`)
         .then(res => {
             fetch(res.default)
                 .then(res => res.text())
@@ -87,7 +93,7 @@ const Article = ({ article, allPostsData  }) => {
       </div>
       
       <div className="post">
-      <Markdown>{content}</Markdown>
+      <Markdown className="articleContent">{content}</Markdown>
     </div>
 
       
