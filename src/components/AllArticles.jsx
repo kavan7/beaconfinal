@@ -103,11 +103,11 @@ const AllArticles = () => {
           {filteredArticles.map((article, index) => (
             <Link
               to={`/articles/${article.date}-${slugify(article.title)}`}
-              className="link"
+              className="link-no-underline"
               key={index}
             >
               <motion.div
-                className="article-list-container shadow-card"
+                className="article-list-container"
                 id={article.title}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -117,7 +117,7 @@ const AllArticles = () => {
                 <div>
                   <h3 className="article-list-title">{article.title}</h3>
                   <h5 className="article-list-author">{article.author}</h5>
-                  <h5 className="arti cle-list-date">{article.date}</h5>
+                  <h5 className="article-list-date">{article.date}</h5>
                   <div className="article-list-content">
   {Array.isArray(article.content) ? article.content.slice(0, 300).join(' ') : (article.content || '').slice(0, 300)}
 </div>

@@ -140,7 +140,7 @@ const articles = [
         student from North York, and though his camp...`,
         image: MeirStraus,
         content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. N',
-        
+        name: `2023-05-06-An_Interview_with_Meir_Staus`
     },
     {
         author: 'Beacon Editors',
@@ -150,6 +150,7 @@ const articles = [
         preview: `To view a PDF version of our April Bacon Issue, click here.`,
         image: BeaconAprilIssue,
         content: '',
+        name: `2023-04-11-Bacon-April-Issue`
 
     },
     {
@@ -161,6 +162,7 @@ const articles = [
         While we are a student-run publication, we also believe that...`,
         image: LettersToEditorsForm,
         content: '',
+        name: '2023-04-10-Letters-to-the-Editor-Form'
 
     },
     {
@@ -173,6 +175,7 @@ const articles = [
         The recently...`,
         image: ThePharosDaily,
         content: '',
+        name: '2023-04-01-THE PHAROS DAILY'
 
     },
     {
@@ -184,6 +187,7 @@ const articles = [
         of the winter assembly.” What happened to MCI’s beloved Student Administrative Council? From a delayed assembly to...`,
         image: ScammerAndFrauds,
         content: '',
+        name: '2023-04-01-Scammers And Frauds-The Joke Known as The SAC'
 
     },
     {
@@ -196,6 +200,7 @@ const articles = [
         packs a larger punch...`,
         image: TrueTorontonian,
         content: '',
+        name: '2023-04-01-How to Become a True Torontonian'
      
     },
     {
@@ -207,6 +212,7 @@ const articles = [
         Ponder not a millisecond longer as we’ve conducted top...`,
         image: EasterPreparations,
         content: '',
+        name: '2023-04-01-Easter Preparations MCI Teachers Edition'
 
     },
     {
@@ -218,6 +224,7 @@ const articles = [
         it was held on March 13th and winter ended only seven days later. The Assembly was originally...`,
         image: AssemblyOfWinterMagic,
         content: '',
+        name: '2023-04-01-An Assembly Of Winter Magic'
 
     },
     {
@@ -229,6 +236,7 @@ const articles = [
         So, last Saturday, like any other day, I laced up my shoes and went...`,
         image: LastFridaysSnowstorm,
         content: '',
+        name: '2023-03-08-Opinion-Last-Fridays-snowstorm-proves-that-cars-are-not-the-answer - Copy'
 
     },
     {
@@ -239,7 +247,7 @@ const articles = [
         preview: `Aries: You will get closer to a certain Libra in the near future. They will say “slay” a lot, so you better get used to it....`,
         image: ValentineHoroscopes,
         content: '',
-
+        name: "2023-02-15-Valentine's_Horoscopes"
     },
     {
         author: 'Julia Wu',
@@ -250,6 +258,7 @@ const articles = [
         Tesla Model X’s, build over 1000 CN towers, or buy almost 400 million bananas! But, no. Last February, all that...`,
         image: ValentineUglyHoliday,
         content: '',
+        name: "2023-02-15-Valentine's_Day_is_an_Ugly_Holiday"
 
     },
     {
@@ -261,7 +270,7 @@ const articles = [
         On July 16th, 1969, at 8:32 AM, the course of American history was forever changed as...`,
         image: WomanWhoSentManToMoon,
         content: '',
-
+        name: "2023-02-15-Valentine's_Day_is_an_Ugly_Holiday"
     },
     {
         author: 'Nathan Perlman',
@@ -273,7 +282,7 @@ const articles = [
         Musk obtained ownership of Twitter...`,
         image: 'blank',
         content: '',
-
+        name: '2023-02-15-The_Ungraceful_Downfall_of_Elon_Musk'
     },
     {
         author: 'Rababb Pannu',
@@ -283,7 +292,7 @@ const articles = [
         preview: `“I’m 6 foot 7… but I was not a professional athlete, contrary to popular belief”`,
         image: MrReardonInterview,
         content: '',
-
+        name: '2023-02-15-Teacher_Interview_Mr._Reardon'
     },
     {
         author: 'Noah Park',
@@ -295,6 +304,7 @@ const articles = [
         for over a century, the latecomer, snowboarding...`,
         image: 'blank',
         content: '',
+        name: '2023-02-15-Snowboarding_is_the..._Imperfect_Winter_Sport'
 
     },
     {
@@ -306,7 +316,7 @@ const articles = [
         Whether it’s when my friends can’t stop scrolling through TikTok while we’re shar...`,
         image: OurGenerationsSocialMediaDependency,
         content: '',
-
+        name: '2023-02-15-Online_Exclusive_BeCautious_of_BeReal_Our_Generations_Social_Media_Dependency'
     },
     {
         author: 'Alisha Wong',
@@ -318,6 +328,7 @@ const articles = [
         At best, the costume looks like a knock off of a Yogi bear spe...`,
         image: NewYearNewMarty,
         content: '',
+        name: '2023-02-15-New_year,_New_Marty'
 
     },
     {
@@ -329,7 +340,7 @@ const articles = [
         This year, with a roster filled with a multitude of grade twe...`,
         image: HockeyAtMCI,
         content: '',
-
+        name: '2023-02-15-Hockey_at_MCI'
     },
     {
         author: 'Nadine Telesford',
@@ -340,7 +351,7 @@ const articles = [
         This is why I have curated a list of books that should ha...`,
         image: BooksToRead2023,
         content: '',
-
+        name: '2023-02-15-Books_To_Get_You_Into_Reading_for_2023'
     },
     {
         author: 'Skyler Xiang',
@@ -351,7 +362,7 @@ const articles = [
         had I done anything wrong, so what could t...`,
         image: BeingGiftedNotSpecial,
         content: '',
-
+        name: "2023-02-15-Being_Gifted_Doesn't_Make_You_Special"
     },
     {
         author: 'Beacon Editors',
@@ -361,7 +372,7 @@ const articles = [
         preview: `To view a PDF version of our February Beacon Issue, click here.`,
         image: BeaconFebruaryIssue,
         content: '',
-
+        name: '2023-02-13-Beacon-February-Issue'
     },
     {
         author: 'Beacon Editors',
@@ -371,7 +382,7 @@ const articles = [
         preview: `To view a PDF version of our December 2022 Beacon Issue, click here.`,
         image: BeaconDecemberIssue,
         content: '',
-
+        name: '2023-02-02-Beacon-December-Issue'
     },
     {
         author: 'Madeleine Semple',
@@ -382,6 +393,7 @@ const articles = [
         The malls are all decked in vibrant red and lush green, winter break is practically a day away, and the daily Coldplay on the announc...`,
         image: ThePerfectGift,
         content: '',
+        name: '2022-12-29-holiday_shopping_article_-_dec_issue'
     },
     {
         author: 'Alisha Wong',
@@ -392,7 +404,7 @@ const articles = [
         “this dumpster fire of a trash movie is a blight upon my existence. I hate it with the burning passion of a thousand sun...`,
         image: CultClassic,
         content: '',
-
+        name: "2022-12-29-What_Makes_a_Cult_Classic"
     },
     {
         author: 'Noah Park',
@@ -403,6 +415,7 @@ const articles = [
         Even though many Christmas movie classics have lost the vibrant aura they ...`,
         image: RyanReynoldsWillFerrelSpirited,
         content: '',
+        name: "2022-12-29-Spirited_Christmas_Movie_Review_-_Beacon_December_Issue_-_Noah_Park"
 
     },
     {
@@ -424,7 +437,7 @@ const articles = [
         preview: `Most people associate December holidays with Christmas or Hanukkah, but there is a lot more to the month than that.`,
         image: HolidaysAndTraditionsAroundTheWorld,
         content: '',
-
+        name: '2022-12-29-Holidays_and_Traditions_Around_the_World'
     },
     {
         author: 'Aiden Harris',
@@ -444,6 +457,7 @@ const articles = [
         preview: `The Never-ending saga of MCI’s volleyball season; scandals, teams composed of grown-up men and insider scoops`,
         image: BearsCorner,
         content: '',
+        name: '2022-12-29-Bears_Corner'
 
     },
     {
@@ -455,6 +469,7 @@ const articles = [
         At the beginning of this year, it might have been cold and dark, but at least we started recove...`,
         image: EndOf2022,
         content: '',
+        name: '2022-12-29-Beacon_The_End_of_2022_-_Rababb_Pannu'
 
     },
     {
@@ -466,7 +481,7 @@ const articles = [
         If you have any interest in reading, and actively use social media platforms like Tiktok...`,
         image: VerityColleeenHoover,
         content: '',
-
+        name: '2022-12-29-Beacon_Colleen_Hoover_book_review'
     },
     {
         author: 'Amanda Marchetti',
@@ -477,7 +492,8 @@ const articles = [
         I mean, the stressing over deadlines, staying up until dawn to study, and the exhausting soci...`,
         image: HighSchoolMoviesSimilarToMCI,
         content: '',
-
+        name: '2022-12-29-A_List_of_High_School_Movies_Most_Similar_to_MCI'
+        
     },
     {
         author: 'Beacon Editors',
@@ -487,6 +503,7 @@ const articles = [
         preview: `To view Sanaa Claus, our live-action 2022 holiday movie, click here.`,
         image: SanaaClausBeaconMovie,
         content: '',
+        name: '2022-12-27-Sanaa Claus-Beacon-Holiday-Movie-2022'
 
     },
     {
@@ -497,7 +514,7 @@ const articles = [
         preview: `To view a PDF version of our November 2022 Beacon Issue, click here.`,
         image: BeaconNovemberIssue,
         content: '',
-
+        name: '2022-11-22-Beacon-November-Issue'
     },
     {
         author: 'Yeshe Lhamo',
@@ -508,7 +525,7 @@ const articles = [
         children to clamp their hands on their ears. Many gazed at the russet leaves slowly falli...`,
         image: RemembranceDay2022,
         content: '',
-
+        name: '2022-11-21-Why_We_Remember'
     },
     {
         author: 'Nathan Perlman',
@@ -518,7 +535,7 @@ const articles = [
         preview: `The municipal election that just happened was relatively uneventful without major drama or surprises.`,
         image: TorontoElection2022,
         content: '',
-
+        name: '2022-11-21-The_2022_Toronto_Election'
     },
     {
         author: 'Siya Sahni',
@@ -529,7 +546,7 @@ const articles = [
         celebrating the return of King Rama after defeating the evil Ravana.`,
         image: SamosaSale2022,
         content: '',
-
+        name: '2022-11-21-SACAs_Samosa_Sale'
     },
     {
         author: 'Rababb Pannu',
@@ -540,7 +557,7 @@ const articles = [
         year with the “Messages of Hope” breast cancer awareness poster-signing in Martingrove’s foyer. Octobe...`,
         image: MessagesOfHope,
         content: '',
-
+        name: '2022-11-21-Relay_for_Life_Messages_of_Hope'
     },
     {
         author: 'Hannah Mair',
@@ -551,7 +568,7 @@ const articles = [
         began rerecording her previous works in 2021. This is huge news for Swifties, since there hasn’...`,
         image: TaylorSwiftMidnight,
         content: '',
-
+        name: '2022-11-21-Meet_Me_at_Midnight'
     },
     {
         author: 'Jack Gordon',
@@ -562,7 +579,7 @@ const articles = [
         MCI’s clubs can be a great place to spend your time. However, the...`,
         image: LunchtimeClubs,
         content: '',
-
+        name: '2022-11-21-Lunchtime_Clubs_at_MCI'
     },
     {
         author: 'Mira Seth',
@@ -573,7 +590,7 @@ const articles = [
         This made and still continues to make a big impact on ...`,
         image: JirehLeal,
         content: '',
-
+        name: '2022-11-21-In_Loving_Memory_of_Jireh_Leal'
     },
     {
         author: 'Nadine Telesford',
@@ -584,7 +601,7 @@ const articles = [
         However, grief can sometimes be overwhelming; when one is grieving, one is suffering emot...`,
         image: Grief,
         content: '',
-
+        name: '2022-11-21-Dealing_With_Grief'
     },
     {
         author: 'Max Hutton',
@@ -594,7 +611,7 @@ const articles = [
         preview: `With Halloween around the corner, I would like to present my top three sports-related Halloween costumes.`,
         image: SportHalloweenCostumes,
         content: '',
-
+        name: '2022-10-31-Top-Three-Sports-Related-Halloween-Costumes'
     },
     {
         author: 'Rababb Pannu',
@@ -605,7 +622,7 @@ const articles = [
         Some great ways to celebrate include dressing up, trick-or-trea...`,
         image: 'blank',
         content: '',
-
+        name: "2022-10-31-The-Best-Ways-To-Celebrate-Halloween"
     },
     {
         author: 'Nathan Perlman',
@@ -616,6 +633,7 @@ const articles = [
         There are many options to choose from when it comes to enjoying what Halloween has to offer.`,
         image: 'blank',
         content: '',
+        name: '2022-10-31-Horror-Video-Games-and-Films-Halloween-Edition'
 
     },
     {
@@ -627,7 +645,7 @@ const articles = [
         More than 100 people dressed in pirate costumes, la...`,
         image: BiggerThanCancer,
         content: '',
-
+        name: '2022-06-22-We-Are-Bigger-Than-Cancer'
     },
     {
         author: 'Sanaa Smahmud',
@@ -638,7 +656,7 @@ const articles = [
         Having spent her entire time as a teacher at Martingrove, M...`,
         image: FellerRetirement,
         content: '',
-
+        name: '2022-06-22-Retirement-Spotlight-A-Look-Into-Ms-Feller’s-Time-at-MCI'
     },
     {
         author: 'Amanda Marchetti',
@@ -649,7 +667,7 @@ const articles = [
         With so many clubs and teams at our sch...`,
         image: MCISports2021,
         content: '',
-
+        name: '2022-06-22-MCI-Sports-in-the-2021-2022-School-Year'
     },
     {
         author: 'Skyler Xiang',
@@ -659,7 +677,7 @@ const articles = [
         preview: `Congratulations, MCI Class of 2022! You did it!`,
         image: GradSpotlight,
         content: '',
-
+        name: '2022-06-22-Grad-Spotlight'
     },
     {
         author: 'Maya Hutzul',
@@ -670,7 +688,7 @@ const articles = [
         it’s crazy to think so many of us are experiencing our last few days at Martingrove. The 2021 / 2022 school year is finally coming to ...`,
         image: EndOf2022SchoolYear,
         content: '',
-
+        name: '2022-06-22-Before-School’s-Out'
     },
     {
         author: 'Skyler Xiang',
@@ -681,6 +699,7 @@ const articles = [
         More specifically, I have been thinking about our society’s shift in attitude...`,
         image: PerilToFever,
         content: '',
+        name: '2022-05-17-Yellow-from-Peril-to-Fever'
 
     },
     {
@@ -692,7 +711,7 @@ const articles = [
         Lithuania, Poland, and Russia are just a few of the many. Russian leader Vladimir Putin’s belief th...`,
         image: FamilyUkraineRussiaConflict,
         content: '',
-
+        name: '2022-05-17-Where_My_Family_Came From_How_I_Understand_Ukrainian-Russian_Conflict'
     },
     {
         author: 'Alisha Wong',
@@ -703,7 +722,7 @@ const articles = [
         Madness and I came across a character that I nearly forgot. Who is Dr. Christine Palmer? Acco...`,
         image: StrangeMarvelLoveInterest,
         content: '',
-
+        name: '2022-05-17-Strange-Love-Marvel’s-Love-Interest-Problem'
     },
     {
         author: 'Maya Hutzul',
@@ -714,7 +733,7 @@ const articles = [
         The first is pointing out every single Canadian celebrity on the radio, in a TV show, or in a bask...`,
         image: TruckerConvoy,
         content: '',
-
+        name: '2022-02-15-What-the-Trucker-Convoy-Says-About-Canadian-Society'
     },
     {
         author: 'Siya Sahni',
@@ -725,7 +744,7 @@ const articles = [
         Russian President, Vladamir Putin wrote in July 2021. Putin constructs a narrative where U...`,
         image: UkraineRussiaExplained,
         content: '',
-
+        name: '2022-02-15-Ukrainian-Russian-Conflict-Explained.jpg'
     },
     {
         author: 'Skyler Xiang',
@@ -735,6 +754,7 @@ const articles = [
         preview: `A spoiler-free comparison of the 1961 and 2021 film adaptations of the classic Broadway musical West Side Story.`,
         image: WestSideStories,
         content: '',
+        name: '2022-02-15-Two-West-Side-Stories-Old-vs-New'
 
     },
     {
@@ -746,7 +766,7 @@ const articles = [
         Don’t get me wrong, Orwell’s novel 1984 is a masterpiece and the Hunger Games is popular for a reaso...`,
         image: StarTrekNextGeneration,
         content: '',
-
+        name: '2022-02-15-The-Calming-Utopia-of-Star-Trek-The-Next-Generation'
     },
     {
         author: 'Sanaa Mahmud',
@@ -757,7 +777,7 @@ const articles = [
         While sometimes this can be beneficial in spreading important details, in our current world, where news is h...`,
         image: BoosterMyths,
         content: '',
-
+        name: '2022-02-15-Tearing-Down-Booster-Myths-In-Time-for-Your-18th-Birthday'
     },
     {
         author: 'Glenn Koceku',
@@ -768,7 +788,7 @@ const articles = [
         The COVID-19 pandemic has taken a mental toll on students and teachers alike. We have had to go through constantly changing ci...`,
         image: MentalHealthPandemic,
         content: '',
-
+        name: '2022-02-15-Improving-Your-Mental-Health-During-the-Pandemic'
     },
     {
         author: 'Glenn Koceku',
@@ -779,6 +799,7 @@ const articles = [
         romance and spending your entire paycheck on getting your significant other a gift. However, there are many people who don’t reall...`,
         image: SingleOnValentines,
         content: '',
+        name: "2022-02-15-How-to-Enjoy-Valentine's-Day-When-You're-Single"
 
     },
     {
@@ -790,6 +811,7 @@ const articles = [
         From William Shakespeare”s The Taming of the Shrew to 1924 with the ...`,
         image: RomanticComediesLoveStory,
         content: '',
+        name: '2022-02-15-A_Valentine_to_Romantic_Comedies_A_Love_Story_in_6_Acts'
 
     },
     {
@@ -801,7 +823,7 @@ const articles = [
         different Christmas drinks to go along with it? Serve these unique hot chocolate recipes from aroun...`,
         image: HotChocolateAnyone,
         content: '',
-
+        name: '2021-11-30-HOT-CHOCOLATE-ANYONE'
     },
     {
         author: 'Sia Mehta',
@@ -812,7 +834,7 @@ const articles = [
         October 2021. It marked a return to cinema, both literally and metaphorically. For months in adva...`,
         image: DuneOscarOrOverHyped,
         content: '',
-
+        name: '2021-11-30-DUNE-OSCAR-WORTHY-OR-OVERHYPED'
     },
     {
         author: 'Maya Hutzul',
@@ -823,7 +845,7 @@ const articles = [
         You know, that massive franchise of interconnected superhero blockbusters fil...`,
         image: EternalsReview,
         content: '',
-
+        name: '2021-11-26-Why-The-Eternals-Was-Actually-Good'
     },
     {
         author: 'Fiza Sheikh',
@@ -834,6 +856,7 @@ const articles = [
         noticed small distortions in their reality, such as the wind not blowing in the trees, a lack of...`,
         image: FrenchRevolution,
         content: '',
+        name: '2021-11-25-Slipping-into-the-French-Revolution'
 
     },
     {
@@ -844,7 +867,7 @@ const articles = [
         preview: `The Spiderman: No Way Home trailer has made Marvel fans go crazy. Here’s some of what we know about the movie so far.`,
         image: SpidermanNWHTrailer,
         content: '',
-
+        name: '2021-11-24-Breaking-Down-the-New-Spiderman-Movie-Trailer'
     },
     {
         author: 'Skyler Xiang',
@@ -855,7 +878,7 @@ const articles = [
         mound of steaming hot goose excrement? Have you ever been glared at by a goose standing o...`,
         image: MerryGeesemas,
         content: '',
-
+        name: '2021-11-23-Merry-Geesemas-and-a-Honky-New-Year'
     },
     {
         author: 'Alisha Wong',
@@ -865,6 +888,7 @@ const articles = [
         preview: `Setting the Scene`,
         image: StarWarsChristmasSpecial,
         content: '',
+        name: '2021-11-23-Making_of_the_Star_Wars_Holiday_Special'
 
     },
     {
@@ -876,7 +900,7 @@ const articles = [
         Fromghosts to gargoyles to going to a party where you don’t know anybody, Halloween preys on everybody’s fears. Many peopl...`,
         image: NotScaryHalloweenMovies,
         content: '',
-
+        name: '2021-10-30-not-so-scary-halloween-movies'
     },
     {
         author: 'Amanda Marchetti',
@@ -888,7 +912,7 @@ const articles = [
         `,
         image: FunHalloweenActivies,
         content: '',
-
+        name: '2021-10-30-Halloween-Activites'
     },
     {
         author: 'Maya Hutzul',
@@ -899,7 +923,7 @@ const articles = [
         or the sea of orange t-shirts in the halls of our school. Today is the N...`,
         image: TruthandReconciliation2021,
         content: '',
-
+        name: '2021-09-30-Truth-and-Reconciliation-Day-Reckoning-With-Canadas-Past-and-Forging-Its-Future'
     },
     {
         author: 'Sanaa Mahmud',
@@ -910,7 +934,7 @@ const articles = [
         In fact, even with the addition of three seats in the House of Commons, th...`,
         image: FederalElection2021,
         content: '',
-
+        name: '2021-09-25-The-Federal-Election-Why-Did-We-Have-One '
     },
     {
         author: 'Sanaa Mahmud',
@@ -920,7 +944,7 @@ const articles = [
         preview: `Look out the window: do you see the sun shining brightly onto the green grass? This is just one of many signs the summer months are within reach. With summer approaching, you may notice...`,
         image: SummerWarmWeatherMoodBooster,
         content: '',
-
+        name: '2021-06-30-how-summer-affects-your-mental-health'
     },
     {
         author: 'Maya Hutzul',
@@ -931,7 +955,7 @@ const articles = [
         With more and more Canadians getting vaccinated, and COVID-19 rates dropping dramatically, the return to a...`,
         image: CanadaVaccineRace,
         content: '',
-
+        name: '2021-06-29-getting_our_act_together'
     },
     {
         author: 'Rhea Matharu',
@@ -941,7 +965,7 @@ const articles = [
         preview: `Content warning: This article discusses the Missing and Murdered Indigenous Women and Girls crisis.`,
         image: MissingAndMurderedIndigenousWomen,
         content: '',
-
+        name: '2021-06-29-canadas_dark_truth'
     },
     {
         author: 'Surbhi Rao',
@@ -952,7 +976,7 @@ const articles = [
         in grade 9 and is now my final contribution to the club. We’re bringing it full circle folks!`,
         image: DesksMinorWhiner,
         content: '',
-
+        name: '2021-06-25-desks_from_the_perspective_of_a_minor_whiner'
     },
     {
         author: 'Diana Brebeanu',
@@ -963,7 +987,7 @@ const articles = [
         I wanted to take a moment to journey all throughout the Martingrove lifestyle. Here...`,
         image: TheLittleThings,
         content: '',
-
+        name: '2021-06-24-MCI_The_Little_Things'
     },
     {
         author: 'Surbhi Rao',
@@ -973,7 +997,7 @@ const articles = [
         preview: `1. How long did you teach and what subjects did you teach?`,
         image: StoicaInterview,
         content: '',
-
+        name: '2021-06-22-Mr.Stoica_Interview'
     },
     {
         author: 'Rhea Matharu',
@@ -984,7 +1008,7 @@ const articles = [
         TVs, and even refrigerators. However, there is now a new addition to this list: the Levi’s...`,
         image: ClothingSmart,
         content: '',
-
+        name: '2021-05-15-clothing_smart'
     },
     {
         author: 'Emil Capilongo Anthony',
@@ -995,7 +1019,7 @@ const articles = [
         We have to wear masks, socially distance, and use the quadmester system, if we are going to school at a...`,
         image: WashroomsCancelled,
         content: '',
-
+        name: '2021-04-01-washrooms_cancelled'
     },
     {
         author: 'Rhea Matharu',
@@ -1006,7 +1030,7 @@ const articles = [
         is going to quit music forever. These were largely feelings of shock, frustration, and co...`,
         image: TaylorSwiftRetirement,
         content: '',
-
+        name: '2021-04-01-taylor_swift'
     },
     {
         author: 'Beacon Editors',
@@ -1016,7 +1040,7 @@ const articles = [
         preview: `Sung in the tune of “My Favourite Things” from The Sound of Music.`,
         image: MyQuarantineThings,
         content: '',
-
+        name: '2021-04-01-quarantine_things'
     },
     {
         author: 'Surbhi Rao',
@@ -1027,7 +1051,7 @@ const articles = [
         To combat this, the journalists at The Bacon have talked to experts ...`,
         image: WaysToProtectFromCovid,
         content: '',
-
+        name: '2021-04-01-protect_yourself'
     },
     {
         author: 'Rida Syed',
@@ -1038,7 +1062,7 @@ const articles = [
         But that is not the virus we should be concerned about.`,
         image: NewVirusCovid,
         content: '',
-
+        name: '2021-04-01-new_virus'
     },
     {
         author: 'Maya Hutzul',
@@ -1049,7 +1073,7 @@ const articles = [
         Among her alleged crimes are being multiracial, being a woman, being Ame...`,
         image: MeghanMarkleBreathes,
         content: '',
-
+        name: '2021-04-01-meghan_markle'
     },
     {
         author: 'Skyler Xiang',
@@ -1059,6 +1083,7 @@ const articles = [
         preview: `Last week, a series of tragic events occurred, starting with the mysterious eye of Eveloin Rib. But don’t worry - there’s mutton to fret about.`,
         image: TragedyStrikesMeatingrove,
         content: '',
+        name: '2021-04-01-meatingrove'
 
     },
     {
@@ -1070,7 +1095,7 @@ const articles = [
         significant thing: windows. We, at the Beacon, recently came across ancient MCI h...`,
         image: NoWindowsAtMCI,
         content: '',
-
+        name: '2021-04-01-mci_windows'
     },
     {
         author: 'Sanaa Mahmud',
@@ -1081,7 +1106,7 @@ const articles = [
         for a small local artist named Ed Sheeran. His hair is incredible, and his mus...`,
         image: EdSheeranExclusiveFacts,
         content: '',
-
+        name: '2021-04-01-ed_sheeran'
     },
     {
         author: 'Diana Brebeanu',
@@ -1092,7 +1117,7 @@ const articles = [
         better way to power the engine.” Enter the Graviton! With its subatomic superpower, its potent...`,
         image: GravitonFutureFuel,
         content: '',
-
+        name: '2021-03-21-TheGraviton-FutureFuel'
     },
     {
         author: 'Emil Capilongo Anthony',
@@ -1103,7 +1128,7 @@ const articles = [
         months of priming, where many elected officials got their followers to believe t...`,
         image: CapitalHillRiots,
         content: '',
-
+        name: '2021-03-17-Capitol_Hill_Riots'
     },
     {
         author: 'Nicole Yotis',
@@ -1114,7 +1139,7 @@ const articles = [
         Poetry Contest. I am Love by Ruchi Tilva won 2nd place , and Nighttime Reminiscence b...`,
         image: ValentineContestWinners,
         content: '',
-
+        name: "2021-03-01-Valentine's_Contest_Winners"
     },
     {
         author: 'Sia Mehta',
@@ -1125,7 +1150,7 @@ const articles = [
         listening to the radio while driving home, or getting updates on Twitter, everyone...`,
         image: SimilaritiesBetweenSupremacists,
         content: '',
-
+        name: '2021-02-08-Devils_In_The_Details'
     },
     {
         author: 'Sanaa Mahmud',
@@ -1136,7 +1161,7 @@ const articles = [
         to see the classic staple of living in this northern country: snow. White, soft, beautiful, all-encompass...`,
         image: SnowflakesAndPeople,
         content: '',
-
+        name: '2021-01-28-Article-Snowflakes-and-People-How-Differences-Make-Us-Special'
     },
     {
         author: 'Maya Hutzul',
@@ -1147,7 +1172,7 @@ const articles = [
         and was far from your typical sitcom. Meet Eleanor Shellstrop, a self-centred, terrible human bei...`,
         image: TheGoodPlace,
         content: '',
-
+        name: '2021-01-21-The_Good_Place'
     },
     {
         author: 'Suryakant Jain',
@@ -1157,7 +1182,7 @@ const articles = [
         preview: `Additional Contributors from the MMUN Team: Diana Brebeanu, Marko Vehauc, and Rohan Kumar.`,
         image: AmericaGlobalLeader,
         content: '',
-
+        name: '2021-01-21-America_as_a_Global_Leader'
     },
     {
         author: 'Sia Mehta',
@@ -1168,7 +1193,7 @@ const articles = [
         the dictionary. It was first coined in 2012 by author John Koenig, whose project The Dictionary...`,
         image: SonderMeaning,
         content: '',
-
+        name: '2020-12-17-Sonder_Why_It_Is_More_Meaningful_Than_Ever'
     },
     {
         author: 'Sanaa Mahmud',
@@ -1179,7 +1204,7 @@ const articles = [
          These students gave brief responses, accounting for their unique experien...`,
         image: PandemicPerspectives,
         content: '',
-
+        name: '2020-12-07-MCI_Pandemic_Perspectives'
     },
     {
         author: 'Sanaa Mahmud',
@@ -1190,7 +1215,7 @@ const articles = [
         Uncertain of what to do, where to go next, and what is going to happen in the near future. Everywh...`,
         image: KnowledgeIsPowerInPandemic,
         content: '',
-
+        name: '2020-05-15-Knowledge_is_Power_Why_to_Stay_Informed_During_the_Pandemic_-_Sanaa_Mahmud'
     },
     {
         author: 'Sanaa Mahmud',
@@ -1201,7 +1226,7 @@ const articles = [
         that your role in the company is not advancing and your work is being limited. This...`,
         image: FemalesInJournalism,
         content: '',
-
+        name: '2020-05-15-Female_Representation_in_Journalism_-_Sanaa_Mahmud'
     },
     {
         author: 'Naomi Telesford',
@@ -1212,7 +1237,7 @@ const articles = [
         lockdown would be extended" group, or one of the hopeful students who wanted their school schedule...`,
         image: MessageForStudents,
         content: '',
-
+        name: '2020-05-15-A_Message_for_Students'
     },
     {
         author: 'Luke Baumgart',
@@ -1223,7 +1248,7 @@ const articles = [
         and those supporting the Coastal GasLink Pipeline has revealed that Canada remains set in its role a...`,
         image: SoMuchForReconciliation,
         content: '',
-
+        name: '2020-05-01-So_Much_for_Reconciliation_-_Luke_Baumgart'
     },
     {
         author: 'Emily Kim',
@@ -1234,7 +1259,7 @@ const articles = [
         While I run the risk of being melodramatic, I must say that this book has offered me a new perspective on life...`,
         image: UnlockingYourFullPotential,
         content: '',
-
+        name: '2020-04-30-Unlocking_Your_Full_Potential_-_Emily_Kim'
     },
     {
         author: 'Maya Hutzul',
@@ -1245,7 +1270,7 @@ const articles = [
         released, these statistics will already be out of date*. When news of the virus reached the interna...`,
         image: MoralDilemmaCovid,
         content: '',
-
+        name: '2020-04-30-The_Moral_Dilemma_of_COVID-19_-_Maya_Hutzul'
     },
     {
         author: 'Susanna Liao',
@@ -1256,8 +1281,8 @@ const articles = [
         around doing nothing. It’s not worth the effort to pull out a book, there’s no access to your fa...`,
         image: PodcastPontifications,
         content: '',
-
-    },
+        name: '2020-04-30-Podcast_Pontifications_-_Susanna_Liao'
+    },  
     {
         author: 'Aaliyah Aden-Sabriye',
         authortag: 'aasabriye',
@@ -1266,7 +1291,7 @@ const articles = [
         preview: `i’m sorry `,
         image: MessageToYoungerMe,
         content: '',
-
+        name: '2020-04-30-Messages_to_a_Younger_Me_-_Aaliyah_Aden-Sabriye'
     },
     {
         author: 'Linda Li',
@@ -1277,7 +1302,7 @@ const articles = [
         rapidly approaching. You probably already know what Earth Hour is, and you might think that it’s somewhat silly. `,
         image: HowBearsCelebrateEarthHour,
         content: '',
-
+        name: '2020-04-04-MEC_Environmental_Column_How_Bears_Can_Celebrate_Earth_Hour_-_Linda_Li-2'
     },
     {
         author: 'Maya Hutzul',
@@ -1288,7 +1313,7 @@ const articles = [
         spend time with family. Unfortunately, something happened in November that has quickly become one of ...`,
         image: DonCherryDivide,
         content: '',
-
+        name: '2020-02-01-The_Don_Cherry_Divide'
     },
     {
         author: 'Rhea Matharu',
@@ -1298,6 +1323,7 @@ const articles = [
         preview: `A guide to tree-ting this season right (filled with history, controversies, and more!)`,
         image: SleighingHolidaySeason,
         content: '',
+        name: '2020-02-01-File_4'
 
     },
     {
@@ -1309,7 +1335,7 @@ const articles = [
         (as soon as winter break comes and we’re not studying for five tests every night)! After a ...`,
         image: HowToDoHolidaysRight,
         content: '',
-
+        name: '2020-02-01-File_3'
     },
     {
         author: 'Surbhi Rao',
@@ -1319,6 +1345,7 @@ const articles = [
         preview: `I’ve been thinking about my New Year’s Resolutions`,
         image: MyNewYearsResolutions,
         content: '',
+        name: '2020-02-01-File_2'
 
     },
     {
@@ -1330,7 +1357,7 @@ const articles = [
         the hope of waking up to it being a snow day are all Toronto’s ways of saying it is here: the winter season. Gon...`,
         image: AllTheWaysToCopeWithSeasonalDepression,
         content: '',
-
+        name: '2020-02-01-File_1'
     },
     {
         author: 'Ira Fuse-Katayama',
@@ -1341,7 +1368,7 @@ const articles = [
         thrillers, action movies, or dramas, filmmakers new and old raised the bar for this medium in ...`,
         image: TopFilmsOf2019,
         content: '',
-
+        name: '2020-02-01-File'
     },
     {
         author: 'Ambika Mehta',
@@ -1351,7 +1378,7 @@ const articles = [
         preview: `When the Grinch was just a baby`,
         image: GrinchWasVictim,
         content: '',
-
+        name: '2019-12-22-The_Grinch_Was_the_Victim_-_Ambika_Mehta'
     },
     {
         author: 'Nicole Yotis',
@@ -1362,7 +1389,7 @@ const articles = [
         picturesque and the break is right on our doorstep. However, for some people, the holidays are dull, wi...`,
         image: WinterWonderland,
         content: '',
-
+        name: '2019-12-22-A_Winter_Wonderland_-_Nicole_Yotis'
     },
     {
         author: 'Nicole Yotis',
@@ -1373,7 +1400,7 @@ const articles = [
         fingertips. News, entertainment, music, etc. - with just the push of a button it’s all there. H...`,
         image: 'blank',
         content: '',
-
+        name: '2019-12-16-Say_what_you_mean_mean_what_you_say_-_Nicole_Yotis'
     },
     {
         author: 'Sanaa Mahmud',
@@ -1384,7 +1411,7 @@ const articles = [
         both triumph and defeat. This makes up for the time spent thinking, working, and scrambling to get through it ...`,
         image: PsychologyBehindNewYearsResolutions,
         content: '',
-
+        name: '2019-12-06-Resolutions'
     },
     {
         author: 'Rhea Matharu',
@@ -1394,7 +1421,7 @@ const articles = [
         preview: `November: A Time to be Empowered`,
         image: NovemberTimeToBeEmpowered,
         content: '',
-
+        name: '2019-11-12-November__A_Time_to_be_Empowered'
     },
     {
         author: 'Sanaa Mahmud',
@@ -1405,7 +1432,7 @@ const articles = [
         drama between Sony and Disney regarding Spider-Man. If you haven’t heard about what is happening, here’s a su...`,
         image: 'blank',
         content: '',
-
+        name: '2019-11-10-Sanaa_Mahmud_-_Spidermans_Exit_from_the_MCU'
     },
     {
         author: 'Linda Li',
@@ -1416,7 +1443,7 @@ const articles = [
         structure to our lives. Wake up. Go to school. Eat. Sleep. Climb a level in the education system (ideal...`,
         image: HowIndependentAreYouQuiz,
         content: '',
-
+        name: '2019-11-10-Independent'
     },
     {
         author: 'April Naing',
@@ -1426,7 +1453,7 @@ const articles = [
         preview: `Remembrance day`,
         image: LestWeForget2019,
         content: '',
-
+        name: '2019-11-10-April_Naing_-_Remembrance_Day-2'
     },
     {
         author: 'April Naing',
@@ -1437,7 +1464,7 @@ const articles = [
         us aren’t used to waking up at the crack of dawn. Gone are the days when we could sleep until no...`,
         image: AdviceOnMornings,
         content: '',
-
+        name: '2019-11-10-Advice_on_Mornings_by_April_Naing_1'
     },
 
 ]

@@ -64,7 +64,9 @@
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 20px;
+    color: grey;
   }
+  
   
   
   .article-list-description {
@@ -122,8 +124,13 @@
     align-items: center;
     
 }
-.link{
-    text-decoration: none;
+.link-no-underline {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-no-underline:hover {
+  text-decoration-color: rgb(255, 255, 255);
 }
 .filter-box {
   position: sticky;
