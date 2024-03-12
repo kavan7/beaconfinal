@@ -1,10 +1,12 @@
 import { useState, useRef } from 'react';
-import {motion} from 'framer-motion';
+import EarthCanvas from './EarthCanvas';
 import emailjs from '@emailjs/browser'
 import {styles} from '../styles';
 import { slideIn } from '../utils/motion';
 import { staggerContainer } from '../utils/motion';
 import { textVariant } from '../utils/motion';
+import { motion } from "framer-motion-3d";
+
 const Contact = () => {
   const formRef = useRef();
     const [form, setForm] = useState({
@@ -73,13 +75,14 @@ const Contact = () => {
     flex-col-reverse flex  overlow-hidden'>
      
         <motion.div variants={textVariant()}
-         className='ml-[5%] flex-[0.45] contact-card-container p-8'>         
+         className='flex-[0.45] contact-card-container p-8'>         
           <h5 className=' text-gray-500'>Send a message to the editors!</h5>
           <motion.div variants={textVariant()}
          className=''>  
           <h3 className={styles.sectionHeadText} >Contact.</h3>
           </motion.div>
-
+        <div className="">
+          
           <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -95,7 +98,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name"
-              className='bg-gray-100 py-4 px-6 placeholder:text-gray-500 focus:outline-none text-gray-900 rounded-lg outlined-none border-none font-medium'>
+              className='bg-gray-100 py-4 px-6 placeholder:text-gray-500 focus:outline-none text-gray-900 rounded-lg outlined-none border-none font-medium '>
 
               </input>
 
@@ -136,8 +139,12 @@ const Contact = () => {
             className=' mt-[-23px] justify-right  bg-gray-300 py-3 px-8 outline-none w-fit text-gray-700 font-bold shadow-md shadow-primary rounded-xl'>
               {loading ? 'Sending...' : 'Send'}
             </button>
-
+            
           </form>
+          <div className="mailbox">
+      <EarthCanvas/>
+    </div>
+          </div>
       </motion.div>
       </div>
 </motion.section>

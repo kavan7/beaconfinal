@@ -375,3 +375,11 @@
 .stuff{
   margin-left: 130px;
 }
+.things{
+  float: left;
+  clear: none; 
+}
+.mailbox{
+  margin-left: 1000px;
+  ;
+}
