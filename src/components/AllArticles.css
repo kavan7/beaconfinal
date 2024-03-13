@@ -13,13 +13,14 @@
   
 .bg-all-hero-pattern{
     background-color: #fcfcfc;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4.5' height='4.5' viewBox='0 0 4 4'%3E%3Cpath fill='%23cfcfcf' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
-    height: 9999999vh;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4.5' height='10' viewBox='0 0 4 4'%3E%3Cpath fill='%23cfcfcf' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    background-size: cover;
   }
   
   /* Style for the article-list container */
   .article-list-container {
     display: flex;
+    
     justify-content: space-between; /* Make child elements spread out horizontally */
     align-items: center;
     max-height: 600px;
@@ -122,16 +123,14 @@
     display: flex; /* Add flex display to center vertically */
     flex-direction: column; /* Stack child elements vertically */
     align-items: center;
-    
+    margin-top: -172px;
 }
 .link-no-underline {
   text-decoration: none;
   color: inherit;
 }
 
-.link-no-underline:hover {
-  text-decoration-color: rgb(255, 255, 255);
-}
+
 .filter-box {
   position: sticky;
   top: 10px; /* Adjust the top offset as needed */
@@ -172,9 +171,9 @@
   border-radius: 4px; /* Rounded corners */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation */
   padding: 20px; /* Spacing inside the container */
-  position: absolute;
-  top: 252px; /* Adjust as needed to align vertically with the icon */
-  left: 75%; /* Position the menu to the right of the icon */
+  position: sticky;
+  top: 50px; /* Adjust as needed to align vertically with the icon */
+  margin-left: 1100px; /* Position the menu to the right of the icon */
   z-index: 1; /* Ensure it's above other elements */
 }
 
