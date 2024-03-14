@@ -11,10 +11,11 @@ import { motion } from 'framer-motion';
 import { staggerContainer } from '../utils/motion';
 import { textVariant } from '../utils/motion';
 import { styles } from '../styles';
-
+import Confetti from 'react-confetti';
 
 function Beardle() {
-  
+  const [showConfetti, setShowConfetti] = useState(false);
+
   gsap.set(document.getElementsByClassName("error"), { scaleX: 0 });
   const squareToAnimateRef = useRef(null);
   const currentRowRef = useRef(null); 
@@ -110,6 +111,7 @@ function Beardle() {
             setMessage("YOU WIN 💸")
             setGuess(true);
             revealError();
+            setShowConfetti(true);
           }
           else if (currentRow === 4) {
             setMessage("YOU LOSE 😔, Word was: " + chosen)
@@ -284,6 +286,7 @@ function Beardle() {
 
   return (
     <>
+    {showConfetti && <Confetti width={1920} height={1080} />} {/* Show confetti */}
       <motion.section
         variants={staggerContainer()}
         initial="hidden"
