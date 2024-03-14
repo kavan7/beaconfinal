@@ -1,10 +1,3 @@
----
-author: mhutton
-image: assets/images/Bears_Corner-_credit_goes_to_Bears_Athletic_Council_BAC.jpg
-layout: post
-tags: []
-title: "Bears Corner"
----
 
 The Never-ending saga of MCI’s volleyball season; scandals, teams 
 composed of grown-up men and insider scoops

@@ -1,10 +1,4 @@
----
-author: aaden-sabriye
-image: assets/images/2020-04-30-Messages_to_a_Younger_Me_-_Aaliyah_Aden-Sabriye_photo.jpg
-layout: post
-tags: [featured]
-title: Messages to a Younger Me
----
+
 
 i'm sorry 
 

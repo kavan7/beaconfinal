@@ -1,10 +1,3 @@
----
-author: sxiang
-image: assets/images/2023-02-15-BeCautious_of_BeReal_Our_Generations_Social_Media_Dependency.jpg
-layout: post
-tags: []
-title: "Online Exclusive: BeCautious of BeReal: Our Generation's Social Media Dependency"
----
 
 I am a fan of the BBC show *Black Mirror*, which means I never hesitate
 to reference it in my daily life. Whether it's when my friends can't

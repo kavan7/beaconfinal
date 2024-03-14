@@ -1,10 +1,4 @@
----
-author: nadtelesford
-image: assets/images/2023-02-15-Books_To_Get_You_Into_Reading_for_2023.jpg
-layout: post
-tags: []
-title: "Books To Get You Into Reading for 2023!"
----
+
 
 The new year is the perfect time to create goals you have no plan to
 complete, but reading more doesn’t have to be one of them. This is why I

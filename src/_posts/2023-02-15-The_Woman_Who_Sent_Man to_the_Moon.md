@@ -1,10 +1,3 @@
----
-author: fsheikh
-image: assets/images/2023-02-15-The_Woman_Who_Sent_Man to_the_Moon.jpg
-layout: post
-tags: []
-title: "The Woman Who Sent Man to The Moon"
----
 
 *Commemorating the vital contributions of Katherine Johnson, one of the
 first black women to work for NASA.*

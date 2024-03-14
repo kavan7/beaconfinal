@@ -1,10 +1,4 @@
----
-author: ssahni
-image: assets/images/2022-02-15-Ukrainian-Russian-Conflict-Explained.jpg
-layout: post
-tags: []
-title: "Ukrainian-Russian Conflict Explained"
----
+
 
 “I am confident that true sovereignty of Ukraine is possible only in
 partnership with Russia”, Russian President, Vladamir Putin wrote in

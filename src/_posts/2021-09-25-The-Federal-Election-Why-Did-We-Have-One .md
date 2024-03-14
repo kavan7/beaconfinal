@@ -1,10 +1,4 @@
----
-author: smahmud
-image: assets/images/2021-09-25-federal-election.jpg
-layout: post
-tags: []
-title: "The Federal Election: Why Did We Have One?"
----
+
 The 2021 federal election took place a few days ago, and it didn’t end
 up changing much within the government. In fact, even with the addition
 of three seats in the House of Commons, the Liberal Party remains in

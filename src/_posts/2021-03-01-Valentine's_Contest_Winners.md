@@ -1,10 +1,3 @@
----
-author: nyotis
-image: assets/images/2021-03-01-Valentines_Contest_Winners.jpg
-layout: post
-tags: []
-title: "Valentine's Contest Winners"
----
 
 *Flowers* by Nicole Yotis is the winning poem of 
 Martingrove Library Council’s 2021 Valentine’s Day Poetry 

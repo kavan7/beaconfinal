@@ -1,9 +1,3 @@
----
-author: smahmud
-layout: post
-tags: []
-title: "The Reasoning Behind Spider-Man\u2019s Exit from the MCU"
----
 
 If you're a Marvel fan like me, then you've probably heard about the
 recent drama between Sony and Disney regarding Spider-Man. If you

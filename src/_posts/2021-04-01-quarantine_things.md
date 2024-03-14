@@ -1,10 +1,4 @@
----
-author: epark
-image: assets/images/quarantine_things.jpg
-layout: post
-tags: []
-title: "My Quarantine Things"
----
+
 
 Sung in the tune of “My Favourite Things” from *The Sound of Music*.
 

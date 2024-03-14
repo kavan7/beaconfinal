@@ -1,10 +1,3 @@
----
-author: rpannu
-image: assets/images/End_of_2022-_Anneli_Aloe.png
-layout: post
-tags: []
-title: "The End of 2022"
----
 
 
 As the year slowly ticks down, I like to reminisce about all that has 

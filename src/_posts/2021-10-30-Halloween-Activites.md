@@ -1,10 +1,4 @@
----
-author: amarchetti
-image: assets/images/2021-10-30-Halloween-Activities.jpg
-layout: post
-tags: []
-title: "Fun Halloween Activities For When You're Bored"
----
+
 
 Things are finally starting to get back to normal in 2021, so here are
 some Halloween activities you can do with friends and family that will

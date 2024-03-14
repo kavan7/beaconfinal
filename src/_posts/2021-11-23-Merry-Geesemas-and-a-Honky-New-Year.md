@@ -1,10 +1,4 @@
----
-author: sxiang
-image: assets/images/Merry-Geesemas-Nayab-Naveed.jpeg
-layout: post
-tags: []
-title: "Merry Geesemas and a Honky New Year"
----
+
 Have you ever been approached by a blood-thirsty goose? Have you ever
 accidentally stepped in a mound of steaming hot goose excrement? Have
 you ever been glared at by a goose standing on top of the school, and

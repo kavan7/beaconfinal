@@ -1,10 +1,3 @@
----
-author: fsheikh
-image: assets/images/2021-11-25-Slipping-into-the-French-Revolution.jpg
-layout: post
-tags: []
-title: "Slipping into the French Revolution"
----
 
 In the summer of 1901, two English women walking the grounds of the
 Palace of Versailles noticed small distortions in their reality, such as

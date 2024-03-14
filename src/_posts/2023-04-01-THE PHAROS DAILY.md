@@ -1,10 +1,4 @@
----
-author: awong
-image: assets/images/2023-04-01-THE PHAROS DAILY.jpg
-layout: post
-tags: []
-title: "🥓 THE PHAROS DAILY"
----
+
 
 Thursday, Martius XXXI, XLIV BC
 

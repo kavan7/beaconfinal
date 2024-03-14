@@ -1,10 +1,3 @@
----
-author: mhutzul
-image: assets/images/2021-11-26-Why-The-Eternals-Was-Actually-Good.jpg
-layout: post
-tags: []
-title: "Why The Eternals Was Actually Good"
----
 
 If you haven’t been living under a rock since 2008, you’ve probably
 heard of the Marvel Cinematic Universe. You know, that massive franchise

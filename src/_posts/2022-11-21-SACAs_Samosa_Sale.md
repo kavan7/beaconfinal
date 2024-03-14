@@ -1,10 +1,4 @@
----
-author: ssahni
-image: assets/images/saca_diwali_event.jpg
-layout: post
-tags: []
-title: "SACA's Samosa Sale"
----
+
 
 Diwali is an auspicious Hindu festival, also known as the “festival of
 lights,” celebrating the return of King Rama after defeating the evil

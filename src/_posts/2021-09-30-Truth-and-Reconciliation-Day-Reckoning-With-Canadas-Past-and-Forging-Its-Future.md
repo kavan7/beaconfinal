@@ -1,10 +1,3 @@
----
-author: mhutzul
-image: assets/images/2021-09-30-Truth-and-Reconciliation-Day.jpg
-layout: post
-tags: []
-title: "Truth and Reconciliation Day: Reckoning With Canada’s Past and Forging Its Future"
----
 
 September 30th is a bit different this year. Maybe you’ve noticed the
 orange streamers on the Martingrove fence, or the sea of orange t-shirts

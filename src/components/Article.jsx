@@ -3,10 +3,11 @@ import articles from '../constants/Articles';
 import "./article.css";
 import ReactMarkdown from 'react-markdown';
 import Markdown from 'markdown-to-jsx';
-
+import mammoth from "mammoth";
+import DocRenderer from './DocRenderer';
 const Article = ({ article, allPostsData  }) => {
     
-
+  const [html, sethtml] = useState()
   const [content, setContent] = useState("");
     console.log(article.name)
     useEffect(() => {
@@ -19,6 +20,10 @@ const Article = ({ article, allPostsData  }) => {
         })
         .catch(err => console.log(err));
       }, []);
+
+    
+      const [htmlContent, setHtmlContent] = useState('');
+
 
   return (
   
@@ -87,10 +92,10 @@ const Article = ({ article, allPostsData  }) => {
       </div>
       
       <div className="post">
-      <Markdown className="articleContent">{content}</Markdown>
+      <iframe src= "name.mht" width="100%" height="800"> </iframe>
     </div>
-
-      
+        
+    <DocRenderer docxFilePath="./articles/one.docx" />
     </div>
   );
 };

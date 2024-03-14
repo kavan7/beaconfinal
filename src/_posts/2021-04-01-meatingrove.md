@@ -1,10 +1,3 @@
----
-author: sxiang
-image: assets/images/meatingrove.jpg
-layout: post
-tags: []
-title: "🥓 Tragedy Strikes Meatingrove CI"
----
 
 **Last week, a series of tragic events occurred, starting with the mysterious eye of Eveloin Rib. But don’t worry - there’s mutton to fret about.**
 

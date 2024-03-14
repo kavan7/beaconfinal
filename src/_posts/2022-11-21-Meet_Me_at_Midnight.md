@@ -1,10 +1,4 @@
----
-author: hmair
-image: assets/images/midnight_taylor_swift.jpg
-layout: post
-tags: []
-title: "Meet Me at Midnight"
----
+
 
 *Midnights* makes its mark as Taylor Swift’s tenth album, and the first
 new music since she began rerecording her previous works in 2021. This

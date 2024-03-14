@@ -1,10 +1,4 @@
----
-author: smahmud
-image: assets/images/2021-01-27-Snowflakes-and-People-How-Differences-Make-Us-Special.jpg
-layout: post
-tags: []
-title: 'Snowflakes and People: How Differences Make Us Special'
----
+
 
 Have you looked outside lately? With the new year now upon us, we are
 beginning to see the classic staple of living in this northern country:

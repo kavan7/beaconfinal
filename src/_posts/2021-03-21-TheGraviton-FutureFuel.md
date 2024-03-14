@@ -1,10 +1,4 @@
----
-author: dbrebeanu
-image: assets/images/TheGraviton.jpg
-layout: post
-tags: []
-title: "The Graviton: Future Fuel"
----
+
 Have you ever been filling the tank to your new spaceship and thought,
 “I wish there was a better way to power the engine.” Enter the Graviton!
 With its subatomic superpower, its potential applications are

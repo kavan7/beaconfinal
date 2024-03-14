@@ -1,9 +1,4 @@
----
-author: npark
-layout: post
-tags: []
-title: "Snowboarding is the… Imperfect Winter Sport"
----
+
 
 I have a confession to make - in my eyes, snowboarding is the imperfect
 winter sport. On mountain resorts that have been built to suit skiers

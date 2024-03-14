@@ -1,11 +1,3 @@
----
-author: fsheikh
-image: assets/images/Verity_Colleeen_Hoover_-_Fiza_Sheikh1.jpg
-layout: post
-tags: []
-title: "Verity: Colleen Hoover’s Pathetic Attempt at a Romantic Thriller"
----
-
 
 Colleen Hoover. You either know exactly who she is or this name is 
 absolutely foreign to you. If you have any interest in reading, and 

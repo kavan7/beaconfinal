@@ -1,10 +1,4 @@
----
-author: mseth
-image: assets/images/jireh_photo.jpg
-layout: post
-tags: []
-title: "In Loving Memory of Jireh Leal"
----
+
 
 As many of you may know, earlier this semester, we learned of the tragic
 news of Jireh Manosca Leal’s passing on October 12, 2022. This made and

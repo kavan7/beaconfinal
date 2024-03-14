@@ -1,10 +1,4 @@
----
-author: ekim
-image: assets/images/2020-04-30-Unlocking_Your_Full_Potential_-_Emily_Kim_photo.jpg
-layout: post
-tags: [featured]
-title: Unlocking Your Full Potential
----
+
 
 Recently, I picked up the book *Mindset* by Carol Dweck and became
 obsessed. While I run the risk of being melodramatic, I must say that

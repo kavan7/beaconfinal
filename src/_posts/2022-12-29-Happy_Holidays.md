@@ -1,10 +1,3 @@
----
-author: aharris
-image: assets/images/man_in_red_coat-_credit_to_fiza_sheikh.jpg
-layout: post
-tags: []
-title: "The Man in the Red Leather Coat"
----
 
 
 \*It should be noted that all characters in this story are fictional and 

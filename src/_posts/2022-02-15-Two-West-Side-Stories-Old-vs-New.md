@@ -1,10 +1,4 @@
----
-author: sxiang
-image: assets/images/2022-02-15-Two-West-Side-Stories-Old-vs-New.jpg
-layout: post
-tags: []
-title: "Two West Side Stories: Old vs New"
----
+
 
 A spoiler-free comparison of the 1961 and 2021 film adaptations of the
 classic Broadway musical *West Side Story*

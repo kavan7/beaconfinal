@@ -1,10 +1,3 @@
----
-author: hmair
-image: assets/images/2023-02-15-Valentine's_Horoscopes.jpg
-layout: post
-tags: []
-title: "Valentine’s Horoscopes"
----
 
 **Aries:** You will get closer to a certain Libra in the near future.
 They will say “slay” a lot, so you better get used to it.

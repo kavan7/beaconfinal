@@ -1,9 +1,3 @@
----
-author: nyotis
-layout: post
-tags: []
-title: Say What You Mean, Mean What You Say
----
 
 If you're not already aware, we are living in an age where everything is
 available at our fingertips. News, entertainment, music, etc. - with

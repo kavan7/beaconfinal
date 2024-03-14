@@ -1,10 +1,3 @@
----
-author: awong
-image: assets/images/2021-10-30-not-so-scary-halloween-movies.jpg
-layout: post
-tags: []
-title: "Not-So-Scary Halloween Movies"
----
 
 Halloween is a celebration of everything that is frightening. From
 ghosts to gargoyles to going to a party where you don’t know anybody,

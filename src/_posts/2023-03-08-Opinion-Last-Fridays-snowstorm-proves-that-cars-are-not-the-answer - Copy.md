@@ -1,10 +1,3 @@
----
-author: sxiang
-image: assets/images/2023-03-08-Opinion-Last-Fridays-snowstorm-proves-that-cars-are-not-the-answer.jpg
-layout: post
-tags: []
-title: "Opinion: Last Friday’s snowstorm proves that cars are not the answer"
----
 
 I am someone who needs to feel the sun on my face daily, or else I’ll
 feel off the whole day. So, last Saturday, like any other day, I laced

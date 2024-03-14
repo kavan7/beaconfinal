@@ -1,10 +1,4 @@
----
-author: rpannu
-image: assets/images/The-Best-Ways-To-Celebrate-Halloween.jpg
-layout: post
-tags: []
-title: "The Best Ways To Celebrate Halloween"
----
+
 
 Halloween is right around the corner and there are many ways to
 celebrate one of the most enjoyable holidays of the year. Some great

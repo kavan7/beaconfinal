@@ -1,10 +1,3 @@
----
-author: awong
-image: assets/images/Cult_Classic-_Madeline_Li2.jpg
-layout: post
-tags: []
-title: "What Makes a Cult Classic?"
----
 
 
 My definition of a “cult classic” is a movie that makes you say “this

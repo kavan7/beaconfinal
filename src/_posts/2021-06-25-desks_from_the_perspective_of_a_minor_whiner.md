@@ -1,10 +1,4 @@
----
-author: srao
-image: assets/images/2021-06-25-desks_from_the_perspective_of_a_minor_whiner.jpg
-layout: post
-tags: []
-title: "Desks: From the Perspective of a Minor Whiner"
----
+
 
 ***Note from grade-12-Surbhi:** This article was my application piece
 for the Beacon in grade 9 and is now my final contribution to the club.

@@ -1,10 +1,3 @@
----
-author: smahmud
-image: assets/images/2022-02-15-Tearing-Down-Booster-Myths-In-Time-for-Your-18th-Birthday.jpg
-layout: post
-tags: []
-title: "Tearing Down Booster Myths In-Time for Your 18th Birthday"
----
 
 Nowadays, rumours and word-of-mouth are primary ways of getting
 information. While sometimes this can be beneficial in spreading

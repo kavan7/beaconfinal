@@ -1,10 +1,3 @@
----
-author: awong
-image: assets/images/2023-02-15-New_year,_New_Marty.jpg
-layout: post
-tags: []
-title: "New year, New Marty?"
----
 
 As we start the new semester, I think it's time to examine our
 priorities, starting with MCI’s own mascot, Marty the Bear. At best, the

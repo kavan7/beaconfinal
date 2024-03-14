@@ -1,10 +1,4 @@
----
-author: smahmud
-image: assets/images/ed_sheeran.jpg
-layout: post
-tags: []
-title: "🥓 Exclusive Facts About Ed Sheeran"
----
+
 
 Extra! Extra! Read all about it! On this momentous day, I thought I
 would take the time to raise awareness for a small local artist named Ed

@@ -1,12 +1,3 @@
----
-author: npark
-image: assets/images/film_review_Spirited-_Fardowsa_Mohamed.jpg
-layout: post
-tags: []
-title: "Worth a Watch? Ryan Reynolds and Will Ferrel hit centre stage in
-musical comedy ‘Spirited’"
----
-
 
 Have you hit double digits on *Home Alone* reruns? Do you know the *Elf*
 script better than the back of your hand? Even though many Christmas

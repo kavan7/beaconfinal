@@ -1,10 +1,3 @@
----
-author: sjain
-image: assets/images/2021-01-21-America_as_a_Global_Leader.jpg
-layout: post
-tags: []
-title: America as a Global Leader
----
 
 *Additional Contributors from the MMUN Team: Diana Brebeanu, Marko
 Vehauc, and Rohan Kumar.*

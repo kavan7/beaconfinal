@@ -1,10 +1,3 @@
----
-author: rpannu
-image: assets/images/2023-02-15-Teacher_Interview_Mr._Reardon.jpg
-layout: post
-tags: []
-title: "Teacher Interview: Mr. Reardon"
----
 
 *“I’m 6 foot 7… but I was not a professional athlete, contrary to
  popular belief”*

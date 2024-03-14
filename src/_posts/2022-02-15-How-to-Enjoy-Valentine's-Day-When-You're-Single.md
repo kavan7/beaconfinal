@@ -1,10 +1,3 @@
----
-author: gkoceku
-image: assets/images/2022-02-15-How-to-Enjoy-Valentine's-Day-When-You're-Single.jpg
-layout: post
-tags: []
-title: "How to Enjoy Valentine's Day When You're Single"
----
 
 Valentine's day is typically known as the day of love, romance and
 spending your entire paycheck on getting your significant other a gift.

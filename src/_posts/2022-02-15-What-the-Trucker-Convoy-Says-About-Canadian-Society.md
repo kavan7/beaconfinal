@@ -1,10 +1,4 @@
----
-author: mhutzul
-image: assets/images/2022-02-15-What-the-Trucker-Convoy-Says-About-Canadian-Society.jpg
-layout: post
-tags: []
-title: "What the Trucker Convoy Says About Canadian Society"
----
+
 
 There are a few things that I think are fundamentally part of the
 Canadian experience. The first is pointing out every single Canadian

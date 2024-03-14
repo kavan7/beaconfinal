@@ -1,10 +1,4 @@
----
-author: awong
-image: assets/images/2022-05-17-Strange-Love-Marvel’s-Love-Interest-Problem.jpg
-layout: post
-tags: []
-title: "Strange Love: Marvel’s Love Interest Problem"
----
+
 
 Last week, I was re-watching Doctor Strange in anticipation of the new
 movie *Mulitiverse of Madness* and I came across a character that I

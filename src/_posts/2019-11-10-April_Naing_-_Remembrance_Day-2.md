@@ -1,10 +1,4 @@
----
-author: anaing
-image: assets/images/2019-11-10-April_Naing_-_Remembrance_Day-2_photo.jpg
-layout: post
-tags: []
-title: Lest We Forget
----
+
 
 ***Remembrance Day***
 

@@ -1,10 +1,3 @@
----
-author: rmatharu
-image: assets/images/taylor_swift.jpg
-layout: post
-tags: []
-title: "🥓 Taylor Swift To Quit Music Forever?"
----
 
 Many feelings arose when this news developed: Taylor Swift, named “the
 music industry” herself, is going to quit music forever. These were

@@ -1,10 +1,4 @@
----
-author: jgordon
-image: assets/images/lunchtime_clubs_at_mci.jpg
-layout: post
-tags: []
-title: "Lunchtime Clubs at MCI"
----
+
 
 Whether you’re trying to make your resumé more attractive or if you’re
 eating lunch alone for the third time this week, MCI’s clubs can be a

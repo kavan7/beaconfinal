@@ -1,10 +1,3 @@
----
-author: rmatharu
-image: assets/images/2019-11-12-November__A_Time_to_be_Empowered_photo.jpg
-layout: post
-tags: []
-title: A Time to be Empowered
----
 
 **November: A Time to be Empowered**
 

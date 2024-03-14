@@ -1,10 +1,4 @@
----
-author: awong
-image: assets/images/2022-02-15-The-Calming-Utopia-of-Star-Trek-The-Next-Generation.jpg
-layout: post
-tags: []
-title: "The Calming Utopia of Star Trek: The Next Generation"
----
+
 
 I don’t know if this is a “hot take” or not, but I strongly dislike
 dystopian media. Don’t get me wrong, Orwell’s novel *1984* is a

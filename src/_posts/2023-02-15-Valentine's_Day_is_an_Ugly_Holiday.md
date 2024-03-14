@@ -1,10 +1,4 @@
----
-author: jwu
-image: assets/images/2023-02-15-Valentine's_Day_is_an_Ugly_Holiday.jpg
-layout: post
-tags: []
-title: "Valentine’s Day is an Ugly Holiday"
----
+
 
 27,400,000,000 dollars. Money that can purchase over 10 thousand Tesla
 Model X's, build over 1000 CN towers, or buy almost 400 million bananas!

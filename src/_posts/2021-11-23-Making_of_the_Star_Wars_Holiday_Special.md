@@ -1,10 +1,3 @@
----
-author: awong
-image: assets/images/Star-Wars-Themed-Christmas- Mira-Seth.jpg
-layout: post
-tags: []
-title: "It’s Not Over Until Princess Leia Sings (A Breakdown of the Star Wars Christmas Special)"
----
 
 Setting the Scene
 

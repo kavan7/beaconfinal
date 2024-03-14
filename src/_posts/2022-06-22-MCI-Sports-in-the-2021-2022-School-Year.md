@@ -1,10 +1,4 @@
----
-author: amarchetti
-image: assets/images/2022-06-22-MCI-Sports-in-the-2021-2022-School-Year.jpg
-layout: post
-tags: []
-title: "MCI Sports in the 2021/2022 School Year"
----
+
 
 As students approach the end of another year at MCI, they also head
 towards the end of this year's athletic accomplishments and

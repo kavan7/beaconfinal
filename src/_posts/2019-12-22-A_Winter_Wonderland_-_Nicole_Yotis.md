@@ -1,10 +1,4 @@
----
-author: nyotis
-image: assets/images/2019-12-22-A_Winter_Wonderland_-_Nicole_Yotis_photo.jpg
-layout: post
-tags: []
-title: A Winter Wonderland
----
+
 
 Winter is my favourite season, without a doubt. The snow makes
 everything look so picturesque and the break is right on our doorstep.

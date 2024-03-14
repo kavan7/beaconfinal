@@ -1,10 +1,3 @@
----
-author: msemple
-image: assets/images/holiday_shopping_and_consumerism-_Fardowsa_Mohamed.jpg
-layout: post
-tags: []
-title: "The Perfect Gift"
----
 
 
 Love it or hate it, the holiday season has begun. The malls are all 

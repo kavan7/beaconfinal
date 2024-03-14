@@ -1,10 +1,4 @@
----
-author: nperlman
-image: assets/images/2022-11-21-The_2022_Toronto_Election.jpg
-layout: post
-tags: []
-title: "The 2022 Toronto Election"
----
+
 
 The municipal election that just happened was relatively uneventful
 without major drama or surprises.

@@ -1,10 +1,3 @@
----
-author: rmatharu
-image: assets/images/canadas_dark_truth.jpg
-layout: post
-tags: []
-title: "Canada’s Dark Truth: Missing and Murdered Indigenous Women"
----
 
 ***Content warning:** This article discusses the Missing and Murdered
 Indigenous Women and Girls crisis.*

@@ -1,10 +1,4 @@
----
-author: rpannu
-image: assets/images/relay_for_life_event.jpg
-layout: post
-tags: []
-title: "Relay For Life: Messages Of Hope"
----
+
 
 MCI’s Relay for Life team made significant progress on Thursday, October
 20th this year with the “Messages of Hope” breast cancer awareness

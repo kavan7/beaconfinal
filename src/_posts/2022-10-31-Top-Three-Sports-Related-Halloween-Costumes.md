@@ -1,10 +1,3 @@
----
-author: mhutton
-image: assets/images/2022-10-31-Top-Three-Sports-Related-Halloween-Costumes.jpg
-layout: post
-tags: []
-title: "Top-Three Sports Related Halloween Costumes"
----
 
 With Halloween around the corner, I would like to present my top three
 sports-related Halloween costumes.

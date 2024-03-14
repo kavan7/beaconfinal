@@ -1,10 +1,4 @@
----
-author: smahmud
-image: assets/images/2020-05-15-Female_Representation_in_Journalism_-_Sanaa_Mahmud_photo.jpg
-layout: post
-tags: [featured]
-title: 'Female Representation in Journalism: A Harsh Reality '
----
+
 
 Imagine you get a job in your dream field of work. You start off well,
 yet after a while, you realize that your role in the company is not

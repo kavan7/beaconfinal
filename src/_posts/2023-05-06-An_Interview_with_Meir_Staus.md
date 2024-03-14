@@ -1,9 +1,4 @@
----
-author: sxiang
-layout: post
-tags: [sticky]
-title: "An Interview with Meir Straus, Toronto’s 18-year-old Mayor hopeful"
----
+
 
 On Thursday, April 27th, I interviewed Meir Straus, Toronto’s youngest
 candidate in the 2023 mayoral by-election. Straus is a grade twelve

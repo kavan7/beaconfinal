@@ -1,10 +1,4 @@
----
-author: amarchetti
-image: assets/images/2021-11-24-Breaking-Down-the-New-Spiderman-Movie-Trailer.jpg
-layout: post
-tags: []
-title: "Breaking Down the New Spiderman Movie Trailer"
----
+
 *The Spiderman: No Way Home* trailer has made Marvel fans go crazy.
 Here’s some of what we know about the movie so far.
 

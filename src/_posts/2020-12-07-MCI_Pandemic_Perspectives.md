@@ -1,10 +1,3 @@
----
-author: smahmud
-image: assets/images/2020-12-07-MCI_Pandemic_Perspectives.jpg
-layout: post
-tags: []
-title: MCI Pandemic Perspectives
----
 
 We posed a list of relevant questions to MCI students at each grade
 level, once in May, then again in November. These students gave brief

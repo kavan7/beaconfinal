@@ -1,9 +1,4 @@
----
-author: nperlman
-layout: post
-tags: []
-title: "The Ungraceful Downfall of Elon Musk"
----
+
 
 From an idealist known for his attempts at laying the foundation for
 human migration to a different planet, Elon Musk has recently had a

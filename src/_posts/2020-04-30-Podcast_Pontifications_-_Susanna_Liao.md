@@ -1,10 +1,4 @@
----
-author: sliao
-image: assets/images/2020-04-30-Podcast_Pontifications_-_Susanna_Liao_photo.jpg
-layout: post
-tags: [featured]
-title: Podcast Pontifications
----
+
 
 You're on the bus, in a car, in your room, waiting at a doctor's office,
 or just sitting around doing nothing. It's not worth the effort to pull

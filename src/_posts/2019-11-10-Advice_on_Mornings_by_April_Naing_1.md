@@ -1,10 +1,4 @@
----
-author: anaing
-image: assets/images/2019-11-10-Advice_on_Mornings_by_April_Naing_1_photo.png
-layout: post
-tags: []
-title: Advice on Mornings
----
+
 
 Let's face it. Most of us aren't morning people, and with school
 starting again a lot of us aren't used to waking up at the crack of

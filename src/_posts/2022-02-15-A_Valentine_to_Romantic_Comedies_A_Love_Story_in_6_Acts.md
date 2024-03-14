@@ -1,10 +1,4 @@
----
-author: awong
-image: assets/images/2022-02-15-A_Valentine_to_Romantic_Comedies_A_Love_Story_in_6_Acts.jpg
-layout: post
-tags: []
-title: "A Valentine to Romantic Comedies: A Love Story in 6 Acts"
----
+
 
 It's hard to tell when mankind first met the romantic comedy or as the
 kids these days like to call them “rom-coms”. From William Shakespeare”s

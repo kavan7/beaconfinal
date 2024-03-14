@@ -1,10 +1,4 @@
----
-author: dbrebeanu
-image: assets/images/2021-06-24-MCI_The_Little_Things.jpg
-layout: post
-tags: []
-title: "MCI: The Little Things"
----
+
 
 As this school year comes to a close, and with students missing crucial
 in-person time at the school, I wanted to take a moment to journey all

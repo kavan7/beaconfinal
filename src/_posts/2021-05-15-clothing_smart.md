@@ -1,10 +1,3 @@
----
-author: rmatharu
-image: assets/images/clothing_smart.jpg
-layout: post
-tags: []
-title: "But Is Your Clothing Smart?"
----
 
 In this day and age, the term “smart” has been frequently associated
 with the likes of phones, TVs, and even refrigerators. However, there is

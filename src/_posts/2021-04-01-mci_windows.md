@@ -1,10 +1,3 @@
----
-author: smahmud
-image: assets/images/mci_windows.jpg
-layout: post
-tags: []
-title: "🥓 The Reason MCI Doesn’t Have Windows"
----
 
 Hey Bears! Regardless of how long you’ve been at MCI, you’ve definitely
 noticed that our school lacks a significant thing: windows. We, at the

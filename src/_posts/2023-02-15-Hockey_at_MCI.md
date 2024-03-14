@@ -1,10 +1,4 @@
----
-author: mhutton
-image: assets/images/2023-02-15-Hockey_at_MCI.jpg
-layout: post
-tags: []
-title: "Hockey at MCI"
----
+
 
 MCI Hockey is back, and better than ever! Last year, MCI finished with a
 disappointing last place, and missed the playoffs. This year, with a

@@ -1,10 +1,3 @@
----
-author: gkoceku
-image: assets/images/2022-02-15-Improving-Your-Mental-Health-During-the-Pandemic.jpg
-layout: post
-tags: []
-title: "Improving Your Mental Health During the Pandemic"
----
 
 It is natural to feel anxiety during the times we live in. The COVID-19
 pandemic has taken a mental toll on students and teachers alike. We have

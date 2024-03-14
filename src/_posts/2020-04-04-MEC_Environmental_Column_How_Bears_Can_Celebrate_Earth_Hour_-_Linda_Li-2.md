@@ -1,10 +1,4 @@
----
-author: lli
-image: assets/images/2020-04-04-MEC_Environmental_Column_How_Bears_Can_Celebrate_Earth_Hour_-_Linda_Li-2_photo.jpg
-layout: post
-tags: []
-title: 'MEC Environmental Column: How Bears Can Celebrate Earth Hour'
----
+
 
 Hey Bears! Earth Hour 2020 (**Saturday March 28th, 2020, at 8:30 pm**)
 is rapidly approaching. You probably already know what Earth Hour is,

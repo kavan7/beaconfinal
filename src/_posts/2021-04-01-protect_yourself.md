@@ -1,10 +1,4 @@
----
-author: srao
-image: assets/images/protect_yourself.jpg
-layout: post
-tags: []
-title: "🥓 Ways to Protect Yourself from COVID-19"
----
+
 
 Hey MCI. There seems to be a lot of misinformation being spread about
 how to keep yourself safe during the pandemic. To combat this, the

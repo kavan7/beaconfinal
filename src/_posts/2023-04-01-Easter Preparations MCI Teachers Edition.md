@@ -1,10 +1,3 @@
----
-author: jwu
-image: assets/images/2023-04-01-Easter Preparations MCI Teachers Edition.jpg
-layout: post
-tags: []
-title: "🥓 Easter Preparations: MCI Teachers Edition"
----
 
 Bears, have you ever wondered what your favorite teacher does during
 Easter? Ponder not a millisecond longer as we’ve conducted top secret

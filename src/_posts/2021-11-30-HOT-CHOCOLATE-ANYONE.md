@@ -1,10 +1,4 @@
----
-author: sdave
-image: assets/images/2021-11-30-HOT-CHOCOLATE-ANYONE.jpg
-layout: post
-tags: []
-title: "HOT CHOCOLATE, ANYONE?"
----
+
 Hey, Martingrove! This year has been different for many reasons, so why
 not make some different Christmas drinks to go along with it? Serve
 these unique hot chocolate recipes from around the world to your family,

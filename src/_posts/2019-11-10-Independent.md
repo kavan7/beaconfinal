@@ -1,11 +1,4 @@
----
-author: lli
-image: assets/images/2019-11-10-Independent_photo.jpg
-layout: post
-tags: []
-title: "How Independent Are You? A Quiz for Young Adults Who Think They\u2019re Ready\
-  \ To Be Adults"
----
+
 
 For several years, we, the students of MCI, have had, for the most part,
 a simple structure to our lives. Wake up. Go to school. Eat. Sleep.

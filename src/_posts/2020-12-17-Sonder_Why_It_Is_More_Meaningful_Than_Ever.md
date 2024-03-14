@@ -1,10 +1,4 @@
----
-author: smehta
-image: assets/images/2020-12-17-Sonder_Why_It_Is_More_Meaningful_Than_Ever.jpg
-layout: post
-tags: []
-title: "Sonder: Why It Is More Meaningful Than Ever"
----
+
 
 Do you know what "sonder" means? Don't worry if you don't; it's a word
 that's not even in the dictionary. It was first coined in 2012 by author

@@ -1,10 +1,4 @@
----
-author: amehta
-image: assets/images/2019-12-22-The_Grinch_Was_the_Victim_-_Ambika_Mehta_photo.jpg
-layout: post
-tags: []
-title: The Grinch Was the Victim
----
+
 
 When the Grinch was just a baby
 

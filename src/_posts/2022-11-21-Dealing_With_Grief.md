@@ -1,10 +1,3 @@
----
-author: nadtelesford
-image: assets/images/dealing_with_grief.jpg
-layout: post
-tags: []
-title: "Dealing With Grief"
----
 
 Depending on the day, what you are doing, and who you are with, you may
 be able to avoid grief. However, grief can sometimes be overwhelming;

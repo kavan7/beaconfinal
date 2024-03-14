@@ -1,10 +1,4 @@
----
-author: rpannu
-image: assets/images/2023-04-11-Scammers And Frauds-The Joke Known as The SAC.jpg
-layout: post
-tags: []
-title: "🥓 Scammers And Frauds: The Joke Known as The SAC"
----
+
 
 Arushi Unny - “...he used a weather machine to make it snow on the day
 of the winter assembly.”

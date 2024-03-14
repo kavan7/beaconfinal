@@ -1,10 +1,3 @@
----
-author: mhutzul
-image: assets/images/2020-02-01-The_Don_Cherry_Divide_photo.jpg
-layout: post
-tags: []
-title: The Don Cherry Divide
----
 
 The winter holidays are a time to embrace the spirit of togetherness, be
 merry, and spend time with family. Unfortunately, something happened in

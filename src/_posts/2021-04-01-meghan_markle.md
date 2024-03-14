@@ -1,10 +1,4 @@
----
-author: mhutzul
-image: assets/images/meghan_markle.jpg
-layout: post
-tags: []
-title: "🥓 Meghan Markle Breathes, British Tabloids Outraged"
----
+
 
 Meghan Markle has been a source of scandal in the British tabloids,
 upending many longstanding royal traditions. Among her alleged crimes

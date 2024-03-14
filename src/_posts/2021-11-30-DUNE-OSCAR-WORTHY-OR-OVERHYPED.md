@@ -1,10 +1,4 @@
----
-author: smehta
-image: assets/images/2021-11-30-DUNE-OSCAR-WORTHY-OR-OVERHYPED.jpg
-layout: post
-tags: []
-title: "DUNE: OSCAR-WORTHY OR OVERHYPED?"
----
+
 We’ve all heard about *Dune*, the box office hit that packed theatres
 when it came out in October 2021. It marked a return to cinema, both
 literally and metaphorically. For months in advance, it was advertised

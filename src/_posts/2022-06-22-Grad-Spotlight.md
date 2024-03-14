@@ -1,10 +1,4 @@
----
-author: sxiang
-image: assets/images/2022-06-22-Grad-Spotlight.jpg
-layout: post
-tags: []
-title: "Grad Spotlight"
----
+
 
 Congratulations, MCI Class of 2022! You did it!
 

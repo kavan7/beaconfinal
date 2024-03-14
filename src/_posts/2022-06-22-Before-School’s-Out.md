@@ -1,10 +1,4 @@
----
-author: mhutzul
-image: assets/images/2022-06-22-Before-School’s-Out.jpg
-layout: post
-tags: []
-title: "Before School’s Out"
----
+
 
 I’ve been a part of the *Beacon* for four years, and it’s crazy to think
 so many of us are experiencing our last few days at Martingrove. The

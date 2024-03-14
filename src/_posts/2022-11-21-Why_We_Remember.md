@@ -1,10 +1,3 @@
----
-author: ylhamo
-image: assets/images/remembrance_day.jpg
-layout: post
-tags: []
-title: "Why We Remember"
----
 
 The elementary school teacher stood up abruptly from her chair causing a
 screech that drove the children to clamp their hands on their ears. Many

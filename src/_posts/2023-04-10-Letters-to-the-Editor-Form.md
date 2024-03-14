@@ -1,9 +1,4 @@
----
-image: assets/images/2023-04-10-Letters-to-the-Editors-Form.jpg
-layout: post
-tags: []
-title: "Letters to the Editors - Submission Form"
----
+
 At the Beacon, we strongly believe in the importance of the student body's voice. 
 While we are a student-run publication, we also believe that opportunities for 
 non-contributors to share their opinions are vital in upholding the journalistic 

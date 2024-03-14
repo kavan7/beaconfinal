@@ -1,10 +1,3 @@
----
-author: npark
-image: assets/images/2023-04-01-How to Become a True Torontonian.jpg
-layout: post
-tags: []
-title: "🥓 How to Become a True Torontonian"
----
 
 Being a citizen of Toronto likely isn’t a crucial part of your identity,
 and if that’s the case, you may want to reconsider your priorities. The

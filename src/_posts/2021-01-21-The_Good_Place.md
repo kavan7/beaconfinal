@@ -1,10 +1,4 @@
----
-author: mhutzul
-image: assets/images/2021-01-21-The_Good_Place.jpg
-layout: post
-tags: []
-title: 'The Good Place: The Kind of Show We Need Right Now'
----
+
 
 *The Good Place* is a Netflix series that ran from 2018 to 2020. It
 spanned four seasons, and was far from your typical sitcom. Meet Eleanor

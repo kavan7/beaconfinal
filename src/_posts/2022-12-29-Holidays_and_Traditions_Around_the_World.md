@@ -1,10 +1,4 @@
----
-author: nperlman
-image: assets/images/2022-12-29-Holidays_and_Traditions_Around_the_World.jpg
-layout: post
-tags: []
-title: "Holidays and Traditions Around the World"
----
+
 
 Most people associate December holidays with Christmas or Hanukkah, but
 there is a lot more to the month than that.

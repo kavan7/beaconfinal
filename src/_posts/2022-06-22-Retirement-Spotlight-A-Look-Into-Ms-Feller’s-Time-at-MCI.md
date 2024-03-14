@@ -1,10 +1,4 @@
----
-author: smahmud
-image: assets/images/2022-06-22-Retirement-Spotlight-A-Look-Into-Ms-Feller’s-Time-at-MCI.jpg
-layout: post
-tags: []
-title: "Retirement Spotlight: A Look Into Ms. Feller’s Time at MCI"
----
+
 
 As the school year comes to a close, so does the 20-year teaching career
 of one of MCI’s most impactful teachers: Ms. Feller. Having spent her

@@ -1,10 +1,3 @@
----
-author: eca
-image: assets/images/Capitol_Hill_Riots.jpg
-layout: post
-tags: []
-title: "Capitol Hill Riots: Could It Happen Here?"
----
 
 On January 6, 2021, an armed insurrection occurred at the United States
 Capitol. This was the outcome of months of priming, where many elected

@@ -1,10 +1,3 @@
----
-author: nperlman
-image: assets/images/2023-04-01-An Assembly Of Winter Magic.jpg
-layout: post
-tags: []
-title: "An Assembly Of Winter Magic"
----
 
 For a so-called “winter assembly”, it barely made it to the finish line;
 it was held on March 13th and winter ended only seven days later. The

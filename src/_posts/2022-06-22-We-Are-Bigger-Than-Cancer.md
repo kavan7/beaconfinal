@@ -1,10 +1,3 @@
----
-author: awong
-image: assets/images/2022-06-22-We-Are-Bigger-Than-Cancer.jpg
-layout: post
-tags: []
-title: "We Are Bigger Than Cancer"
----
 
 The bright and sunny weather on Wednesday, May 25th, perfectly matched
 the mood of everyone attending the **Relay for Life** celebration. More

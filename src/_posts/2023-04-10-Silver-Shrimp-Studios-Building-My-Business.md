@@ -1,10 +1,4 @@
----
-author: aschreder
-image: assets/images/2023-04-10-Silver-Shrimp-Studios-Building-My-Business.jpg
-layout: post
-tags: []
-title: "Silver Shrimp Studios: Building My Business"
----
+
 
 Hello Martingrove readers and future Silver Shrimp gamers. Silver Shrimp
 Studios is my emerging video game design studio, focusing on
@@ -35,24 +29,6 @@ guidance, I built a marketing and management toolset as parts of my
 business plan. For those looking for tips with a new venture, here are a
 few key concepts I found useful:
 
-1.  Unique Selling Proposition (USP)
-    1.  **Demonstrates to the customer that your business is
-        different.** Your method may not be faster or cheaper, but the
-        unfamiliarity will attract attention. A Silver Shrimp USP: A
-        connection to real world challenges, such as climate change, in
-        each game.
-2.  Competitive Analysis
-    1.  Obviously, this will help you gauge your environment. More
-        importantly, it **helps you form statistical aspects of your
-        venture.** Phytopia’s price will vary based on the price of
-        similar indie games, and the number of development hours.
-3.  Marketing and Financial Plan
-    1.  Often overlooked aspects of a business venture. **Determine
-        where and how both people’s money and attention will flow and
-        focus.**
-4.  Executive Summary
-    1.  **Focusing your ideas across your business**, so you can pitch
-        it to potential investors, or write articles like this one.
 
 After semester 1, I found enacting my plans wasn’t all smooth sailing.
 An entirely digital business contains no billboard signs nor posters for

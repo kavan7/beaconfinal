@@ -1,10 +1,4 @@
----
-author: amarchetti
-image: assets/images/high_school_movies_most_similar_to_MCI-_Lukas_Cousins.jpg
-layout: post
-tags: []
-title: "MCI - The High School Movie Experience"
----
+
 
 
 I’m not sure about you, but high school has been an absolute breeze 

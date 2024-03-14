@@ -1,10 +1,4 @@
----
-author: smehta
-layout: post
-tags: []
-image: assets/images/2021-02-08-Devils_In_The_Details.jpg
-title: "The Devil’s in the Details: Similarities Between Supremacists"
----
+
 
 The unease across North America was palpable on January 6th, 2021.
 Whether you were watching the news, listening to the radio while driving

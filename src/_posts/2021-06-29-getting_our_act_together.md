@@ -1,10 +1,4 @@
----
-author: mhutzul
-image: assets/images/getting_our_act_together.jpg
-layout: post
-tags: []
-title: "Getting Our Act Together: How Canada is (Finally) Winning the Vaccine Race"
----
+
 
 Over a year after the COVID-19 pandemic began, hope is finally on the
 horizon. With more and more Canadians getting vaccinated, and COVID-19

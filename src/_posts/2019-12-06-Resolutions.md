@@ -1,11 +1,4 @@
----
-author: smahmud
-image: assets/images/2019-12-06-Resolutions_photo.jpg
-layout: post
-tags: []
-title: "The Psychology Behind New Year's Resolutions, and Why Many Don\u2019t Fulfill\
-  \ Them"
----
+
 
 A lot happens in a year. Each person undergoes easy and hard times,
 facing both triumph and defeat. This makes up for the time spent

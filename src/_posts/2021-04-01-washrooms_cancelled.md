@@ -1,10 +1,3 @@
----
-author: eca
-image: assets/images/washrooms_cancelled.jpg
-layout: post
-tags: []
-title: "🥓 Washrooms Cancelled At MCI"
----
 
 MCI students have changed much of their school life to combat the
 Covid-19 virus. We have to wear masks, socially distance, and use the

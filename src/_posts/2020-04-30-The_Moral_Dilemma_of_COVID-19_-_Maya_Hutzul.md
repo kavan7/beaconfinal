@@ -1,10 +1,4 @@
----
-author: mhutzul
-image: assets/images/2020-04-30-The_Moral_Dilemma_of_COVID-19_-_Maya_Hutzul_photo.jpg
-layout: post
-tags: [featured]
-title: The Moral Dilemma of COVID-19
----
+
 
 COVID-19 is spreading quickly - so quickly, in fact, that by the time
 this article is released, these statistics will already be out of

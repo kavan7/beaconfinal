@@ -1,10 +1,3 @@
----
-author: sxiang
-image: assets/images/2023-02-15-Being_Gifted_Doesn't_Make_You_Special.jpg
-layout: post
-tags: []
-title: "Being Gifted Doesn't Make You Special"
----
 
 One day, in grade three, a teacher came by my classroom and told me to
 follow her. I was absolutely petrified— never in my five years of study

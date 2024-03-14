@@ -1,10 +1,3 @@
----
-author: nperlman
-image: assets/images/Horror-Video-Games-and-Films-Halloween-Edition.jpg
-layout: post
-tags: []
-title: "Horror Video Games and Films - Halloween Edition"
----
 
 Are you a gamer or a movie enthusiast who is stuck on what to do for
 Halloween? There are many options to choose from when it comes to
