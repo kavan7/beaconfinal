@@ -270,7 +270,7 @@ const articles = [
         On July 16th, 1969, at 8:32 AM, the course of American history was forever changed as...`,
         image: WomanWhoSentManToMoon,
         content: '',
-        name: "2023-02-15-Valentine's_Day_is_an_Ugly_Holiday"
+        name: "2023-02-15-The_Woman_Who_Sent_Man to_the_Moon"
     },
     {
         author: 'Nathan Perlman',

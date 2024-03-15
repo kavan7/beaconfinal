@@ -4,11 +4,11 @@ storytelling, art direction, and connections to real-world problems.
 Read on to learn strategies I used to start the venture, insights into
 my first game, “Phytopia”, and plans for its expansive future.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
 
 **Starting the Business**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
 
 For a while now, I’ve had a deep interest in 3D modeling, illustration,
 VFX, and other fields in the digital art world. I enjoy seeing unique
@@ -24,8 +24,7 @@ experimentation, I created several straightforward games based on core
 concepts. Although enlightening and unique, they were not for sale.
 Then, course selection for this year was upon me.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+<br>
 I enrolled in our Entrepreneurship: The Venture Course, taught by Mr.
 Goldberg. One of Martingrove’s great qualities is its great variety of
 opportunities, as is offered by this course. With Mr. Goldberg’s
@@ -33,7 +32,7 @@ guidance, I built a marketing and management toolset as parts of my
 business plan. For those looking for tips with a new venture, here are a
 few key concepts I found useful:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
 
 After semester 1, I found enacting my plans wasn’t all smooth sailing.
 An entirely digital business contains no billboard signs nor posters for
@@ -45,7 +44,7 @@ online advertising by targeting only interested customers, and focusing
 on a few direct platforms, my website and Instagram, making updates
 easier.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
 
 Based on all these factors, I’d attribute my venture’s success so far,
 and the keys to starting one of your own, to an interest in
@@ -56,12 +55,11 @@ forward to creating amazing art with Silver Shrimp, and I hope you’ll
 join me. This starts with Phytopia, an adventure as a time traveling
 explorer.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
 
 **Phytopia**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+<br>
 Based on the Player Survey, you are most interested in an action and
 storytelling adventure with engaging combat. Therefore, Silver Shrimp’s
 first game will be exactly that, with themes about the environment, and
@@ -73,7 +71,7 @@ However, an indie developed game will change drastically over the
 development period based on feedback and new ideas, so stay tuned for
 new features and changes to Phytopia. Development logs for programming,
 story creation and more will likely be bi-weekly.
-
+<br>
 Seeing as you’ve reached the end, go check out the Silver Shrimp website
 at www.silvershrimp.ca, or the instagram account:
 @silver_shrimp_studios. Here I’ll post game development logs and much

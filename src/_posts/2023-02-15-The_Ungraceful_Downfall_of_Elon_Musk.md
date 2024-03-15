@@ -3,11 +3,11 @@
 From an idealist known for his attempts at laying the foundation for
 human migration to a different planet, Elon Musk has recently had a
 difficult fall from grace.
-
+<br><br>
 Musk obtained ownership of Twitter in an all-cash acquisition buyout on
 April 14th, 2022, purchased for a whooping 44 billion dollars. However,
 since then, he has been tied up in controversy after controversy.
-
+<br><br>
 Take the incident where Musk tweeted a link to an article by a newspaper
 company known for spreading false information, which detailed
 obscenities regarding American businessman Paul Pelosi, the spouse of
@@ -16,12 +16,12 @@ before, Pelosi had been hit in the head with a hammer in a targeted
 assault, sparking outrage. As of the time of writing, Musk deleted the
 tweet, but has not given any statements in regards to his insensitive
 actions.
-
+<br><br>
 Musk’s popularity has skyrocketed in the past few years, especially
 after he was titled the richest man in the world, yet it seems as though
 Musk is running out of luck as he lost the title of world's richest man
 to a French billionaire, Bernard Arnault.
-
+<br><br>
 To top all of this off, Elon Musk was due to appear at the United States
 Federal Court in San Francisco on January 19th, after he was sued by
 Tesla shareholders for a series of tweets in 2018. The class-action
@@ -35,7 +35,7 @@ purchase the company for 420 dollars per share, thus costing investors
 millions. All this prompted an investigation, which resulted in a 20
 million dollar fine for Musk and for Tesla; Musk was also forced to
 resign as Tesla's chairman.
-
+<br><br>
 All of these issues come at a difficult time for Twitter, as users are
 concerned about what will become of the company following such a
 dramatic change in ownership. Musk purchased the company with the
@@ -43,13 +43,13 @@ intention of imposing looser restrictions on users, which includes
 unbanning Former President Donald Trump, who was previously barred from
 the platform following the storming of the United States capital on
 January 6th, 2022.
-
+<br><br>
 All of this is bad news for Elon Musk, yet Musk is refusing to let this
 go; his most ardent supporters, including myself, are dissatisfied with
 his lack of responsibility. Having read his biography, I found it
 interesting and am inspired by his willingness to take risks and
 challenge the status quo all the while being an entrepreneur.
-
+<br><br>
 As I now reflect on Musk’s recent actions, I can not help but still
 appreciate all the trials and tribulations he went through and the fact
 that he still managed to accomplish many feats that others would not

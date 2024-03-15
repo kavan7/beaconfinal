@@ -34,7 +34,7 @@ what's happening with the world, and I really like to help them out. I
 like to see them succeed and grow, and I like to create an environment
 in class where they can have a good time while still learning
 something.”
-
+<br><br>
 Seems like Mr. Reardon really loves the high school atmosphere!
 
 **“Can you tell us about your height and your pro sports career?”**
@@ -46,7 +46,7 @@ now Toronto Metropolitan University, and I had a very enjoyable time
 playing there, and I’m happy that I still get to play now at MCI in the
 intramural league, and I get to coach, which is a new and exciting
 endeavor for me.”
-
+<br><br>
 I guess when you’re 6’7 you have no choice but to play on the volleyball
 team.
 
@@ -60,7 +60,7 @@ and that's when I entered my very lanky, awkward phase.
 
 “Yes, everyone has a chance. Also, you’re not defined by your height.
 It’s just a number.”
-
+<br><br>
 Do you hear that MCI? Grade 10s, it’s going to be our year!
 
 **“What were your past jobs and why did you leave them?”**
@@ -73,7 +73,7 @@ and produce shoots, do interviews with people, and work on things in the
 studio and I really loved it. However, I would say I love teaching more
 and in my video class I get to do a lot of things I love to do about
 that job while still fulfilling my greater purpose as a teacher.”
-
+<br><br>
 No way, a technology teacher that knows how to use technology?!?
 
 **“What were your hobbies and interests in high school?”**
@@ -82,7 +82,7 @@ No way, a technology teacher that knows how to use technology?!?
 also in the band, and I was a bit of a music nerd. I did a video club
 and I also was in a few school plays, so I did a bit of drama as well,
 which was something that I miss at times.”
-
+<br><br>
 Seems like Mr. Reardon did a bit of everything in high school.
 
 **“That concludes all of my questions. Is there anything you would like
@@ -93,5 +93,5 @@ semester. It’s always so nerve-wracking to enter a new school as someone
 from the outside, but I felt instantly at home, and that is because the
 students, the staff, and the greater community make this a wonderful
 place to be, and I am proud to call myself a Bear.”
-
+<br><br>
 I can definitely say I’m glad Mr. Reardon is now an MCI Bear too!
