@@ -5,8 +5,15 @@ import ReactMarkdown from 'react-markdown';
 import Markdown from 'markdown-to-jsx';
 import mammoth from "mammoth";
 import DocRenderer from './DocRenderer';
+import DocViewer, {PDFRenderer} from "react-doc-viewer";
 const Article = ({ article, allPostsData  }) => {
-    
+    const docs = [
+   
+        { uri: ("./articles/one.docx") ,
+            fileType: "pdf",
+        fileName: "one.pdf"}, // Local File
+        
+      ];
   const [html, sethtml] = useState()
   const [content, setContent] = useState("");
     console.log(article.name)
@@ -92,11 +99,16 @@ const Article = ({ article, allPostsData  }) => {
       </div>
       
       <div className="post">
-      <iframe src= "name.mht" width="100%" height="800"> </iframe>
+     
     </div>
-        
-    <DocRenderer docxFilePath="./articles/one.docx" />
-    </div>
+   
+    <div className='  mt-[2%] ml-[6%] max-w-[1024px] text-left articleContent'>
+        <p className='text-[25px]'>
+  <Markdown >{content}</Markdown>
+  </p>
+  </div>
+  </div>
+  
   );
 };
 

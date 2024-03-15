@@ -24,6 +24,7 @@
     "markdown-to-jsx": "^7.4.0",
     "react": "^18.2.0",
     "react-confetti": "^6.1.0",
+    "react-doc-viewer": "^0.1.5",
     "react-dom": "^18.2.0",
     "react-markdown": "^8.0.7",
     "react-router-dom": "^6.16.0",
