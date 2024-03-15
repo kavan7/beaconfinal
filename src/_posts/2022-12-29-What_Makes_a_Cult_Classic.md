@@ -10,7 +10,7 @@ graced with chance to watch the “Rocky Picture Show” in theatres, the
 first thing you will notice is the flood of people dressed up as 
 characters from the film, who are passionate about throwing rice 
 during the wedding scene. 
-
+<br><br>
 Recent movies like the Netflix film, “Do Revenge”, received the
 contradictory title of “instant cult classic” from critics. The 
 misuse of this term brings me nothing more than mental agony, as the 
@@ -19,13 +19,13 @@ term has traditionally been used to describe a movie that campy or
 odd. What's important to remember about cult classics is the 
 connection they find with outsiders, like the passionate rice-
 throwing fans of the “Rocky Horror Picture Show”.
-
+<br><br>
 Streaming services heavily contribute to the recent acceleration of
 movies being declared “cult classics” before the end of their box 
 office weekend. Streaming makes it easier to have access to films for 
 those with genuine interest, which in turn also makes it easier for 
 these movies to become mainstream.
-
+<br><br>
 So, is it the end of cult classics? As I pondered this question, an
 unexpected challenger appeared: “Minions: The Rise of Gru”. The 
 “Gentle Minions” trend, where groups of people dressed up in their 
@@ -34,7 +34,7 @@ paralleled those who dressed up to attend the “Rocky Horror Picture
 Show”. However, the media hype around this trend reeked of corporate 
 interference and not a grassroots movement created out of genuine 
 interest.
-
+<br><br>
 The unique thing about cult classics is regardless of however low-
 budget or peculiar they are, it’s evident there is passion behind 
 them, giving those films a sort of charm that no “instantcult classic” 

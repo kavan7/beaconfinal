@@ -418,17 +418,7 @@ const articles = [
         name: "2022-12-29-Spirited_Christmas_Movie_Review_-_Beacon_December_Issue_-_Noah_Park"
 
     },
-    {
-        author: 'Beacon Editors',
-        authortag: 'beditors',
-        date: '2022-12-29',
-        title: 'Stress Management',
-        preview: `What is stress? In your Physics class stress is the weight or tension exerted on an object; 
-        in your English class it might refer to the emphasis or importance of a word in a sentence....`,
-        image: StressManagement,
-        content: '',
-
-    },
+ 
     {
         author: 'Nathan Perlman',
         authortag: 'nperlman',
@@ -439,16 +429,7 @@ const articles = [
         content: '',
         name: '2022-12-29-Holidays_and_Traditions_Around_the_World'
     },
-    {
-        author: 'Aiden Harris',
-        authortag: 'aharris',
-        date: '2022-12-29',
-        title: 'The Man in the Red Leather Coat',
-        preview: `*It should be noted that all characters in this story are fictional and not based on any real-life people, situations or events*`,
-        image: ManInRedLeatherCoat,
-        content: '',
-
-    },
+    
     {
         author: 'Max Hutton',
         authortag: 'mhutton',

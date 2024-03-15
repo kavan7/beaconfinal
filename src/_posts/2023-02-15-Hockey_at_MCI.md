@@ -7,7 +7,7 @@ that this would be the peak year. Expectations were high, by MCI
 standards, with coach Vujacic saying that the team had a very good shot
 at a tie, and that the team could score at least 4 goals. The full
 interview can be found on the Instagram page @mci.hockey.
-
+<br><br>
 They had an incredible first game, exceeding all expectations by winning
 the team’s first game in four years against Silverthorn CI, by a
 whopping score of 7-1. The next game was the first real test, playing
@@ -23,11 +23,11 @@ writing this article stepped in. Not so luckily, it was my first game
 ever. Despite being hit in the head 3 times during warm up, I managed to
 put in a solid performance, only allowing 12 goals in while saving at
 least 25 in a 12-2 loss. Not too bad for a rookie.
-
+<br><br>
 This year, MCI students are allowed to view behind the scenes footage of
 the team, with the managers operating a team page on Instagram that
 arguably rivals certain teams in the NHL.
-
+<br><br>
 With a different dress code every game, MCI is always the most stylish
 team there. The team has rocked suits for business casual day, beach
 attire for beach day, and the ugliest sweaters possible on ugly sweater
