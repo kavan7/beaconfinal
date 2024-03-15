@@ -102,8 +102,8 @@ const Article = ({ article, allPostsData  }) => {
      
     </div>
    
-    <div className='  mt-[2%] ml-[6%] max-w-[1024px] text-left articleContent'>
-        <p className='text-[25px]'>
+    <div className='  mt-[2%] ml-[6%] max-w-[60%] text-left articleContent'>
+        <p className='text-[18px]'>
   <Markdown >{content}</Markdown>
   </p>
   </div>

@@ -1,5 +1,3 @@
-
-
 On Thursday, April 27th, I interviewed Meir Straus, Toronto’s youngest
 candidate in the 2023 mayoral by-election. Straus is a grade twelve
 student from North York, and though his campaign is satirical, it shows

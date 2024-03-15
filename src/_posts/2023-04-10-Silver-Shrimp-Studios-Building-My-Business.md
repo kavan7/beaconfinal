@@ -63,7 +63,8 @@ development period based on feedback and new ideas, so stay tuned for
 new features and changes to Phytopia. Development logs for programming,
 story creation and more will likely be bi-weekly.
 
+ 
 Seeing as you’ve reached the end, go check out the Silver Shrimp website
-at https://www.silvershrimp.ca/, or the instagram account:
-@silver\_shrimp\_studios. Here I’ll post game development logs and much
+at www.silvershrimp.ca, or the instagram account:
+@silver_shrimp_studios. Here I’ll post game development logs and much
 more detail on the topics I’ve covered in this article.
