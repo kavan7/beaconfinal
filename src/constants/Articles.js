@@ -115,7 +115,97 @@ import HowIndependentAreYouQuiz from '../assets/images/2019-11-10-Independent_ph
 import LestWeForget2019 from '../assets/images/2019-11-10-April_Naing_-_Remembrance_Day-2_photo.jpg'
 import AdviceOnMornings from '../assets/images/2019-11-10-Advice_on_Mornings_by_April_Naing_1_photo.jpg'
 import MeirStraus from '../assets/images/2023-05-06-An_Interview_with_Meir_Staus.jpg'
+import Mynightwithbarbenheimer from '../assets/images/2023-10-31-My_Night_With_Barbenheimer.jpg'
+import ParisOlympics from '../assets/images/2023-10-31-Canadian_Qualifies_for_Paris_Olympics_2024.jpg'
+import DojaCat from '../assets/images/2023-10-31-Doja_Cat_Scarlet_All_Talk.jpg'
+import Goospocalypse from '../assets/images/2023-10-31-Goospolcalypse.jpg'
+import Leadership from '../assets/images/2023-10-31-Leadership_Issue.jpg'
+import TeacherInterviews from '../assets/images/2023-10-31-Halloween_Interviews_with_MCI_Teachers.jpg'
+import ModernDystopia from '../assets/images/2023-10-31-Bill_C-1984.jpg'
+import Buzz from '../assets/images/2023-10-31-Buzz_Around_the_Corner.jpg'
 const articles = [
+    {
+        author: 'Skyler Xiang',
+        date: '2023-10-31',
+        title: `The Modern Dystopia Censoring News Across the Nation`,
+        preview: `In June 2023, the federal government passed Bill C-18, *An Act respecting online communications platforms that make news content available to persons in Canada—*otherwise known as the Online News Act. You might have noticed the response to this legislation on Instagram— over the summer, every single reputed news source was blocked on Meta’s platforms, like Instagram and Facebook, and the block remains today. 
+        `, 
+        image: ModernDystopia,
+        name: '2023-10-31-Bill_C-1984'
+},
+    {
+        author: 'Rababb Pannu',
+        date: '2023-10-31',
+        title: `What's that Buzz around the corner?`,
+        preview: `MCI has a problem. Students are being attacked at lunchtime by a biological monstrosity that leaves no food untouched and no child unstung. This despicable creature has students running for their lives, following them all the way from Tim Hortons to MCI. Have you ever been the victim of a ***wasp*** attack? Wasps have been known from ancient times to be the bane of students all over the world. Unfortunately, it seems that wasps have taken a particular liking to MCI, as you can’t even step outside of the school without being chased by a wasp. 
+        `, 
+        image: Buzz,
+        name: '2023-10-31-Buzz_Around_the_Corner'
+},
+   
+    {
+        author: 'Dhruv Patel',
+        date: '2023-10-31',
+        title: `Leadership Camp!`,
+        preview: `This month, Grade 10 students went to Camp Manitou up in Parry Sound for Leadership Camp 2023. They were accompanied by several teachers, staff, and Grade 11 and 12 students returning as Activity Leaders, Counselors, and BLT’s (Bears Leadership Team). Campers left school early in the morning on October 2nd, and (begrudgingly) departed from camp after eating lunch on October 5th.
+        `,
+        image: Leadership,
+        name: '2023-10-31-Leadership_Issue'
+},
+    {
+        author: 'Christine Emeka',
+        date: '2023-10-31',
+        title: `Goospocalypse`,
+        preview: `To many people, geese are probably the “Karens” of the animal kingdom— constantly inducing fear wherever they go, and honking nonstop. Love ‘em or hate ‘em, they aren’t going anywhere. So, as payback for all the poop we’ve had to wipe from the bottoms of our shoes, we might as well gossip about them behind their backs.
+
+        `,
+        image: Goospocalypse,
+        name: '2023-10-31-Goospocalypse'
+},
+    {
+        author: 'Aleksa Miscic',
+        date: '2023-10-31',
+        title: `Doja Cat's Scarlet'`,
+        preview: `After independently making music on Soundcloud in her teens, Doja Cat
+        was catapulted into superstardom upon the release of 2020's *Say So*: a
+        bubbly pop-rap anthem of early COVID years, soon followed by the
+        anticipated 2021 album, *Planet* *Her*, featuring *Woman*, *Need To
+        Know,* and *Kiss Me More*. The world was ready for more of Doja's music,
+        but her recent adoption of a demonic aesthetic, denouncement of previous
+        works, and harsh words towards 'stans' left a mixed public perception.
+        Alongside her controversies, a string of singles preceded her newest
+        album, *Scarlet*, which was released this September.
+        `,
+        image: DojaCat,
+        name: '2023-10-31-Doja_Cat_Scarlet_All_Talk'
+},
+    {
+        author: 'Beacon Editors',
+        date: '2023-10-31',
+        title: 'Canadian Qualifies for Paris Olympics 2024 ',
+        preview: `The hype was high in the basketball world as OKC Thunder star
+        Shai-Gilgeous Alexander nailed a free throw to secure Canada's spot in
+        the 2024 Paris Olympics. Defeating Spain 88 - 85 in an intense duel,
+        Canada managed to overcome their years of misery; loss after loss, and
+        just when hope seemed gone, the team reached international recognition.
+        For those of you who aren't into sports like I am, Team Canada clinched
+        an Olympics berth in basketball for the first time in 23 years! And not
+        only that, but Canada has only ever won one Olympic medal for
+        basketball: a silver at the 1936 Berlin Olympics. Accolades aside,
+        Canada's road to the 2024 Paris Olympics has been absolutely climactic.`,
+        image: ParisOlympics,
+        name: '2023-10-31-My_Night_With_Barbenheimer'
+},
+  
+    {
+        author: 'Alisha Wong',
+        date: '2023-10-31',
+        title: 'My Night With Barbenheimer',
+        preview: `She’s everything. He's just Death, the “destroyer of worlds”. Do they need any other introduction? Barbenheimer, Atomic Blonde, whatever you want to call it, there was an undeniably explosive impact when *Barbie* and *Oppenheimer* were unleashed upon theaters this summer. As a cultural moment, it spawned double features, fashion trends, and countless memes. `,
+        image: Mynightwithbarbenheimer,
+        name: '2023-10-31-My_Night_With_Barbenheimer'
+},
+
     {
         author: 'Aidan Schreder',
         authortag: 'aschreder',
@@ -1415,17 +1505,7 @@ const articles = [
         content: '',
         name: '2019-11-10-Sanaa_Mahmud_-_Spidermans_Exit_from_the_MCU'
     },
-    {
-        author: 'Linda Li',
-        authortag: 'lli',
-        date: '2019-11-10',
-        title: 'How Independent Are You? A Quiz for Young Adults Who Think They’re Ready To Be Adults',
-        preview: `For several years, we, the students of MCI, have had, for the most part, a simple 
-        structure to our lives. Wake up. Go to school. Eat. Sleep. Climb a level in the education system (ideal...`,
-        image: HowIndependentAreYouQuiz,
-        content: '',
-        name: '2019-11-10-Independent'
-    },
+ 
     {
         author: 'April Naing',
         authortag: 'anaing',

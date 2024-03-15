@@ -40,7 +40,13 @@
 }
 
 
-
+.wrapper{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
 .links-container {
   list-style-type: none;
   margin: 0;
@@ -271,6 +277,18 @@
   border: 3px;
   margin-bottom: 30px;
   height: auto;
+}
+.article-image {
+  
+  display: flex;
+  align-items: center;
+  
+ 
+  height: 100%;
+  width: 1000px;
+ 
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .mini-article-image {

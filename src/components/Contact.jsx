@@ -1,11 +1,14 @@
-import { useState, useRef } from 'react';
-import EarthCanvas from './EarthCanvas';
+import { useState, useRef, Suspense } from 'react';
+import { Canvas } from '@react-three/fiber';
 import emailjs from '@emailjs/browser'
 import {styles} from '../styles';
 import { slideIn } from '../utils/motion';
 import { staggerContainer } from '../utils/motion';
 import { textVariant } from '../utils/motion';
 import { motion } from "framer-motion-3d";
+import { Mailbox } from './Mailbox';
+import '../index.css';
+import { OrbitControls } from '@react-three/drei';
 
 const Contact = () => {
   const formRef = useRef();
@@ -141,12 +144,25 @@ const Contact = () => {
             </button>
             
           </form>
-          <div className="mailbox">
-      <EarthCanvas/>
-    </div>
+      
+  
+   
           </div>
+          
       </motion.div>
+      <div className='w-full '>
+    
+    <Canvas camera={{  fov: 15, position: [0, 0, 15]}}>
+      <Suspense fallback={null}>
+        <ambientLight/>
+        <directionalLight intensity={2} position={[0, 0, 50]} />       
+          <Mailbox/>
+          <OrbitControls enableRotate={true} enableZoom={true}  autoRotate autoRotateSpeed={3}  />
+        </Suspense>
+      </Canvas>
+    </div>
       </div>
+      
 </motion.section>
   
   )

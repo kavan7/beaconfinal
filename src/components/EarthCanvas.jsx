@@ -1,5 +1,7 @@
+import { Suspense, useRef } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, useGLTF } from '@react-three/drei';
+
 
 const EarthCanvas = () => {
   const earth = useGLTF('/Mailbox-Simple-UnwrappedUVs.glb');
