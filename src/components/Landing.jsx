@@ -11,6 +11,12 @@ import { staggerContainer } from "../utils/motion";
 import { Card } from "flowbite-react";
 import GoogleCalendarEmbed from "./GoogleCalendarEmbed";
 import featured from '../constants/featured';
+import { Canvas } from '@react-three/fiber';
+import { Suspense } from 'react';
+import { OrbitControls } from '@react-three/drei';
+import { Rocks } from './Rocks';
+import Footer from './Footer';
+
 
 const Landing = () => {
   function slugify(title) {
@@ -143,12 +149,18 @@ const Landing = () => {
                 ))}
               </ul>
             </div>
+            <div className='w-full '>
+     
+      </div>
           </Card>
           
         </motion.div>
+        
         </div>
+     
       </motion.section>
-      
+      <Footer/>
+   
     </>
   );
 }
