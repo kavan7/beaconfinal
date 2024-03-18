@@ -6,6 +6,8 @@ import Markdown from 'markdown-to-jsx';
 import mammoth from "mammoth";
 import DocRenderer from './DocRenderer';
 import DocViewer, {PDFRenderer} from "react-doc-viewer";
+import { Rocks } from './Rocks';
+import Footer from './Footer';
 const Article = ({ article, allPostsData  }) => {
     const docs = [
    
@@ -33,7 +35,7 @@ const Article = ({ article, allPostsData  }) => {
 
 
   return (
-  
+    <>
 
       <div className='ml-[225px] '>
         
@@ -107,8 +109,10 @@ const Article = ({ article, allPostsData  }) => {
   <Markdown >{content}</Markdown>
   </p>
   </div>
-  </div>
   
+  </div>
+  <Footer/>
+  </>
   );
 };
 
