@@ -3285,18 +3285,21 @@ input[type="button"].btn-block {
   display: block; }
 
 .navbar {
-  position: relative;
-  display: flex;
+  position: fixed;
+  display: sticky;
+  top: 0;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0.3rem 1rem; }
+  
   .navbar > .container,
   .navbar > .container-fluid {
-    display: flex;
+    display: fixed;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between; }
+    
 
 .navbar-brand {
   display: inline-block;

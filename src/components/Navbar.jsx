@@ -8,7 +8,8 @@ import { styles } from '../styles'
 const Navbar = () => {
   return (
     <>
-      <nav className=' '>
+    <h1>test</h1>
+      <nav className='test'>
       <div className='header-container' to>
       <ul className='link-stuff'>
       <li className='links'>
