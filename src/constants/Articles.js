@@ -17,7 +17,7 @@ import NewYearNewMarty from '../assets/images/2023-02-15-New_year,_New_Marty.jpg
 import HockeyAtMCI from '../assets/images/2023-02-15-Hockey_at_MCI.jpg'
 import BooksToRead2023 from '../assets/images/2023-02-15-Books_To_Get_You_Into_Reading_for_2023.jpg'
 import BeingGiftedNotSpecial from '../assets/images/2023-02-15-Being_Gifted_Doesn\'t_Make_You_Special.jpg'
-import BeaconFebruaryIssue from '../assets/images/2023-02-13-Beacon-February-Issue.JPG'
+import BeaconFebruaryIssue from '../assets/images/2023-02-13-Beacon-February-Issue.jpg'
 import BeaconDecemberIssue from '../assets/images/2023-02-02-Beacon-December-Issue.jpg'
 import ThePerfectGift from '../assets/images/2022-12-29-Holiday_Shopping_and_Consumerism-_Fardowsa_Mohamed.jpg'
 import CultClassic from '../assets/images/2022-12-29-Cult_Classic-_Madeline_Li2.jpg'
@@ -113,7 +113,6 @@ import PsychologyBehindNewYearsResolutions from '../assets/images/2019-12-06-Res
 import NovemberTimeToBeEmpowered from '../assets/images/2019-11-12-November__A_Time_to_be_Empowered_photo.jpg'
 import HowIndependentAreYouQuiz from '../assets/images/2019-11-10-Independent_photo.jpg'
 import LestWeForget2019 from '../assets/images/2019-11-10-April_Naing_-_Remembrance_Day-2_photo.jpg'
-import AdviceOnMornings from '../assets/images/2019-11-10-Advice_on_Mornings_by_April_Naing_1_photo.jpg'
 import MeirStraus from '../assets/images/2023-05-06-An_Interview_with_Meir_Staus.jpg'
 import Mynightwithbarbenheimer from '../assets/images/2023-10-31-My_Night_With_Barbenheimer.jpg'
 import ParisOlympics from '../assets/images/2023-10-31-Canadian_Qualifies_for_Paris_Olympics_2024.jpg'
@@ -1515,17 +1514,6 @@ const articles = [
         image: LestWeForget2019,
         content: '',
         name: '2019-11-10-April_Naing_-_Remembrance_Day-2'
-    },
-    {
-        author: 'April Naing',
-        authortag: 'anaing',
-        date: '2019-11-10',
-        title: 'Advice on Mornings',
-        preview: `Let’s face it. Most of us aren’t morning people, and with school starting again a lot of 
-        us aren’t used to waking up at the crack of dawn. Gone are the days when we could sleep until no...`,
-        image: AdviceOnMornings,
-        content: '',
-        name: '2019-11-10-Advice_on_Mornings_by_April_Naing_1'
     },
 
 ]
