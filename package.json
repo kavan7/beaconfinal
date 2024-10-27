@@ -2,6 +2,7 @@
   "name": "beacon2",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Rababb-P.github.io/beaconfinal/",
   "type": "module",
   "scripts": {
     "dev": "vite",
