@@ -17,7 +17,7 @@ import NewYearNewMarty from '../assets/images/2023-02-15-New_year,_New_Marty.jpg
 import HockeyAtMCI from '../assets/images/2023-02-15-Hockey_at_MCI.jpg'
 import BooksToRead2023 from '../assets/images/2023-02-15-Books_To_Get_You_Into_Reading_for_2023.jpg'
 import BeingGiftedNotSpecial from '../assets/images/2023-02-15-Being_Gifted_Doesn\'t_Make_You_Special.jpg'
-import BeaconFebruaryIssue from '../assets/images/2023-02-13-Beacon-February-Issue.JPG'
+import BeaconFebruaryIssue from '../assets/images/2023-02-13-Beacon-February-Issue.jpg'
 import BeaconDecemberIssue from '../assets/images/2023-02-02-Beacon-December-Issue.jpg'
 import ThePerfectGift from '../assets/images/2022-12-29-Holiday_Shopping_and_Consumerism-_Fardowsa_Mohamed.jpg'
 import CultClassic from '../assets/images/2022-12-29-Cult_Classic-_Madeline_Li2.jpg'
