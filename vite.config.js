@@ -5,5 +5,5 @@ import vitePluginMd from 'vite-plugin-md'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ['/*.md', '/*.JPG'],
-  base: '/beaconfinal/',
+  base: '/beaconfinal/'
 })
