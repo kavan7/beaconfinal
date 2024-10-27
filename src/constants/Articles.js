@@ -113,7 +113,6 @@ import PsychologyBehindNewYearsResolutions from '../assets/images/2019-12-06-Res
 import NovemberTimeToBeEmpowered from '../assets/images/2019-11-12-November__A_Time_to_be_Empowered_photo.jpg'
 import HowIndependentAreYouQuiz from '../assets/images/2019-11-10-Independent_photo.jpg'
 import LestWeForget2019 from '../assets/images/2019-11-10-April_Naing_-_Remembrance_Day-2_photo.jpg'
-import AdviceOnMornings from '../assets/images/2019-11-10-Advice_on_Mornings_by_April_Naing_1_photo.jpg'
 import MeirStraus from '../assets/images/2023-05-06-An_Interview_with_Meir_Staus.jpg'
 import Mynightwithbarbenheimer from '../assets/images/2023-10-31-My_Night_With_Barbenheimer.jpg'
 import ParisOlympics from '../assets/images/2023-10-31-Canadian_Qualifies_for_Paris_Olympics_2024.jpg'
@@ -1515,17 +1514,6 @@ const articles = [
         image: LestWeForget2019,
         content: '',
         name: '2019-11-10-April_Naing_-_Remembrance_Day-2'
-    },
-    {
-        author: 'April Naing',
-        authortag: 'anaing',
-        date: '2019-11-10',
-        title: 'Advice on Mornings',
-        preview: `Let’s face it. Most of us aren’t morning people, and with school starting again a lot of 
-        us aren’t used to waking up at the crack of dawn. Gone are the days when we could sleep until no...`,
-        image: AdviceOnMornings,
-        content: '',
-        name: '2019-11-10-Advice_on_Mornings_by_April_Naing_1'
     },
 
 ]
