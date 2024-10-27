@@ -2,7 +2,7 @@
 
 <br/>
 
-Remembrance Day (Jour du Souvenir) is observed annually on November
+Remembrance Day (Jour du Souvenir) is  observed annually on November
 11, the anniversary marking the end of World War 1.
 
 <br/>
