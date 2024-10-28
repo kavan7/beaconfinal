@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - workingsite
-  workflow_dispatch:  # Add this to allow manual trigger
+  workflow_dispatch:  # Allows for manual trigger
 
 jobs:
   build:
@@ -34,7 +34,6 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/workingsite'
 
     steps:
       - name: Download artifact
