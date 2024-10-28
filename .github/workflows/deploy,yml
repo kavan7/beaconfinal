@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - workingsite
+  workflow_dispatch:  # Add this to allow manual trigger
 
 jobs:
   build:
