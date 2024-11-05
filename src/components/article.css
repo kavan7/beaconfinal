@@ -36,14 +36,13 @@
    
 }
 
-p{
-    
+p {
     letter-spacing: 0.01em;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
-    justify-content: center;
-    
+    align-items: flex-start; 
+    justify-content: flex-start;
 }
 .articleContent {
 
