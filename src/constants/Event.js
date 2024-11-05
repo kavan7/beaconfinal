@@ -342,7 +342,7 @@ import {aidanSchreder,
     iglink: ''
   },
   {
-    name: "Lukas Kovacevic",
+    name: "Lucas Kovacevic",
     badgebg: '#ff5733',
     pfp: defaultImage,
     iglink: ''
