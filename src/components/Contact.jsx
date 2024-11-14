@@ -72,13 +72,13 @@ const Contact = () => {
     whileInView="show"
     staggerContainer
     viewport={{once: true, amount: 0.25}}
-    className="md:px-[100px] "
+    className="px-[100px]"
    >
     <div className='xl:mt-8 ml-[10px] xl:flex-row
     flex-col-reverse flex  overlow-hidden'>
      
         <motion.div variants={textVariant()}
-         className=' contact-card-container p-8'>         
+         className='flex-[0.45] contact-card-container p-8'>         
           <h5 className=' text-gray-500'>Send a message to the editors!</h5>
           <motion.div variants={textVariant()}
          className=''>  
@@ -100,7 +100,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="Beacon"
+              placeholder="What's your name"
               className='bg-gray-100 py-4 px-6 placeholder:text-gray-500 focus:outline-none text-gray-900 rounded-lg outlined-none border-none font-medium '>
 
               </input>
@@ -114,7 +114,7 @@ const Contact = () => {
               type='email'
               name='email'
               value={form.email}
-              placeholder="mcibeacon@email.com"
+              placeholder="What's your email"
               onChange={handleChange}
               className='bg-gray-100 py-4 px-6 placeholder:text-gray-500 focus:outline-none text-gray-900 rounded-lg outlined-none border-none font-medium'>
 
@@ -122,7 +122,7 @@ const Contact = () => {
 
             </label>
             <label className='flex flex-col'>
-              <span className='text-gray-900 ml-[10px] mb-[10px] font-semibold underline-offset-1 '>
+              <span className='text-gray-900 ml-[10px] mb-[10px] font-semibold underline-offset-1'>
                Message
               </span>
               <textarea
@@ -132,7 +132,7 @@ const Contact = () => {
               value={form.message}
               placeholder="What would you like to say"
               onChange={handleChange}
-              className='bg-gray-100 py-4 px-6 placeholder:text-gray-500 focus:outline-none text-gray-900 rounded-lg outlined-none border-none font-medium max:xs:placeholder:text-[50px]'>
+              className='bg-gray-100 py-4 px-6 placeholder:text-gray-500 focus:outline-none text-gray-900 rounded-lg outlined-none border-none font-medium'>
 
               </textarea>
 

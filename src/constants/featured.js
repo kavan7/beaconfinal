@@ -6,7 +6,7 @@ const featured = [
         authortag: 'aschreder',
         date: '2023-04-10',
         title: 'Silver Shrimp Studios: Building My Business',
-        preview: `Hello MCI readers and future Silver Shrimp gamers. Silver Shrimp
+        preview: `Hello Martingrove readers and future Silver Shrimp gamers. Silver Shrimp
         Studios is my emerging video game design studio, focusing on
         storytelling, art direction, and connections to real-world problems.
         Read on to learn strategies I used to start the venture, insights into

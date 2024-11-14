@@ -17,50 +17,27 @@ const Footer = () => (
         </h5>
       </div>
 
-      <div className="footer__links">
-        {footerLinks.map((item) => (
-          <div key={item.title} className="footer__link">
-            <h3 className="font-bold">{item.title}</h3>
-            <div className="flex flex-col gap-5">
-              {item.links.map((link) => (
-                <a
-                  key={link.title}
-                  href={link.url}
-                  className="text-gray-500"
-                >
-                  {link.title}
-                </a>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
+      
     </div>
 
     <div className='flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10'>
       <h5>@2024 The Beacon. All rights reserved</h5>
 
       <div className="footer__copyrights-link">
-        <Link href="/" className="text-gray-500">
-          Privacy & Policy
-        </Link>
-        <Link href="/" className="text-gray-500">
-          Terms & Condition
-        </Link>
+        
+        <a target='_blank'
+            rel='noopener noreferrer' href="https://mcibeacon.com">Visit our old website!</a>
       </div>
     </div>
-    <div className="">
-  <div className="">
-    <Canvas camera={{ fov: 35, position: [0, 0, 0] }} className="">
+    <Canvas camera={{  fov: 35,  position: [0, 0, 0]}}>
       <Suspense fallback={null}>
-        <ambientLight />
-        <directionalLight intensity={0.5} position={[0, 0, 80]} />
-        <Rocks />
-        <OrbitControls enableZoom={false} enableRotate={false} />
-      </Suspense>
-    </Canvas>
-  </div>
-</div>
+        <ambientLight/>
+        <directionalLight intensity={0.5} position={[0, 0, 80]} />       
+        
+          <Rocks/>
+          <OrbitControls enableZoom={false} enableRotate={false}   />
+        </Suspense>
+      </Canvas>
   </footer>
 );
 

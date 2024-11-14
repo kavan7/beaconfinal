@@ -8,46 +8,37 @@ import { styles } from '../styles'
 const Navbar = () => {
   return (
     <>
-      <nav className=' '>
+    {/* <h1>test</h1> */}
+      <nav className='test'>
       <div className='header-container' to>
-    
-      <ul className='link-stuff '>
-        
-      <li className='links '>
-            <Link to="/about" className=' page-link max-xs:text-[10px]'>
+      <ul className='link-stuff'>
+      <li className='links'>
+            <Link to="/about" className='page-link'>
             About
-           
             </Link>
-           
           </li>
-         
-        
-          
-        
           <li className='links'>
-            <Link to="/members" className='  page-link max-xs:text-[10px]'>
+            <Link to="/members" className='page-link'>
             Members
             </Link>
           </li>
-        <Link to="/" className='mt-5'>
+        <Link to="/">
          
             <img src={header} className='header mt-[0px] border-b-2 border-grey'/>
         
         </Link>
-        <li className='links '>
-            <Link to="/contact" className='  page-link max-xs:text-[10px]'>
+        <li className='links'>
+            <Link to="/contact" className='page-link'>
               Contact
             </Link>
           </li>
           <li className='links'>
-          <Link to="/beardle" className='  page-link max-xs:text-[10px]'>
+          <Link to="/beardle" className='page-link'>
             Beardle
             </Link>
           </li>
-       
         </ul>
         </div>
-   
         <div className='line'/>
       
       

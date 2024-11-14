@@ -1,4 +1,4 @@
-
+    
 
 The unease across North America was palpable on January 6th, 2021.
 Whether you were watching the news, listening to the radio while driving

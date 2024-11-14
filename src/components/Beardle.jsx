@@ -149,6 +149,12 @@ function Beardle() {
         setSquares(updatedSquares);
         setI(i - 1);
       }
+      else if (key === 'Del' && i > 0) {
+        const updatedSquares = [...squares];
+        updatedSquares[currentRow * 4 + i - 1] = null;
+        setSquares(updatedSquares);
+        setI(i - 1);
+      } 
       else if (key === '>') {
         const word = squares.slice(currentRow * 4, (currentRow + 1) * 4).join('');
         console.log(word);
@@ -309,8 +315,8 @@ function Beardle() {
 
         <motion.div variants={textVariant()}>
           {rows}
-          <h1 className='max-xs:hidden'>{message}</h1>
-          <div className='keyboard max-xs:w-1/2 max-xs:mr-[45px]'>
+          <h1 className='error'>{message}</h1>
+          <div className='keyboard'>
             {keyboardLayout.map((row, rowIndex) => (
               <div key={rowIndex} className='keyboard-row '>
                 {row.map((key, keyIndex) => (

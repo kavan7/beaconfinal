@@ -1,7 +1,7 @@
 // About.jsx
 
 import React from 'react';
-import './about.css'; // Import the associated CSS file
+import './About.css'; // Import the associated CSS file
 import { motion } from 'framer-motion-3d';
 import { textVariant } from '../utils/motion';
 import { styles } from '../styles';
@@ -15,7 +15,7 @@ const About = () => {
     whileInView="show"
     staggerContainer
     viewport={{ once: true, amount: 0.25 }}
-    className={`${styles.padding} article-card-container max-xs:w-1/2`}
+    className={`${styles.padding} article-card-container`}
   ><div className='stuff'>
     <motion.div variants={textVariant()} className='about-container'>
       

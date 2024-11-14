@@ -55,11 +55,14 @@ const AllArticles = () => {
   };
 
   return (
-    
-    <motion.section className="">
+    <motion.div
+      className={`${styles.padding} max-w-7xl article-card-container z-0 height-700vh`}
+    >
+      <h3 className={`${styles.sectionHeadText} mr-[-150px] ml-[-650px] text-[#020617]`}>Articles.</h3>
       
+
       {isFilterPopupOpen && (
-        <div className=" filter-popup bg-white ml-[1100px] max-xs:w-[350px] max-xs:ml-[20px] max-xs:mt-[10px]">
+        <div className="filter-popup">
           <h4>Filter by:</h4> 
           <div className="text-input">
           
@@ -94,23 +97,17 @@ const AllArticles = () => {
           {/* You can add more filter options for article date here */}
         </div>
       )}
-    <motion.div
-      className={`${styles.padding} max-w-7xl article-card-container  max-xs:w-[170px]  max-xs:mt-[120px] z-0 height-700vh `}
-    >
-      <h3 className={`${styles.sectionHeadText} mr-[-150px] ml-[-650px] text-[#020617]`}>Articles.</h3>
-      
 
-
-      <div className="all max-xs:w-[100px] ">
+      <div className="all">
         <AnimatePresence>
           {filteredArticles.map((article, index) => (
             <Link
               to={`/articles/${article.date}-${slugify(article.title)}`}
-              className="link-no-underline "
+              className="link-no-underline"
               key={index}
             >
               <motion.div
-                className=" article-list-container flex justify-between  w-[780px] bg-white border-[1px] max-xs:ml-[150px] max-xs:w-[300px] "
+                className="article-list-container"
                 id={article.title}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -135,7 +132,6 @@ const AllArticles = () => {
         </AnimatePresence>
       </div>
     </motion.div>
-    </motion.section>
   );
 };
 
