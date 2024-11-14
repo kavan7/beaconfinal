@@ -97,7 +97,7 @@ const Article = ({ article, allPostsData  }) => {
    
     
 </div>
-<img src={article.image} className='flex-row relative article-image-page ' alt="Article Image" />
+<img src={article.image} className='mt-[2%] ml-[10%] article-image-page ' alt="Article Image" />
       </div>
       
       <div className="post">
@@ -105,7 +105,7 @@ const Article = ({ article, allPostsData  }) => {
     </div>
    
     <div className='  mt-[2%] ml-[6%] max-w-[60%] text-left articleContent'>
-        <p className='text-[18px]'>
+        <p className='text-[18px] '>
   <Markdown >{content}</Markdown>
   </p>
   </div>

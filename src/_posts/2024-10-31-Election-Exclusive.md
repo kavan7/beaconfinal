@@ -1,0 +1,9 @@
+﻿The last few years have been one of (if not the most) turbulent times in American history since the Vietnam War and Watergate, which is a very high bar! Compounded by an uncontrolled war in the Middle-East, two back-to-back hurricanes, rampant immigration, and the rapid polarization of public opinion, the upcoming election is turning into a farce, but also a sign of future political direction. In terms of both presidential candidates, the Pope probably said it best: “Americans must choose between the lesser of two evils”.  On the left side of this WWE cage match is the current vice-president, Kamala Harris, who represents the status quo. She would most likely not bring the radical change that many Americans want, and is too liberal and untrustworthy for some voters. On the right side is former president Donald Trump, who needs no introduction as to why some don’t want to vote for him and still refuses to admit losing the election four years ago. This recent polarization and lack of trust in political leaders has led to a tolerance of nonsense that would be unacceptable at other times. Compare Senator John McCain calling President Barack Obama a “decent family man” in 2008 to Trump calling Harris “mentally disabled” and his supporters cheering him on!  
+  
+  
+
+Over the past four years, many other nations such as France and Italy have also experienced similar divisions, but have largely recovered. Brazil's most recent election was nearly identical, even with their own version of the Jan. 6th riot, but the chaos subsided soon after it was over, and maybe that could be a sign of how this U.S. election will turn out.  
+  
+  
+
+Whichever candidate wins, all we can wish for is that American democracy survives and that this was all a bad dream. Either way, I would rather be up here in Canada following the American Nightmare.

@@ -123,7 +123,120 @@ import Leadership from '../assets/images/2023-10-31-Leadership_Issue.jpg'
 import TeacherInterviews from '../assets/images/2023-10-31-Halloween_Interviews_with_MCI_Teachers.jpg'
 import ModernDystopia from '../assets/images/2023-10-31-Bill_C-1984.jpg'
 import Buzz from '../assets/images/2023-10-31-Buzz_Around_the_Corner.jpg'
+import TopTeacherHalloweenTreats from '../assets/images/2024-10-31-top_teacher_Halloween_treats.jpg'
+import SHADSummer from '../assets/images/2024-10-31-SHAD_the_summer_program.jpg'
+import CrossCountryDeservesBetter from '../assets/images/2024-10-31-cross_country_deserves_better.png'
+import OriginsOfHalloweenCeltics from '../assets/images/2024-10-31-origins_of_halloween_celtics.jpg'
+import ToTrickOrNotTo2024 from '../assets/images/2024-10-31-to_treat_or_not_to.png'
+import ParticipatingInBVP from '../assets/images/2024-10-31-participating_in_bvp.jpg'
+import SurvivingHorroMovies from '../assets/images/2024-10-31-surviving_in_horror_movies.jpg'
+import nathanElectionExclusive from '../assets/images/2024-10-31-election_article.png'
+import BeaconOctober2024Issue from '../assets/images/BeaconHalloween2024.png'
+// import  from '../assets/images/.jpg'
+// import  from '../assets/images/.jpg'
+// import  from '../assets/images/.jpg'
+// import  from '../assets/images/.jpg'
+// import  from '../assets/images/.jpg'
+
 const articles = [
+//     {
+//         author: 'Nathan Perlman',
+//         date: '2024-10-31',
+//         title: `An American Nightmare Of Electoral Insanity`,
+//         preview: ``, 
+//         image: nathanElectionExclusive,
+//         name: '2024-10-31-Election-Exclusive'
+// },
+    {
+        author: 'Ethan Lin',
+        date: '2024-10-31',
+        title: `Rating Teachers’ Top Halloween Treats`,
+        preview: `Let’s not kid ourselves; candy is everybody’s favourite part of Halloween, mine included. Unfortunately, my family never strays away from the usual iconic assortment of candies from the Nestle multipacks, so by no means am I a candy aficionado. But unlike myself, some of our MCI teachers have strong opinions about their favourite Halloween candies, which they’ve generously offered to enlighten me with.
+In the spirit of Halloween, I instinctively turned to MCI’s most frightening teacher, Mr. Sommerfelt.`, 
+        image: TopTeacherHalloweenTreats,
+        name: '2024-10-31-Teacher-Top-Halloween-Treats'
+},
+        {
+        author: 'Beacon Editors',
+        date: '2024-10-31',
+        title: 'Beacon October issue - PDF',
+        preview: `To view a PDF version of our Halloween Beacon Issue, click here.`,
+        image: BeaconOctober2024Issue,
+        content: '',
+        name: '2024-10-31-Beacon-Halloween-Issue'
+    },
+    {
+        author: 'Noah Park',
+        date: '2024-10-31',
+        title: `The Run-Down: Why Cross Country Deserves Better`,
+        preview: ``, 
+        image: CrossCountryDeservesBetter,
+        name: '2024-10-31-Cross-Country-Deserves-Better'
+},
+    {
+        author: 'Rayyan Ali',
+        date: '2024-10-31',
+        title: `So, Is Camp Manitou Really as Awesome as Everyone Says?`,
+        preview: ``, 
+        image: 'blank',
+        name: '2024-10-31-Is-Leadership-Really-Awesome'
+},
+    {
+        author: 'Charis Chang & Laila Vassa',
+        date: '2024-10-31',
+        title: `Origins of Halloween - The Celtic New Year`,
+        preview: ``, 
+        image: OriginsOfHalloweenCeltics,
+        name: '2024-10-31-Origins-Of-Halloween'
+},
+    {
+        author: 'Julia Wu',
+        date: '2024-10-31',
+        title: `SHAD: The Summer Program You Didn’t Know You Needed`,
+        preview: ``, 
+        image: SHADSummer,
+        name: '2024-10-31-SHAD-Program'
+},
+    {
+        author: 'Zoe Savic-Jovcic',
+        date: '2024-10-31',
+        title: `To Trick or Not to Treat`,
+        preview: ``, 
+        image: ToTrickOrNotTo2024,
+        name: '2024-10-31-To-Trick-Or-Not'
+},
+    {
+        author: 'Arun Devan',
+        date: '2024-10-31',
+        title: `AI in Education, a Tool for Learning, Not a Shortcut`,
+        preview: ``, 
+        image: 'blank',
+        name: '2024-10-31-AI-As-A-Tool'
+},
+    {
+        author: 'Nadine Telesford',
+        date: '2024-10-31',
+        title: `My Experience Participating in the BVP`,
+        preview: ``, 
+        image: ParticipatingInBVP,
+        name: '2024-10-31-Participating-In-BVP'
+},
+    {
+        author: 'Dhruv Patel',
+        date: '2024-10-31',
+        title: `Your 2024 Halloween Cinema Guide`,
+        preview: ``, 
+        image: 'blank',
+        name: '2024-10-31-Halloween-Cinema-Guide'
+},
+    {
+        author: 'Archana Arulthas & Kim Nguyen',
+        date: '2024-10-31',
+        title: `Will You Survive? - Skills and Quirks Needed to “Win” Horror Movies (*SPOILERS*)`,
+        preview: ``, 
+        image: SurvivingHorroMovies,
+        name: '2024-10-31-Will-You-Survive-Horror-Movies'
+},
     {
         author: 'Skyler Xiang',
         date: '2023-10-31',
@@ -156,9 +269,7 @@ const articles = [
         author: 'Christine Emeka',
         date: '2023-10-31',
         title: `Goospocalypse`,
-        preview: `To many people, geese are probably the “Karens” of the animal kingdom— constantly inducing fear wherever they go, and honking nonstop. Love ‘em or hate ‘em, they aren’t going anywhere. So, as payback for all the poop we’ve had to wipe from the bottoms of our shoes, we might as well gossip about them behind their backs.
-
-        `,
+        preview: `To many people, geese are probably the “Karens” of the animal kingdom— constantly inducing fear wherever they go, and honking nonstop. Love ‘em or hate ‘em, they aren’t going anywhere. So, as payback for all the poop we’ve had to wipe from the bottoms of our shoes, we might as well gossip about them behind their backs.`,
         image: Goospocalypse,
         name: '2023-10-31-Goospocalypse'
 },
@@ -229,7 +340,7 @@ const articles = [
         candidate in the 2023 mayoral by-election. Straus is a grade twelve
         student from North York, and though his camp...`,
         image: MeirStraus,
-        content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. N',
+        content: '',
         name: `2023-05-06-An_Interview_with_Meir_Staus`
     },
     {
