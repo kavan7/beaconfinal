@@ -95,7 +95,8 @@ const Article = ({ article, allPostsData  }) => {
    
     
 </div>
-<img src={article.image} className='flex-row relative article-image-page ' alt="Article Image" />
+<img src={article.image} className='mt-[2%] ml-[10%] article-image-page ' alt="Article Image" />
+
       </div>
       
       <div className="post">
