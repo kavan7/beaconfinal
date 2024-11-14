@@ -1,0 +1,16 @@
+﻿# <a name="_p1sbez648tnf"></a>The Science of Love
+
+Every February, when Cupid draws back his bow, we’re struck with the same unanswerable question: what is love? Don’t worry, we won’t hurt you, but we will clear up some common misconceptions. The question is easily answered through science. Unlike flimsy common reasoning, science gives us a solid and complete understanding of love. 
+
+Baseless romantics posit that love lies in the heart, but to people with brains, it obviously comes from just there. Most scientific theories find that there are 3 strands of love: lust, attraction, and attachment, each having their own set of neurotransmitters and hormones that control how they operate.
+
+Obviously, our lustful urges are purely biological. When we see [redacted], when we [redacted], or even when we think of [redacted], the hypothalamus in our brain stimulates the necessary hormones (testosterone or estrogen). All animal species must carry on their lineage, and this is simply how we humans have evolved to do so.
+
+The second type is attraction, which might seem muddled with lust to someone who ignores the scientific method. You can be attracted to someone and feel no lust, and vice versa. Attraction refers to the gratification of acts considered “romantic.” Empirically put, the hypothalamus releases dopamine, norepinephrine, and serotonin in varying doses when “reward” pathways are activated, which can affect mood, appetite, or even physical sensations. The physical and emotional effects of attraction are due to our brain being “rewarded,” which is what brings about the need to constantly fill that desire that we call “attachment.” 
+
+The third strand of love is attachment, which serves as the building block of long-term relationships, ranging from romantic companionship with a partner to familial bonds and everything in between. When bonding acts such as breastfeeding, childbirth, or [redacted] are performed, positive connections are reinforced with the help of oxytocin, and vasopressin tells us to protect the ones we’re attached to.
+
+The science of love is robust. The only thing the model needs to explain is *why* someone falls in love. Fortunately, we have metaphysical theory: functionalism. Although a philosophical device, it draws from scientific reasoning to posit that any brain state or thought is defined by sensory inputs it receives and by behavioural outputs it performs. Falling in love is thus reduced to a recursive algorithm. Any given person is equipped with criteria, instilled either before birth or through upbringing, that dictate potential partners. When another person provides these inputs, the brain emits the necessary chemicals that alters the behavioural output, which alters the environment, which will alter the inputs, creating a long-term cycle of love that inevitably has hiccups due to unpredicted interferences.
+
+To all those happily in love, relish in the chemicals that your brain is rewarding you with. To those feeling an empty spot in their hearts, know that it won’t be filled by another person, but it can easily be simulated with the same brain states. I encourage you to research ways to stimulate your brain (in healthy, legal ways) to not feel such hollowness. Happy Valentine’s Day, MCI, and remember to let your brains, not your hearts, tell you how to feel.
+
