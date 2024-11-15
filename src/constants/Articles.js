@@ -6,7 +6,7 @@ import ThePharosDaily from '../assets/images/2023-04-01-THE PHAROS DAILY.jpg'
 import ScammerAndFrauds from '../assets/images/2023-04-11-Scammers And Frauds-The Joke Known as The SAC.jpg'
 import TrueTorontonian from '../assets/images/2023-04-01-How to Become a True Torontonian.jpg'
 import EasterPreparations from '../assets/images/2023-04-01-Easter Preparations MCI Teachers Edition.jpg'
-import AssemblyOfWinterMagic from '../assets/images/2023-04-01-An-Assembly-Of-Winter-Magic.jpg'
+// import AssemblyOfWinterMagic from '../assets/images/2023-04-01-An-Assembly-Of-Winter-Magic.jpg'
 import LastFridaysSnowstorm from '../assets/images/2023-03-08-Opinion-Last-Fridays-snowstorm-proves-that-cars-are-not-the-answer.jpg'
 import ValentineHoroscopes from '../assets/images/2023-02-15-Valentine\'s_Horoscopes.jpg'
 import ValentineUglyHoliday from '../assets/images/2023-02-15-Valentine\'s_Day_is_an_Ugly_Holiday.jpg'
@@ -416,18 +416,18 @@ In the spirit of Halloween, I instinctively turned to MCI’s most frightening t
         name: '2023-04-01-Easter Preparations MCI Teachers Edition'
 
     },
-    {
-        author: 'Nathan Perlman',
-        authortag: 'nperlman',
-        date: '2023-04-01',
-        title: 'An Assembly Of Winter Magic',
-        preview: `For a so-called “winter assembly”, it barely made it to the finish line;
-        it was held on March 13th and winter ended only seven days later. The Assembly was originally...`,
-        image: AssemblyOfWinterMagic,
-        content: '',
-        name: '2023-04-01-An_Assembly_Of_Winter_Magic'
+    // {
+    //     author: 'Nathan Perlman',
+    //     authortag: 'nperlman',
+    //     date: '2023-04-01',
+    //     title: 'An Assembly Of Winter Magic',
+    //     preview: `For a so-called “winter assembly”, it barely made it to the finish line;
+    //     it was held on March 13th and winter ended only seven days later. The Assembly was originally...`,
+    //     image: AssemblyOfWinterMagic,
+    //     content: '',
+    //     name: '2023-04-01-An_Assembly_Of_Winter_Magic'
 
-    },
+    // },
     {
         author: 'Skyler Xiang',
         authortag: 'sxiang',
