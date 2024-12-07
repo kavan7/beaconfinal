@@ -39,6 +39,22 @@ import susanLi from './susan-li.jpg';
 import susannaLiao from './susanna-liao.jpg';
 import tessaWilliams from './tessa-williams.jpg';
 import theoBoychev from './theo-boychev.jpg';
+import emmaBedja from './emma-bedja.jpg';
+import agasthyaChidambaram from './agasthya-chidambaram.png';
+import dhruvPatel from './dhruv-patel.jpg';
+import cierraAlagnaf from './cierra-alagnaf.jpg';
+import danielMok from './daniel-mok.jpg';
+import elliotPagnan from './elliot-pagnan.jpg';
+import ethanLin from './ethan-lin.jpg';
+import zoeSavicJovcic from './zoe-savic-jovcic.jpg';
+import georgiaWu from './georgia-wu.jpg';
+import pennyMcClement from './penny-mcclement.JPG';
+import noahDominguez from './noah-dominguezschatz.jpg';
+import isaiahChambers from './isiah-chambers.jpg';
+import jasmineBasra from './jasmine-basra.jpg';
+import fatimaQadeer from './fatima-qadeer.jpg';
+import haristaaSatheeskumar from './haristaa-satheeskumar.jpg';
+import nusratRaisa from './nusrat-raisa.jpg';
 
 export {
   aidanSchreder,
@@ -81,5 +97,21 @@ export {
   susanLi,
   susannaLiao,
   tessaWilliams,
-  theoBoychev
+  theoBoychev,
+  emmaBedja,
+  agasthyaChidambaram,
+  dhruvPatel,
+  elliotPagnan,
+  zoeSavicJovcic,
+  georgiaWu,
+  danielMok,
+  cierraAlagnaf,
+  pennyMcClement,
+  ethanLin,
+  noahDominguez,
+  isaiahChambers,
+  haristaaSatheeskumar,
+  fatimaQadeer,
+  jasmineBasra,
+  nusratRaisa,
 };

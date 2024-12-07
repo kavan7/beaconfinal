@@ -39,9 +39,12 @@ import {aidanSchreder,
   susanLi,
   susannaLiao,
   tessaWilliams,
-  theoBoychev
+  theoBoychev,
+  dhruvPatel,
+  agasthyaChidambaram,
+  emmaBedja,
 } from '../assets/images/avatars';
-
+// fake members fr
 
 
 export const members = [

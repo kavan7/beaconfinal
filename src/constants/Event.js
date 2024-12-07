@@ -38,7 +38,24 @@ import {aidanSchreder,
     susanLi,
     susannaLiao,
     tessaWilliams,
-    theoBoychev
+    theoBoychev,
+    emmaBedja,
+    agasthyaChidambaram,
+    dhruvPatel,
+    georgiaWu,
+    cierraAlagnaf,
+    elliotPagnan, 
+    ethanLin,
+    pennyMcClement,
+    zoeSavicJovcic,
+    danielMok,
+    jasmineBasra,
+    nusratRaisa,
+    haristaaSatheeskumar,
+    noahDominguez,
+    isaiahChambers,
+    fatimaQadeer,
+
   } from '../assets/images/avatars';
   
   export const editorsInChief = [
@@ -61,7 +78,7 @@ import {aidanSchreder,
     {
       name: "Haristaa Satheeskumar",
       badgebg: '#ff5733',
-      pfp: defaultImage,
+      pfp: haristaaSatheeskumar,
       iglink: ''
     },
     {
@@ -113,7 +130,7 @@ import {aidanSchreder,
     {
       name: 'Dhruv Patel',
       badgebg: '#ff5733',
-      pfp: defaultImage,
+      pfp: dhruvPatel,
       iglink: ''
     }
   ]
@@ -133,7 +150,7 @@ import {aidanSchreder,
     {
       name: "Noah Park",
       badgebg: '#ff5733',
-      pfp: defaultImage,
+      pfp: noahPark,
       iglink: ''
     }
     // Add more Copy Editors as needed
@@ -163,7 +180,7 @@ import {aidanSchreder,
     {
       name: "Nusrat Raisa",
       badgebg: '#ff5733',
-      pfp: defaultImage,
+      pfp: nusratRaisa,
       iglink: ''
     },
     {
@@ -199,7 +216,7 @@ import {aidanSchreder,
     {
       name: "Fatima Qadeer",
       badgebg: '#ff5733',
-      pfp: defaultImage,
+      pfp: fatimaQadeer,
       iglink: ''
     },
     {
@@ -211,7 +228,7 @@ import {aidanSchreder,
     {
       name: "Isaiah Chambers",
       badgebg: '#ff5733',
-      pfp: defaultImage,
+      pfp: isaiahChambers,
       iglink: ''
     }
     // Add more Layout Heads as needed
@@ -221,7 +238,7 @@ import {aidanSchreder,
     {
       name: "Elliot Pagnan",
       badgebg: '#ff5733',
-      pfp: defaultImage,
+      pfp: elliotPagnan,
       iglink: ''
     }
     // Add more Comics/Illustrations Heads as needed
@@ -236,7 +253,7 @@ import {aidanSchreder,
     {
       name: "Cierra Alagnaf",
       badgebg: '#ff5733',
-      pfp: defaultImage,
+      pfp: cierraAlagnaf,
       iglink: ''
     },
     {
@@ -248,7 +265,7 @@ import {aidanSchreder,
     {
       name: "Penny McClement",
       badgebg: '#ff5733',
-      pfp: defaultImage,
+      pfp: pennyMcClement,
       iglink: ''
     },
     // Add more Comics/Illustrations Heads as needed
@@ -296,7 +313,7 @@ import {aidanSchreder,
   {
     name: "Jasmine Basra",
     badgebg: '#ff5733',
-    pfp: defaultImage,
+    pfp: jasmineBasra,
     iglink: ''
   },
   {
@@ -320,19 +337,19 @@ import {aidanSchreder,
   {
     name: "Noah Dominguez-Schatz",
     badgebg: '#ff5733',
-    pfp: defaultImage,
+    pfp: noahDominguez,
     iglink: ''
   },
   {
     name: "Emma Bedja",
     badgebg: '#ff5733',
-    pfp: defaultImage,
+    pfp: emmaBedja,
     iglink: ''
   },
   {
     name: "Daniel Mok",
     badgebg: '#ff5733',
-    pfp: defaultImage,
+    pfp: danielMok,
     iglink: ''
   },
   {
@@ -384,13 +401,13 @@ import {aidanSchreder,
     {
       name: "Agasthya Chidambaram",
       badgebg: '#ff5733',
-      pfp: defaultImage,
+      pfp: agasthyaChidambaram,
       iglink: ''
     },
     {
       name: "Georgia Wu",
       badgebg: '#ff5733',
-      pfp: defaultImage,
+      pfp: georgiaWu,
       iglink: ''
     }
   ];
@@ -459,7 +476,7 @@ import {aidanSchreder,
     {
       name: "Zoe Savic-Jovcic",
       badgebg: '#ff5733',
-      pfp: defaultImage,
+      pfp: zoeSavicJovcic,
       iglink: ''
     },
     {
@@ -477,7 +494,7 @@ import {aidanSchreder,
     {
       name: "Ethan Lin",
       badgebg: '#ff5733',
-      pfp: defaultImage,
+      pfp: ethanLin,
       iglink: ''
     }
 
