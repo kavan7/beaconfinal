@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import articles from './constants/Articles';
 import Article from './components/Article';
-import './index.css'
+import './index.css';
 import { About, AllArticles, Beardle, Contact, Landing, Members, Navbar } from './components';
 
 function slugify(title) {
@@ -13,12 +13,11 @@ function slugify(title) {
     .replace(/-+/g, '-'); // Remove consecutive hyphens
 }
 
-
 function App() {
   return (
-    <BrowserRouter>
-      <div className="relative z-0  h-[fit-content]">
-        <div className="">
+    <HashRouter>
+      <div className="relative z-0 h-[fit-content]">
+        <div>
           <Navbar />
           <Routes>
             <Route path="/" element={<Landing />} />
@@ -27,19 +26,18 @@ function App() {
             <Route path="/beardle" element={<Beardle />} />
             <Route path="/members" element={<Members />} />
             <Route path="/contact" element={<Contact />} />
-          
+
             {articles.map((article, index) => (
-   <Route
-   key={index}
-   path={`/articles/${article.date}-${slugify(article.title)}`}
-   element={<Article article={article} />}
- />
- 
+              <Route
+                key={index}
+                path={`/articles/${article.date}-${slugify(article.title)}`}
+                element={<Article article={article} />}
+              />
             ))}
           </Routes>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
