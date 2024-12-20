@@ -132,6 +132,16 @@ import ParticipatingInBVP from '../assets/images/2024-10-31-participating_in_bvp
 import SurvivingHorroMovies from '../assets/images/2024-10-31-surviving_in_horror_movies.jpg'
 import nathanElectionExclusive from '../assets/images/2024-10-31-election_article.png'
 import BeaconOctober2024Issue from '../assets/images/BeaconHalloween2024.png'
+import ChristmasNoFeelSpecial from '../assets/images/2024-12-20-christmas-doesnt-feel-special.jpg'
+import LazySubwayFestiveMeal from '../assets/images/2024-12-20-subway-lazy-attempt-festive-meal.jpg'
+import MovieMagicCozyCharm from '../assets/images/2024-12-20-movie-magic-cozy-charm.jpg'
+import SportsEnemyOfLoneliness from '../assets/images/2024-12-20-sports-enemy-of-loneliness.jpg'
+import CanadianPoliticsWeirdEra from '../assets/images/2024-12-20-canadian-politics-weird-era.jpg'
+import DhruvInterviewMallSanta from '../assets/images/2024-12-20-interview-with-mall-santa.jpg'
+import ThreeVersionsSanta from '../assets/images/2024-12-20-three-versions-of-santa.jpg'
+import SlickBackDemure from '../assets/images/2024-12-20-slickback-demure-girl.jpg'
+import BeaconDecember2024Issue from '../assets/images/2024-12-20-Beacon-December-2024-Issue.png'
+import Default from '../assets/images/beaconnamelogo.png'
 // import  from '../assets/images/.jpg'
 // import  from '../assets/images/.jpg'
 // import  from '../assets/images/.jpg'
@@ -148,6 +158,94 @@ const articles = [
 //         name: '2024-10-31-Election-Exclusive'
 // },
     {
+        author: 'Kim Nguyen',
+        date: '2024-12-20',
+        title: 'Why doesn’t Christmas feel Special Anymore?',
+        preview: `3, 2, 1, Happy New Year! With every Times Square ball drop, our childhoods get further and further from us, and nostalgia rises up to take their place… The late nights of waiting for Santa paired with the early mornings of ripping open presents don’t quite feel the same anymore. Now there are things to do, responsibilities to take care of, and the consequences of age weighing us further and further down. The Christmas mornings which were once filled with laughter and innocence are now blinded by the busyness of life.`,
+        image: ChristmasNoFeelSpecial,
+        name: '2024-12-20-Christmas-Doesnt-Feel-Special'
+    },
+    {
+        author: 'Beacon Editors',
+        date: '2024-12-20',
+        title: 'Beacon Christmas issue - PDF',
+        preview: `To view a PDF version of our Christmas Beacon Issue, click here.`,
+        image: BeaconDecember2024Issue,
+        name: '2024-12-20-Beacon-December-Issue'
+    },
+    {
+        author: 'Ethan Lin',
+        date: '2024-12-20',
+        title: 'A Lazy Attempt at the Holidays — Subway’s Festive Faves Meal',
+        preview: ``,
+        image: LazySubwayFestiveMeal,
+        name: '2024-12-20-Subway-Lazy-Attempt-At-Holidays'
+    },
+    {
+        author: 'Archana Arulthas',
+        date: '2024-12-20',
+        title: 'A Movie’s Magic: The Cozy Charm of Holiday Films',
+        preview: ``,
+        image: MovieMagicCozyCharm,
+        name: '2024-12-20-Cozy-Charm-Movie-Magic'
+    },
+    {
+        author: 'Madeline Wallcraft',
+        date: '2024-12-20',
+        title: 'Sports: The True Enemy of Loneliness',
+        preview: ``,
+        image: SportsEnemyOfLoneliness,
+        name: '2024-12-20-Sports-True-Enemy-Of-Loneliness'
+    },
+    {
+        author: 'Kaiden Tanaka',
+        date: '2024-12-20',
+        title: 'Top 5 Best Ways to Make your Holiday Festive',
+        preview: ``,
+        image: Default,
+        name: '2024-12-20-Top-5-Ways-To-Make-Your-Holiday-Festive'
+    },
+    {
+        author: 'Arun Devan',
+        date: '2024-12-20',
+        title: 'The Power and Potential of Digital Twins',
+        preview: ``,
+        image: Default,
+        name: '2024-12-20-Potential-Of-Digital-Twins'
+    },
+    {
+        author: 'Noah Park',
+        date: '2024-12-20',
+        title: 'Canadian Politics is in its Weird Era',
+        preview: ``,
+        image: CanadianPoliticsWeirdEra,
+        name: '2024-12-20-Canadian-Politics-Weird-Era'
+    },
+    {
+        author: 'Dhruv Patel',
+        date: '2024-12-20',
+        title: 'An Interview with (a Mall) Santa',
+        preview: ``,
+        image: DhruvInterviewMallSanta,
+        name: '2024-12-20-Interview-With-Mall-Santa'
+    },
+    {
+        author: 'Christine Emeka-Nnegha',
+        date: '2024-12-20',
+        title: 'Three Versions of Santa Claus',
+        preview: ``,
+        image: ThreeVersionsSanta,
+        name: '2024-12-20-Three-Versions-Of-Santa'
+    },
+    {
+        author: 'Fatima Qadeer',
+        date: '2024-12-20',
+        title: 'The Slick-Back: A Lazy Girl’s Guide to Looking Demure',
+        preview: ``,
+        image: SlickBackDemure,
+        name: '2024-12-20-Slick-Back-Girl-Demure'
+    },
+    {
         author: 'Ethan Lin',
         date: '2024-10-31',
         title: `Rating Teachers’ Top Halloween Treats`,
@@ -162,7 +260,6 @@ In the spirit of Halloween, I instinctively turned to MCI’s most frightening t
         title: 'Beacon October issue - PDF',
         preview: `To view a PDF version of our Halloween Beacon Issue, click here.`,
         image: BeaconOctober2024Issue,
-        content: '',
         name: '2024-10-31-Beacon-Halloween-Issue'
     },
     {
@@ -178,7 +275,7 @@ In the spirit of Halloween, I instinctively turned to MCI’s most frightening t
         date: '2024-10-31',
         title: `So, Is Camp Manitou Really as Awesome as Everyone Says?`,
         preview: ``, 
-        image: 'blank',
+        image: Default,
         name: '2024-10-31-Is-Leadership-Really-Awesome'
 },
     {
@@ -210,7 +307,7 @@ In the spirit of Halloween, I instinctively turned to MCI’s most frightening t
         date: '2024-10-31',
         title: `AI in Education, a Tool for Learning, Not a Shortcut`,
         preview: ``, 
-        image: 'blank',
+        image: Default,
         name: '2024-10-31-AI-As-A-Tool'
 },
     {
@@ -226,7 +323,7 @@ In the spirit of Halloween, I instinctively turned to MCI’s most frightening t
         date: '2024-10-31',
         title: `Your 2024 Halloween Cinema Guide`,
         preview: ``, 
-        image: 'blank',
+        image: Default,
         name: '2024-10-31-Halloween-Cinema-Guide'
 },
     {
@@ -481,7 +578,7 @@ In the spirit of Halloween, I instinctively turned to MCI’s most frightening t
         preview: `From an idealist known for his attempts at laying the foundation for human migration to a different planet, 
         Elon Musk has recently had a difficult fall from grace.
         Musk obtained ownership of Twitter...`,
-        image: 'blank',
+        image: Default,
         content: '',
         name: '2023-02-15-The_Ungraceful_Downfall_of_Elon_Musk'
     },
@@ -503,7 +600,7 @@ In the spirit of Halloween, I instinctively turned to MCI’s most frightening t
         preview: `I have a confession to make - in my eyes, snowboarding is the imperfect
         winter sport. On mountain resorts that have been built to suit skiers
         for over a century, the latecomer, snowboarding...`,
-        image: 'blank',
+        image: Default,
         content: '',
         name: '2023-02-15-Snowboarding_is_the..._Imperfect_Winter_Sport'
 
@@ -802,7 +899,7 @@ In the spirit of Halloween, I instinctively turned to MCI’s most frightening t
         title: 'The Best Ways To Celebrate Halloween',
         preview: `Halloween is right around the corner and there are many ways to celebrate one of the most enjoyable holidays of the year. 
         Some great ways to celebrate include dressing up, trick-or-trea...`,
-        image: 'blank',
+        image: Default,
         content: '',
         name: "2022-10-31-The-Best-Ways-To-Celebrate-Halloween"
     },
@@ -813,7 +910,7 @@ In the spirit of Halloween, I instinctively turned to MCI’s most frightening t
         title: 'Horror Video Games and Films - Halloween Edition',
         preview: `Are you a gamer or a movie enthusiast who is stuck on what to do for Halloween? 
         There are many options to choose from when it comes to enjoying what Halloween has to offer.`,
-        image: 'blank',
+        image: Default,
         content: '',
         name: '2022-10-31-Horror-Video-Games-and-Films-Halloween-Edition'
 
@@ -1580,7 +1677,7 @@ In the spirit of Halloween, I instinctively turned to MCI’s most frightening t
         title: 'Say What You Mean, Mean What You Say',
         preview: `If you’re not already aware, we are living in an age where everything is available at our 
         fingertips. News, entertainment, music, etc. - with just the push of a button it’s all there. H...`,
-        image: 'blank',
+        image: Default,
         content: '',
         name: '2019-12-16-Say_what_you_mean_mean_what_you_say_-_Nicole_Yotis'
     },
@@ -1612,7 +1709,7 @@ In the spirit of Halloween, I instinctively turned to MCI’s most frightening t
         title: 'The Reasoning Behind Spider-Man’s Exit from the MCU',
         preview: `If you’re a Marvel fan like me, then you’ve probably heard about the recent 
         drama between Sony and Disney regarding Spider-Man. If you haven’t heard about what is happening, here’s a su...`,
-        image: 'blank',
+        image: Default,
         content: '',
         name: '2019-11-10-Sanaa_Mahmud_-_Spidermans_Exit_from_the_MCU'
     },

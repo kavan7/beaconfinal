@@ -9,12 +9,15 @@
 }
 .article-image-page {
     margin-top: 30px;
-    margin: 0 auto;
-    max-height: 6%; 
-    max-width: 60%;
-    /* border: 10px solid green;
-    overflow: hidden; */
+    margin: 0 auto; /* Center the image horizontally */
+    height: 40vh; /* Set the height to 40% of the viewport */
+    width: auto; /* Adjust the width proportionally */
+    max-width: 50%; /* Ensure the width does not exceed 60% of the container */
+    display: block; /* Treat the image as a block element */
+    object-fit: contain; /* Preserve the aspect ratio of the image */
 }
+
+
 .date{
     color: rgb(92, 92, 92);
  
@@ -42,8 +45,6 @@ p, p strong, p b, p em, p i{
 }
 .articleContent {
 
-
-    font-size: 16px;
     line-height: 1.6;
     color: #333; 
   }

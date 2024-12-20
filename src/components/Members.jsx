@@ -25,6 +25,11 @@ const categories = [
  
 ];
 
+const allMembers = categories.reduce((acc, category) => {
+  return acc.concat(category.members);
+}, []);
+export { allMembers };
+
 const Members = () => {
   console.log(writersAndContributors);
   return (
