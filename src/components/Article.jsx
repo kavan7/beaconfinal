@@ -31,7 +31,7 @@ const Article = ({ article, allPostsData }) => {
     );
   };
   console.log(article.image.toString());
-  console.log(article.image.toString().substring(0,29));
+  console.log(article.image.toString().substring(0,22));
   console.log(article.image.toString().substring(0,33));
   return (
     <div className="ml-[20%]">
@@ -160,7 +160,7 @@ const Article = ({ article, allPostsData }) => {
             </div>
           </div>
         </div>
-        {article.image && (article.image.toString().substring(0,29) !== "/assets/images/beaconnamelogo"&&article.image.toString().substring(0,33) !== "/src/assets/images/beaconnamelogo") && 
+        {article.image && (article.image.toString().substring(0,22) !== "/assets/beaconnamelogo"&&article.image.toString().substring(0,33) !== "/src/assets/images/beaconnamelogo") && 
           article.image.trim() !== "" && (
             <img
               src={article.image}
