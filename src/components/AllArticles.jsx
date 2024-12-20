@@ -122,14 +122,14 @@ const AllArticles = () => {
                     </div>
                   </div>
                   <div>
-                    {article.image && article.image.toString() !== "/src/assets/images/beaconnamelogo.png" ? (
+                    {article.image && article.image.toString() !== "/assets/beaconnamelogo-64936067.png" ? (
                       <img
                         src={article.image}
                         alt="image"
                         className="article-list-image"
                       />
                     ) : null}
-                    {article.image && article.image.toString() === "/src/assets/images/beaconnamelogo.png" ? (
+                    {article.image && article.image.toString() === "/assets/beaconnamelogo-64936067.png" ? (
                       <img
                         src={BeaconSymbol}
                         alt="image"

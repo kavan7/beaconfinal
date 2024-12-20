@@ -13,7 +13,7 @@ For example, if a factory machine has a digital twin, the twin might detect that
 There are three levels of digital twins:  
   
   
-&nbsp;&nbsp;&nbsp;1.&nbsp;&nbsp;&nbsp;**Digital Model**: A basic digital copy made with pre-set information. It’s helpful but doesn’t get real-time updates.
+&nbsp;&nbsp;&nbsp;1.&nbsp;&nbsp;&nbsp;**Digital Model**: A basic digital copy made with pre-set information. It’s helpful but doesn’t get real-time updates.  
 &nbsp;&nbsp;&nbsp;2.&nbsp;&nbsp;&nbsp;**Digital Shadow**: A more advanced version that updates automatically when the real object changes.  
 &nbsp;&nbsp;&nbsp;3.&nbsp;&nbsp;&nbsp;**Digital Twin**: The most advanced version. It not only updates in real time but can also interact with and respond to changes in the real world.  
   

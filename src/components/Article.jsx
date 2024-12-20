@@ -158,7 +158,7 @@ const Article = ({ article, allPostsData }) => {
             </div>
           </div>
         </div>
-        {article.image && article.image.toString() !== "/src/assets/images/beaconnamelogo.png" && 
+        {article.image && article.image.toString() !== "/assets/beaconnamelogo-64936067.png" && 
           article.image.trim() !== "" && (
             <img
               src={article.image}
