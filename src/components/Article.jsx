@@ -30,9 +30,9 @@ const Article = ({ article, allPostsData }) => {
       )}`
     );
   };
-  // console.log(article.image.toString());
-  // console.log(article.image.toString().substring(0,29));
-  // console.log(article.image.toString().substring(0,33));
+  console.log(article.image.toString());
+  console.log(article.image.toString().substring(0,29));
+  console.log(article.image.toString().substring(0,33));
   return (
     <div className="ml-[20%]">
       <h2 className="title">{article.title}</h2>
