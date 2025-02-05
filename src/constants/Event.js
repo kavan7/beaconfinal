@@ -268,6 +268,12 @@ import {aidanSchreder,
       pfp: pennyMcClement,
       iglink: ''
     },
+    {
+      name: "Noori Kim",
+      badgebg: '#ff5733',
+      pfp: defaultImage,
+      iglink: ''
+    }
     // Add more Comics/Illustrations Heads as needed
   ];
   
