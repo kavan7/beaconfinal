@@ -229,7 +229,7 @@ const articles = [
         title: 'Valentine 2025 Crossword Answers',
         preview: `Answers for the Beacon 2025 Valentine Crossword Puzzle`,
         image: valentineCrossword2025,
-        name: '2025-02-14-Is-BookTok-Ruining-Literature'
+        name: ''
     },
     {
         author: 'Kim Nguyen',
