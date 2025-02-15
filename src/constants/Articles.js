@@ -142,6 +142,7 @@ import ThreeVersionsSanta from '../assets/images/2024-12-20-three-versions-of-sa
 import SlickBackDemure from '../assets/images/2024-12-20-slickback-demure-girl.jpg'
 import BeaconDecember2024Issue from '../assets/images/2024-12-20-Beacon-December-2024-Issue.png'
 import Default from '../assets/images/beaconnamelogo.png'
+import valentineCrossword2025 from '../assets/images/Val-BeaconXW-answers2025.png'
 // import  from '../assets/images/.jpg'
 // import  from '../assets/images/.jpg'
 // import  from '../assets/images/.jpg'
@@ -149,14 +150,87 @@ import Default from '../assets/images/beaconnamelogo.png'
 // import  from '../assets/images/.jpg'
 
 const articles = [
-//     {
-//         author: 'Nathan Perlman',
-//         date: '2024-10-31',
-//         title: `An American Nightmare Of Electoral Insanity`,
-//         preview: ``, 
-//         image: nathanElectionExclusive,
-//         name: '2024-10-31-Election-Exclusive'
-// },
+
+        {
+        author: 'Rayyan Ali', // the double slashes makes a comment that has no effect on the code, leave this as the preview article and edit the data for all those that say author is name here
+        date: '2025-02-14',
+        title: 'FOMO is Overrated',
+        preview: `We’ve all been there: you scroll down your Instagram or Snapchat, and suddenly your friends are out at some party, travelling to some cool place, or doing something that looks way cooler than what you're doing at the time. Then it hits you—that sinking feeling. You immediately think, "man, I'm totally missing out." This is what we call FOMO, the "fear of missing out." It's something almost all of us experience at some point, but honestly? FOMO is overrated.`,
+        image: valentineCrossword2025,
+        name: '2025-02-14-FOMO-Is-Overrated'
+    },
+    {
+        author: 'Name here',
+        date: '2025-02-14',
+        title: 'Add T',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: valentineCrossword2025,
+        name: '2025-02-14-Everybody-Falling-Love-I-Behind'
+    },
+    {
+        author: 'Name here',
+        date: '2025-02-14',
+        title: 'Singl',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: valentineCrossword2025,
+        name: '2025-02-14-Valentine-Day-Guide-For-Single-People'
+    },
+    {
+        author: 'Name here',
+        date: '2025-02-14',
+        title: 'hoc',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: valentineCrossword2025,
+        name: '2025-02-14-MCI-Hockey-Not-Luck'
+    },
+    {
+        author: 'Name here',
+        date: '2025-02-14',
+        title: 'nbe',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: valentineCrossword2025,
+        name: '2025-02-14-Insightful-Author-Visit-NBE'
+    },
+    {
+        author: 'Name here',
+        date: '2025-02-14',
+        title: 'Craming',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: valentineCrossword2025,
+        name: '2025-02-14-Art-Of-Last-Minute-Cramming'
+    },
+    {
+        author: 'Name here',
+        date: '2025-02-14',
+        title: 'watch',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: valentineCrossword2025,
+        name: '2025-02-14-Watch-This-Valentines'
+    },
+    {
+        author: 'Name here',
+        date: '2025-02-14',
+        title: 'book talk',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: valentineCrossword2025,
+        name: '2025-02-14-Is-BookTok-Ruining-Literature'
+    },
+    {
+        author: 'Name here',
+        date: '2025-02-14',
+        title: 'Flipper',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: valentineCrossword2025,
+        name: '2025-02-14-Flippers-Brunch-Era'
+    },
+    {
+        author: 'Beacon Editors', // This ones good already
+        date: '2025-02-14',
+        title: 'Valentine 2025 Crossword Answers',
+        preview: `Answers for the Beacon 2025 Valentine Crossword Puzzle`,
+        image: valentineCrossword2025,
+        name: '2025-02-14-Is-BookTok-Ruining-Literature'
+    },
     {
         author: 'Kim Nguyen',
         date: '2024-12-20',
@@ -245,6 +319,14 @@ const articles = [
         image: SlickBackDemure,
         name: '2024-12-20-Slick-Back-Girl-Demure'
     },
+    //     {
+//         author: 'Nathan Perlman',
+//         date: '2024-10-31',
+//         title: `An American Nightmare Of Electoral Insanity`,
+//         preview: ``, 
+//         image: nathanElectionExclusive,
+//         name: '2024-10-31-Election-Exclusive'
+// },
     {
         author: 'Ethan Lin',
         date: '2024-10-31',
