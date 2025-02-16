@@ -143,6 +143,11 @@ import SlickBackDemure from '../assets/images/2024-12-20-slickback-demure-girl.j
 import BeaconDecember2024Issue from '../assets/images/2024-12-20-Beacon-December-2024-Issue.png'
 import Default from '../assets/images/beaconnamelogo.png'
 import valentineCrossword2025 from '../assets/images/Val-BeaconXW-answers2025.png'
+import mciHockeyValentines from '../assets/images/2025-02-14-mci-hockey-is-back.jpg'
+import artOfLastMinuteCraming from '../assets/images/2025-02-14-art-of-last-minute-craming.jpg'
+import isBookTokRuiningLiterature from '../assets/images/2025-02-14-is-booktok-ruining-literature.jpg'
+import flipperFoodReview from '../assets/images/2025-02-14-flippers-food-review.jpg'
+import BeaconFebruary2025Issue from '../assets/images/2025-02-14-beacon-february2025-image.png'
 // import  from '../assets/images/.jpg'
 // import  from '../assets/images/.jpg'
 // import  from '../assets/images/.jpg'
@@ -150,79 +155,86 @@ import valentineCrossword2025 from '../assets/images/Val-BeaconXW-answers2025.pn
 // import  from '../assets/images/.jpg'
 
 const articles = [
-//test
-    //     {
-    //     author: 'Rayyan Ali', // the double slashes makes a comment that has no effect on the code, leave this as the preview article and edit the data for all those that say author is name here
-    //     date: '2025-02-14',
-    //     title: 'FOMO is Overrated',
-    //     preview: `We’ve all been there: you scroll down your Instagram or Snapchat, and suddenly your friends are out at some party, travelling to some cool place, or doing something that looks way cooler than what you're doing at the time. Then it hits you—that sinking feeling. You immediately think, "man, I'm totally missing out." This is what we call FOMO, the "fear of missing out." It's something almost all of us experience at some point, but honestly? FOMO is overrated.`,
-    //     image: valentineCrossword2025,
-    //     name: '2025-02-14-FOMO-Is-Overrated'
-    // },
-    // {
-    //     author: 'Name here',
-    //     date: '2025-02-14',
-    //     title: 'Add T',
-    //     preview: `You only have to add a preview for the article closest to the top of the file`,
-    //     image: valentineCrossword2025,
-    //     name: '2025-02-14-Everybody-Falling-Love-I-Behind'
-    // },
-    // {
-    //     author: 'Name here',
-    //     date: '2025-02-14',
-    //     title: 'Singl',
-    //     preview: `You only have to add a preview for the article closest to the top of the file`,
-    //     image: valentineCrossword2025,
-    //     name: '2025-02-14-Valentine-Day-Guide-For-Single-People'
-    // },
-    // {
-    //     author: 'Name here',
-    //     date: '2025-02-14',
-    //     title: 'hoc',
-    //     preview: `You only have to add a preview for the article closest to the top of the file`,
-    //     image: valentineCrossword2025,
-    //     name: '2025-02-14-MCI-Hockey-Not-Luck'
-    // },
-    // {
-    //     author: 'Name here',
-    //     date: '2025-02-14',
-    //     title: 'nbe',
-    //     preview: `You only have to add a preview for the article closest to the top of the file`,
-    //     image: valentineCrossword2025,
-    //     name: '2025-02-14-Insightful-Author-Visit-NBE'
-    // },
-    // {
-    //     author: 'Name here',
-    //     date: '2025-02-14',
-    //     title: 'Craming',
-    //     preview: `You only have to add a preview for the article closest to the top of the file`,
-    //     image: valentineCrossword2025,
-    //     name: '2025-02-14-Art-Of-Last-Minute-Cramming'
-    // },
-    // {
-    //     author: 'Name here',
-    //     date: '2025-02-14',
-    //     title: 'watch',
-    //     preview: `You only have to add a preview for the article closest to the top of the file`,
-    //     image: valentineCrossword2025,
-    //     name: '2025-02-14-Watch-This-Valentines'
-    // },
-    // {
-    //     author: 'Name here',
-    //     date: '2025-02-14',
-    //     title: 'book talk',
-    //     preview: `You only have to add a preview for the article closest to the top of the file`,
-    //     image: valentineCrossword2025,
-    //     name: '2025-02-14-Is-BookTok-Ruining-Literature'
-    // },
-    // {
-    //     author: 'Name here',
-    //     date: '2025-02-14',
-    //     title: 'Flipper',
-    //     preview: `You only have to add a preview for the article closest to the top of the file`,
-    //     image: valentineCrossword2025,
-    //     name: '2025-02-14-Flippers-Brunch-Era'
-    // },
+        {
+        author: 'Rayyan Ali', // the double slashes makes a comment that has no effect on the code, leave this as the preview article and edit the data for all those that say author is name here
+        date: '2025-02-14',
+        title: 'FOMO is Overrated',
+        preview: `We’ve all been there: you scroll down your Instagram or Snapchat, and suddenly your friends are out at some party, travelling to some cool place, or doing something that looks way cooler than what you're doing at the time. Then it hits you—that sinking feeling. You immediately think, "man, I'm totally missing out." This is what we call FOMO, the "fear of missing out." It's something almost all of us experience at some point, but honestly? FOMO is overrated.`,
+        image: Default,
+        name: '2025-02-14-FOMO-Is-Overrated'
+    },
+    {
+        author: 'Kim Nguyen',
+        date: '2025-02-14',
+        title: 'Everybody’s Falling in Love and I’m Falling Behind',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: Default,
+        name: '2025-02-14-Everybody-Falling-Love-I-Behind'
+    },
+    {
+        author: 'Archana Arulthas',
+        date: '2025-02-14',
+        title: 'A Valentine’s Day Guide for Single People: Where NOT To Go',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: Default,
+        name: '2025-02-14-Valentine-Day-Guide-For-Single-People'
+    },
+    {
+        author: 'Beacon Editors',
+        date: '2025-02-14',
+        title: 'Beacon Valentine\'s issue - PDF',
+        preview: `To view a PDF version of our Valentine's Beacon Issue, click here.`,
+        image: BeaconFebruary2025Issue,
+        name: '2025-02-14-Beacon-February2025-Issue'
+    },
+    {
+        author: 'Madeline Wallcraft',
+        date: '2025-02-14',
+        title: 'MCI Hockey: More Than Just Luck',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: mciHockeyValentines,
+        name: '2025-02-14-MCI-Hockey-Not-Luck'
+    },
+    {
+        author: 'Julia Wu',
+        date: '2025-02-14',
+        title: 'Author Visits: An Insightful Experience for NBE Students',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: Default,
+        name: '2025-02-14-Insightful-Author-Visit-NBE'
+    },
+    {
+        author: 'Noah Park',
+        date: '2025-02-14',
+        title: 'The Art of Last Minute Cramming',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: artOfLastMinuteCraming,
+        name: '2025-02-14-Art-Of-Last-Minute-Cramming'
+    },
+    {
+        author: 'Nadine Telesford',
+        date: '2025-02-14',
+        title: 'The Best Romantic Comedies to Watch this Valentine\'s Day!',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: Default,
+        name: '2025-02-14-Watch-This-Valentines'
+    },
+    {
+        author: 'Dhruv Patel',
+        date: '2025-02-14',
+        title: 'Is BookTok Ruining Literature?',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: isBookTokRuiningLiterature,
+        name: '2025-02-14-Is-BookTok-Ruining-Literature'
+    },
+    {
+        author: 'Ethan Lin',
+        date: '2025-02-14',
+        title: 'Flipper’s Has Me In My Brunch Era',
+        preview: `You only have to add a preview for the article closest to the top of the file`,
+        image: flipperFoodReview,
+        name: '2025-02-14-Flippers-Brunch-Era'
+    },
     {
         author: 'Beacon Editors', // This ones good already
         date: '2025-02-14',
